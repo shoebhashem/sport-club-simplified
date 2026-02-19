@@ -2,95 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+/* ============================================
+   SPORTNIZER DESIGN SYSTEM
+   All colors are HSL. No raw values in components.
+   ============================================ */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Brand: Amber/Orange */
+    --brand: 36 95% 52%;
+    --brand-light: 40 100% 92%;
+    --brand-dark: 30 90% 40%;
 
+    /* Accent: Sky Blue */
+    --accent-blue: 210 80% 52%;
+    --accent-blue-light: 210 80% 95%;
+
+    /* Neutrals */
+    --background: 0 0% 99%;
+    --surface: 220 20% 97%;
+    --surface-elevated: 0 0% 100%;
+    --foreground: 220 35% 10%;
+    --foreground-muted: 220 15% 45%;
+
+    /* Shadcn tokens */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 220 35% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 35% 10%;
+    --primary: 36 95% 52%;
+    --primary-foreground: 220 35% 10%;
+    --secondary: 220 20% 96%;
+    --secondary-foreground: 220 35% 10%;
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 15% 48%;
+    --accent: 210 80% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 36 95% 52%;
+    --radius: 0.625rem;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Navy for text/contrast */
+    --navy: 220 45% 12%;
+    --navy-light: 220 30% 20%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Gradients */
+    --gradient-brand: linear-gradient(135deg, hsl(36 95% 52%), hsl(28 90% 48%));
+    --gradient-hero: linear-gradient(160deg, hsl(220 35% 8%) 0%, hsl(220 30% 14%) 100%);
+    --gradient-surface: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 20% 97%) 100%);
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Shadows */
+    --shadow-sm: 0 1px 3px hsl(220 30% 10% / 0.08);
+    --shadow-md: 0 4px 16px hsl(220 30% 10% / 0.10);
+    --shadow-lg: 0 8px 32px hsl(220 30% 10% / 0.13);
+    --shadow-brand: 0 4px 20px hsl(36 95% 52% / 0.30);
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
-
+    /* Sidebar (unused but required) */
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 36 95% 52%;
   }
 }
 
@@ -99,7 +79,130 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(var(--navy));
+  }
+}
+
+@layer components {
+  /* ─── Buttons ─── */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-xl px-7 py-3.5 font-semibold text-base transition-all duration-200;
+    background: var(--gradient-brand);
+    color: hsl(var(--navy));
+    box-shadow: var(--shadow-brand);
+    font-family: 'Outfit', sans-serif;
+  }
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 28px hsl(36 95% 52% / 0.40);
+  }
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded-xl px-7 py-3.5 font-semibold text-base border-2 transition-all duration-200;
+    border-color: hsl(var(--border));
+    color: hsl(var(--navy));
+    background: transparent;
+    font-family: 'Outfit', sans-serif;
+  }
+  .btn-outline:hover {
+    border-color: hsl(var(--brand));
+    background: hsl(var(--brand-light));
+  }
+
+  .btn-hero-outline {
+    @apply inline-flex items-center gap-2 rounded-xl px-7 py-3.5 font-semibold text-base border-2 transition-all duration-200;
+    border-color: hsl(0 0% 100% / 0.35);
+    color: hsl(0 0% 100%);
+    background: hsl(0 0% 100% / 0.08);
+    font-family: 'Outfit', sans-serif;
+  }
+  .btn-hero-outline:hover {
+    background: hsl(0 0% 100% / 0.16);
+    border-color: hsl(0 0% 100% / 0.55);
+  }
+
+  /* ─── Section helpers ─── */
+  .section-label {
+    @apply inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-semibold uppercase tracking-widest mb-4;
+    background: hsl(var(--brand-light));
+    color: hsl(var(--brand-dark));
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .section-label-blue {
+    @apply inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-semibold uppercase tracking-widest mb-4;
+    background: hsl(var(--accent-blue-light));
+    color: hsl(var(--accent-blue));
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .section-heading {
+    font-family: 'Outfit', sans-serif;
+    @apply text-3xl md:text-4xl font-bold leading-tight;
+    color: hsl(var(--navy));
+  }
+
+  .section-sub {
+    @apply text-lg leading-relaxed;
+    color: hsl(var(--foreground-muted));
+  }
+
+  /* ─── Feature cards ─── */
+  .feature-card {
+    @apply rounded-2xl p-6 border transition-all duration-300;
+    background: hsl(var(--surface-elevated));
+    border-color: hsl(var(--border));
+    box-shadow: var(--shadow-sm);
+  }
+  .feature-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: hsl(var(--brand) / 0.30);
+    transform: translateY(-2px);
+  }
+
+  .feature-icon {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center mb-4;
+    background: var(--gradient-brand);
+  }
+
+  .feature-icon-blue {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center mb-4;
+    background: hsl(var(--accent-blue-light));
+  }
+
+  /* ─── Problem card ─── */
+  .problem-item {
+    @apply flex items-start gap-3 py-3;
+  }
+
+  /* ─── Container ─── */
+  .site-container {
+    @apply max-w-6xl mx-auto px-6;
+  }
+
+  /* ─── Nav ─── */
+  .nav-link {
+    @apply text-sm font-medium transition-colors duration-200;
+    color: hsl(var(--foreground-muted));
+    font-family: 'Outfit', sans-serif;
+  }
+  .nav-link:hover {
+    color: hsl(var(--brand));
   }
 }
