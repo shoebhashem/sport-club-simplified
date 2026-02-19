@@ -1,0 +1,101 @@
+import { Mail, ExternalLink } from "lucide-react";
+
+export default function Footer() {
+  const year = new Date().getFullYear();
+  return (
+    <footer
+      className="border-t mt-0"
+      style={{
+        background: "hsl(var(--navy))",
+        borderColor: "hsl(0 0% 100% / 0.08)",
+      }}
+    >
+      <div className="site-container py-14">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+          {/* Brand */}
+          <div>
+            <div className="flex items-center gap-2.5 mb-3">
+              <div
+                className="w-9 h-9 rounded-xl flex items-center justify-center font-display font-black text-lg"
+                style={{ background: "var(--gradient-brand)", color: "hsl(var(--navy))" }}
+              >
+                S
+              </div>
+              <div className="flex flex-col leading-none">
+                <span className="font-display font-bold text-lg tracking-tight" style={{ color: "hsl(0 0% 100%)" }}>
+                  Sportnizer
+                </span>
+                <span className="text-[10px] font-medium tracking-widest uppercase" style={{ color: "hsl(var(--brand))" }}>
+                  Organizing Sports!
+                </span>
+              </div>
+            </div>
+            <p className="text-sm leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.55)" }}>
+              A modern sport club management platform built to reduce administrative overhead so teams can focus on the sport.
+            </p>
+          </div>
+
+          {/* Links */}
+          <div>
+            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.45)" }}>
+              Navigation
+            </h4>
+            <ul className="space-y-2">
+              {[
+                { label: "Features", href: "#features" },
+                { label: "Our Story", href: "#story" },
+                { label: "Security", href: "#security" },
+                { label: "Privacy Policy", href: "/privacy" },
+                { label: "Terms of Service", href: "/terms" },
+              ].map((l) => (
+                <li key={l.href}>
+                  <a
+                    href={l.href}
+                    className="text-sm transition-colors duration-200"
+                    style={{ color: "hsl(0 0% 100% / 0.60)" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "hsl(var(--brand))")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.60)")}
+                  >
+                    {l.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.45)" }}>
+              Contact & Support
+            </h4>
+            <a
+              href="mailto:support@sportnizer.com"
+              className="inline-flex items-center gap-2 text-sm transition-colors duration-200"
+              style={{ color: "hsl(0 0% 100% / 0.65)" }}
+            >
+              <Mail size={14} />
+              support@sportnizer.com
+            </a>
+            <div className="mt-4">
+              <a
+                href="https://app.sportnizer.com"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold font-display"
+                style={{ color: "hsl(var(--brand))" }}
+              >
+                Open Web App <ExternalLink size={13} />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="border-t pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs"
+          style={{ borderColor: "hsl(0 0% 100% / 0.08)", color: "hsl(0 0% 100% / 0.35)" }}
+        >
+          <span>© {year} Sportnizer. All rights reserved.</span>
+          <span>Built for modern sports teams and clubs.</span>
+        </div>
+      </div>
+    </footer>
+  );
+}
