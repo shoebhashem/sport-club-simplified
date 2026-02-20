@@ -8,7 +8,10 @@ export default function TermsOfService() {
       <main className="pt-28 pb-24">
         <div className="site-container max-w-3xl">
           <span className="section-label mb-6">Legal</span>
-          <h1 className="font-display font-black text-4xl md:text-5xl mb-4" style={{ color: "hsl(var(--navy))" }}>
+          <h1
+            className="font-display font-black text-4xl md:text-5xl mb-4"
+            style={{ color: "hsl(var(--navy))" }}
+          >
             Terms of Service
           </h1>
           <p className="section-sub mb-10">Last updated: February 2026</p>
@@ -18,46 +21,72 @@ export default function TermsOfService() {
               {
                 title: "1. Acceptance of Terms",
                 content:
-                  "By accessing or using Sportnizer at sportnizer.com or app.sportnizer.com, you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform.",
+                  "These Terms of Service govern your access to and use of the Sportnizer platform available at sportnizer.com and related applications. By creating a club account or using Sportnizer, you agree to be bound by these Terms. If you do not agree, you may not use the service.",
               },
               {
                 title: "2. Service Description",
                 content:
-                  "Sportnizer is a sports club management platform that helps teams and clubs manage members, events, attendance and membership fee tracking. The platform is provided as-is and is continuously evolving.",
+                  "Sportnizer is a sport club management platform designed to help clubs and teams manage members, events, attendance tracking, and membership fee tracking. The platform is continuously developed and may evolve over time.",
               },
               {
-                title: "3. User Responsibilities",
+                title: "3. Account and Organizational Responsibility",
                 content:
-                  "You are responsible for maintaining the confidentiality of your account credentials. You agree to use Sportnizer only for lawful purposes and in accordance with these terms. You are responsible for ensuring that data you enter about other individuals (such as club members) is handled in compliance with applicable privacy regulations.",
+                  "The individual creating a club account represents the club or organization and confirms they are authorized to act on its behalf. Clubs are responsible for maintaining the confidentiality of account credentials and for ensuring that any personal data entered into the platform is collected and processed in compliance with applicable laws.",
               },
               {
-                title: "4. Data and Privacy",
+                title: "4. Data Roles and Responsibilities",
                 content:
-                  "Your use of Sportnizer is also governed by our Privacy Policy. We process personal data in accordance with GDPR and applicable regulations. By using the service, you agree to our data handling practices as described in the Privacy Policy.",
+                  "For purposes of applicable data protection laws, the Club or Organization acts as the Data Controller, and Sportnizer acts as the Data Processor. The Club determines what personal data is entered into the platform, the purpose of processing, and the retention period. Sportnizer processes personal data solely on documented instructions from the Club and does not sell personal data or use it for advertising purposes.",
               },
               {
-                title: "5. Intellectual Property",
+                title: "5. Data Processing Agreement (DPA)",
                 content:
-                  "All content, branding, and software on the Sportnizer platform are owned by Sportnizer. You may not copy, reproduce, or redistribute any part of the platform without prior written permission.",
+                  "This section constitutes the Data Processing Agreement between the Club (Controller) and Sportnizer (Processor). Sportnizer processes personal data only to provide the services described in these Terms, including member management, event planning, attendance tracking, membership fee status tracking, platform security, and customer support. Sportnizer may use trusted infrastructure and cloud service providers as sub-processors, all of which are required to maintain appropriate security and confidentiality standards.",
               },
               {
-                title: "6. Limitation of Liability",
+                title: "6. Security Measures",
                 content:
-                  "Sportnizer is provided in good faith and with reasonable care. However, we do not guarantee uninterrupted availability or that the service will be error-free. We are not liable for data loss, indirect damages, or losses arising from use of the platform beyond what is required by applicable law.",
+                  "Sportnizer implements appropriate technical and organizational measures to protect personal data, including secure cloud infrastructure, encrypted connections, access controls, and minimal data collection principles. Security and responsible data handling are fundamental principles of how Sportnizer is built and maintained.",
               },
               {
-                title: "7. Changes to the Service",
+                title: "7. Data Retention and Deletion",
                 content:
-                  "Sportnizer is actively developed and improved. We reserve the right to update, change, or discontinue features at any time. We will aim to communicate significant changes to users where possible.",
+                  "Clubs may request deletion of their data at any time by contacting support@sportnizer.com. Upon deletion request, data will enter a 30–60 day grace period during which restoration may be possible. After the grace period, data will be permanently deleted from active systems. Encrypted backups may temporarily retain data as part of standard technical operations and are automatically overwritten in accordance with routine backup cycles.",
               },
               {
-                title: "8. Changes to These Terms",
+                title: "8. Data Export and Portability",
                 content:
-                  "We may update these Terms of Service from time to time. Continued use of the platform after changes constitutes acceptance of the updated terms. The date of the last update is shown at the top of this page.",
+                  "Upon request from an authorized club administrator, Sportnizer will provide an export of club data in a structured, commonly used format within a reasonable timeframe. This supports data portability and ensures that clubs retain control over their information.",
               },
               {
-                title: "9. Contact",
-                content: "For questions about these terms, contact us at support@sportnizer.com.",
+                title: "9. Privacy Policy",
+                content:
+                  "Your use of Sportnizer is also governed by our Privacy Policy, which forms part of these Terms. Personal data is processed in accordance with applicable data protection regulations, including GDPR and relevant international privacy standards.",
+              },
+              {
+                title: "10. Intellectual Property",
+                content:
+                  "All content, branding, design, and software associated with the Sportnizer platform are owned by Sportnizer. Clubs are granted a limited, non-exclusive, non-transferable right to use the platform in accordance with these Terms.",
+              },
+              {
+                title: "11. Service Availability",
+                content:
+                  "Sportnizer is provided in good faith and with reasonable care. While we aim for high availability and reliability, we do not guarantee uninterrupted or error-free operation. The platform is actively developed and may change over time.",
+              },
+              {
+                title: "12. Limitation of Liability",
+                content:
+                  "To the maximum extent permitted by applicable law, Sportnizer shall not be liable for indirect, incidental, or consequential damages arising from use of the platform. Total liability shall not exceed any amounts paid for the service in the preceding 12 months, if applicable.",
+              },
+              {
+                title: "13. Changes to the Service or Terms",
+                content:
+                  "We may update or modify these Terms from time to time. Significant changes may require renewed acceptance. Continued use of the platform after updates constitutes acceptance of the revised Terms.",
+              },
+              {
+                title: "14. Contact",
+                content:
+                  "For questions regarding these Terms or data protection matters, please contact support@sportnizer.com.",
               },
             ].map((section) => (
               <section key={section.title}>
