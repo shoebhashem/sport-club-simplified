@@ -40,13 +40,13 @@ export default function Header() {
           <div className="flex flex-col leading-none">
             <span
               className="font-display font-bold text-lg tracking-tight"
-              style={{ color: "hsl(0 0% 100%)" }}
+              style={{ color: "hsl(var(--brand))" }}
             >
               Sportnizer
             </span>
             <span
               className="text-[10px] font-medium tracking-widest uppercase"
-              style={{ color: "hsl(var(--brand))" }}
+              style={{ color: "hsl(0 0% 100%)" }}
             >
               Organizing Sports!
             </span>
