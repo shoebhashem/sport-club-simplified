@@ -19,18 +19,17 @@ export default function TeamsSection() {
             <div
               className="rounded-3xl p-10 border relative"
               style={{
-                background: "var(--gradient-hero)",
+                background: "hsl(var(--surface))",
                 borderColor: "hsl(0 0% 100% / 0.08)",
               }}
             >
               {/* Mini club diagram */}
               <div className="text-center mb-6">
-                <div
-                  className="inline-flex items-center justify-center w-16 h-16 rounded-2xl font-display font-black text-2xl mx-auto"
-                  style={{ background: "var(--gradient-brand)", color: "hsl(var(--navy))" }}
-                >
-                  S
-                </div>
+                <img
+                  src="/favicon.ico"
+                  alt="Sportnizer"
+                  className="w-16 h-16 rounded-2xl mx-auto object-contain"
+                />
                 <p
                   className="mt-2 font-display font-bold text-lg"
                   style={{ color: "hsl(0 0% 100%)" }}
@@ -45,17 +44,17 @@ export default function TeamsSection() {
                     key={team}
                     className="rounded-xl p-3 text-center"
                     style={{
-                      background: "hsl(0 0% 100% / 0.07)",
-                      border: "1px solid hsl(0 0% 100% / 0.12)",
+                      background: "hsl(0 0% 100% / 0.05)",
+                      border: "1px solid hsl(0 0% 100% / 0.08)",
                     }}
                   >
                     <div
                       className="w-8 h-8 rounded-lg mx-auto mb-1.5 flex items-center justify-center text-xs font-bold font-display"
-                      style={{ background: "hsl(var(--brand) / 0.25)", color: "hsl(var(--brand))" }}
+                      style={{ background: "hsl(var(--brand) / 0.20)", color: "hsl(var(--brand))" }}
                     >
                       {team[5]}
                     </div>
-                    <span className="text-xs font-medium font-display" style={{ color: "hsl(0 0% 100% / 0.75)" }}>
+                    <span className="text-xs font-medium font-display" style={{ color: "hsl(0 0% 100% / 0.65)" }}>
                       {team}
                     </span>
                   </div>
@@ -65,11 +64,11 @@ export default function TeamsSection() {
               <div
                 className="mt-4 rounded-xl p-4"
                 style={{
-                  background: "hsl(0 0% 100% / 0.06)",
-                  border: "1px solid hsl(0 0% 100% / 0.10)",
+                  background: "hsl(0 0% 100% / 0.04)",
+                  border: "1px solid hsl(0 0% 100% / 0.06)",
                 }}
               >
-                <p className="text-xs font-medium text-center font-display" style={{ color: "hsl(0 0% 100% / 0.55)" }}>
+                <p className="text-xs font-medium text-center font-display" style={{ color: "hsl(0 0% 100% / 0.50)" }}>
                   One platform — multiple teams, one clear overview
                 </p>
               </div>
@@ -81,7 +80,7 @@ export default function TeamsSection() {
             <span className="section-label">For Teams & Clubs</span>
             <h2 className="section-heading mb-5">
               Built for Teams.{" "}
-              <span style={{ color: "hsl(var(--accent-blue))" }}>Structured for Clubs.</span>
+              <span style={{ color: "hsl(var(--brand))" }}>Structured for Clubs.</span>
             </h2>
             <p className="section-sub mb-8">
               Whether you manage a single youth football team or oversee an entire club with multiple squads, Sportnizer gives you the structure to stay in control without drowning in administration.
@@ -95,7 +94,7 @@ export default function TeamsSection() {
                     className="mt-0.5 shrink-0"
                     style={{ color: "hsl(var(--brand))" }}
                   />
-                  <span className="text-base" style={{ color: "hsl(var(--foreground))" }}>
+                  <span className="text-base" style={{ color: "hsl(0 0% 100% / 0.80)" }}>
                     {benefit}
                   </span>
                 </li>

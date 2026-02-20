@@ -92,7 +92,7 @@ export default function TermsOfService() {
               <section key={section.title}>
                 <h2
                   className="font-display font-bold text-2xl mb-3"
-                  style={{ color: "hsl(var(--navy))" }}
+                  style={{ color: "hsl(0 0% 100%)" }}
                 >
                   {section.title}
                 </h2>

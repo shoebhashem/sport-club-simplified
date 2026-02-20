@@ -61,7 +61,7 @@ export default function FeaturesSection() {
           <span className="section-label">Features</span>
           <h2 className="section-heading mb-4">
             Everything You Need to{" "}
-            <span style={{ color: "hsl(var(--accent-blue))" }}>Organize Your Club</span>
+            <span style={{ color: "hsl(var(--brand))" }}>Organize Your Club</span>
           </h2>
           <p className="section-sub">
             Four focused pillars of club administration — designed to replace scattered tools with one clear, structured platform for sports team management.
@@ -80,7 +80,7 @@ export default function FeaturesSection() {
                     style={{ color: isBrand ? "hsl(var(--navy))" : "hsl(var(--accent-blue))" }}
                   />
                 </div>
-                <h3 className="font-display font-bold text-xl mb-2" style={{ color: "hsl(var(--navy))" }}>
+                <h3 className="font-display font-bold text-xl mb-2" style={{ color: "hsl(0 0% 100%)" }}>
                   {feature.title}
                 </h3>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
@@ -93,14 +93,14 @@ export default function FeaturesSection() {
                         className="w-1.5 h-1.5 rounded-full shrink-0"
                         style={{ background: isBrand ? "hsl(var(--brand))" : "hsl(var(--accent-blue))" }}
                       />
-                      <span style={{ color: "hsl(var(--foreground))" }}>{point}</span>
+                      <span style={{ color: "hsl(0 0% 100% / 0.80)" }}>{point}</span>
                     </li>
                   ))}
                 </ul>
                 {feature.note && (
                   <p
                     className="text-xs leading-relaxed mt-3 pt-3 border-t italic"
-                    style={{ borderColor: "hsl(var(--border))", color: "hsl(var(--foreground-muted))" }}
+                    style={{ borderColor: "hsl(0 0% 100% / 0.08)", color: "hsl(var(--foreground-muted))" }}
                   >
                     {feature.note}
                   </p>

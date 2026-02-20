@@ -2,32 +2,22 @@ import { ArrowRight } from "lucide-react";
 
 export default function CTASection() {
   return (
-    <section
-      className="py-24 md:py-32"
-      style={{ background: "hsl(var(--surface))" }}
-    >
+    <section className="py-24 md:py-32">
       <div className="site-container">
         <div
           className="rounded-3xl overflow-hidden relative"
-          style={{ background: "var(--gradient-hero)" }}
+          style={{ background: "hsl(var(--surface))" }}
         >
           {/* Decorative glow */}
           <div
             className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-64 -translate-y-1/2 rounded-full pointer-events-none"
             style={{
-              background: "radial-gradient(ellipse, hsl(var(--brand) / 0.20) 0%, transparent 70%)",
+              background: "radial-gradient(ellipse, hsl(var(--brand) / 0.15) 0%, transparent 70%)",
             }}
           />
 
           <div className="relative px-10 py-16 md:py-24 text-center">
-            <span
-              className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-semibold uppercase tracking-widest mb-6"
-              style={{
-                background: "hsl(var(--brand) / 0.15)",
-                color: "hsl(var(--brand))",
-                fontFamily: "'Outfit', sans-serif",
-              }}
-            >
+            <span className="section-label mb-6">
               Get Started Today
             </span>
 
@@ -51,7 +41,7 @@ export default function CTASection() {
 
             <p
               className="text-lg max-w-xl mx-auto mb-10"
-              style={{ color: "hsl(0 0% 100% / 0.68)" }}
+              style={{ color: "hsl(0 0% 100% / 0.60)" }}
             >
               Let Sportnizer organize the structure — so you can focus on the sport.
             </p>

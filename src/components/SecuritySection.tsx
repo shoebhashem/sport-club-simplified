@@ -1,29 +1,41 @@
-import { Shield, Lock, Eye, FileText } from "lucide-react";
+import { Shield, Lock, Eye, FileText, Server, Key } from "lucide-react";
 
 const SECURITY_POINTS = [
   {
     icon: Shield,
-    title: "Modern Technology Stack",
+    title: "Controller & Processor Structure",
     description:
-      "Sportnizer is built using modern, well-maintained technologies and carefully designed systems to ensure high security standards across the platform.",
+      "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Sportnizer operates as a Data Processor, handling data only according to club instructions.",
+  },
+  {
+    icon: Server,
+    title: "Secure Cloud Infrastructure",
+    description:
+      "Sportnizer is hosted on secure, modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to protect against unauthorized access.",
   },
   {
     icon: Lock,
-    title: "GDPR Compliance",
+    title: "GDPR & International Compliance",
     description:
-      "Personal data is handled in accordance with GDPR and applicable privacy regulations, including relevant California privacy requirements. We take data protection seriously.",
+      "Personal data is handled in accordance with GDPR and applicable international privacy standards. We are committed to responsible data handling aligned with modern regulatory expectations.",
   },
   {
     icon: Eye,
-    title: "Minimal Data Storage",
+    title: "Minimal Data Collection",
     description:
-      "We store only the information that is necessary to provide the service. Unused data is removed responsibly, and we do not collect data beyond what is needed.",
+      "We collect and store only the data necessary to provide the service. Sportnizer does not sell personal data and does not use data for advertising purposes.",
+  },
+  {
+    icon: Key,
+    title: "Encryption & Access Controls",
+    description:
+      "Data is protected using industry-standard encryption. Access to systems and data is restricted based on role and necessity, following the principle of least privilege.",
   },
   {
     icon: FileText,
-    title: "Transparent Principles",
+    title: "Responsible Deletion Practices",
     description:
-      "Security, integrity and responsible data handling are fundamental principles of Sportnizer — not afterthoughts. Your members' data is treated with care.",
+      "Unused data is removed responsibly. Clubs may request deletion at any time, with a structured grace period before permanent removal from active systems.",
   },
 ];
 
@@ -39,16 +51,16 @@ export default function SecuritySection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {SECURITY_POINTS.map((point) => {
             const Icon = point.icon;
             return (
-              <div key={point.title} className="feature-card flex gap-5">
+              <div key={point.title} className="feature-card flex flex-col gap-4">
                 <div className="feature-icon-blue w-11 h-11 shrink-0">
                   <Icon size={20} style={{ color: "hsl(var(--accent-blue))" }} />
                 </div>
                 <div>
-                  <h3 className="font-display font-bold text-base mb-1.5" style={{ color: "hsl(var(--navy))" }}>
+                  <h3 className="font-display font-bold text-base mb-1.5" style={{ color: "hsl(0 0% 100%)" }}>
                     {point.title}
                   </h3>
                   <p className="text-sm leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
