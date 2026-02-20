@@ -15,13 +15,13 @@ export default function HeroSection() {
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover"
-          style={{ opacity: 0.12 }}
+          style={{ opacity: 0.08 }}
         />
         <div
           className="absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 80% 60% at 50% 60%, hsl(36 95% 52% / 0.10) 0%, transparent 70%)",
+              "radial-gradient(ellipse 80% 60% at 50% 60%, hsl(43 100% 62% / 0.08) 0%, transparent 70%)",
           }}
         />
       </div>
@@ -29,8 +29,8 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative site-container pt-32 pb-24 md:pt-40 md:pb-32">
         <div className="max-w-3xl">
-          <div className="section-label mb-6" style={{ background: "hsl(var(--brand) / 0.15)", color: "hsl(var(--brand))" }}>
-            Sport Club Management Software
+          <div className="section-label mb-6">
+            Sport Club Management Platform
           </div>
 
           <h1
@@ -53,7 +53,7 @@ export default function HeroSection() {
 
           <p
             className="text-lg md:text-xl leading-relaxed mb-10 max-w-2xl"
-            style={{ color: "hsl(0 0% 100% / 0.72)" }}
+            style={{ color: "hsl(0 0% 100% / 0.65)" }}
           >
             Manage members, events, attendance and membership fees in a clean and
             structured platform designed for modern sports teams and clubs.
@@ -71,10 +71,10 @@ export default function HeroSection() {
           {/* Stats */}
           <div
             className="mt-14 pt-10 grid grid-cols-3 gap-6 max-w-lg"
-            style={{ borderTop: "1px solid hsl(0 0% 100% / 0.12)" }}
+            style={{ borderTop: "1px solid hsl(0 0% 100% / 0.10)" }}
           >
             {[
-              { value: "All-in-one", label: "Platform" },
+              { value: "Focused", label: "Platform" },
               { value: "Simple", label: "Setup" },
               { value: "GDPR", label: "Compliant" },
             ].map((stat) => (
@@ -85,7 +85,7 @@ export default function HeroSection() {
                 >
                   {stat.value}
                 </div>
-                <div className="text-sm" style={{ color: "hsl(0 0% 100% / 0.50)" }}>
+                <div className="text-sm" style={{ color: "hsl(0 0% 100% / 0.45)" }}>
                   {stat.label}
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function HeroSection() {
       <a
         href="#problem"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 transition-opacity hover:opacity-80"
-        style={{ color: "hsl(0 0% 100% / 0.35)" }}
+        style={{ color: "hsl(0 0% 100% / 0.30)" }}
         aria-label="Scroll down"
       >
         <span className="text-xs font-medium uppercase tracking-widest font-display">Scroll</span>

@@ -38,7 +38,7 @@ export default function ProblemSection() {
             className="rounded-2xl p-8 border"
             style={{
               background: "hsl(var(--surface-elevated))",
-              borderColor: "hsl(var(--border))",
+              borderColor: "hsl(0 0% 100% / 0.08)",
               boxShadow: "var(--shadow-md)",
             }}
           >
@@ -56,7 +56,7 @@ export default function ProblemSection() {
                     className="mt-0.5 shrink-0"
                     style={{ color: "hsl(0 70% 60%)" }}
                   />
-                  <span className="text-base leading-snug" style={{ color: "hsl(var(--foreground))" }}>
+                  <span className="text-base leading-snug" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
                     {problem}
                   </span>
                 </li>
@@ -65,11 +65,11 @@ export default function ProblemSection() {
 
             <div
               className="mt-6 pt-6 border-t"
-              style={{ borderColor: "hsl(var(--border))" }}
+              style={{ borderColor: "hsl(0 0% 100% / 0.08)" }}
             >
               <p
                 className="text-sm font-semibold font-display"
-                style={{ color: "hsl(var(--brand-dark))" }}
+                style={{ color: "hsl(var(--brand))" }}
               >
                 Sportnizer was built to solve exactly these problems — by someone who lived them.
               </p>
