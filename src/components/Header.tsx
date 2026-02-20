@@ -23,21 +23,20 @@ export default function Header() {
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       style={{
         background: scrolled
-          ? "hsl(var(--navy) / 0.97)"
+          ? "hsl(var(--background-dark) / 0.97)"
           : "transparent",
         backdropFilter: scrolled ? "blur(12px)" : "none",
-        borderBottom: scrolled ? "1px solid hsl(0 0% 100% / 0.08)" : "none",
+        borderBottom: scrolled ? "1px solid hsl(0 0% 100% / 0.06)" : "none",
       }}
     >
       <div className="site-container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2.5 group">
-          <div
-            className="w-9 h-9 rounded-xl flex items-center justify-center font-display font-black text-lg"
-            style={{ background: "var(--gradient-brand)", color: "hsl(var(--navy))" }}
-          >
-            S
-          </div>
+          <img
+            src="/favicon.ico"
+            alt="Sportnizer logo"
+            className="w-9 h-9 rounded-xl object-contain"
+          />
           <div className="flex flex-col leading-none">
             <span
               className="font-display font-bold text-lg tracking-tight"
@@ -61,7 +60,6 @@ export default function Header() {
               key={l.href}
               href={l.href}
               className="nav-link"
-              style={{ color: "hsl(0 0% 100% / 0.75)" }}
             >
               {l.label}
             </a>
@@ -90,7 +88,7 @@ export default function Header() {
       {menuOpen && (
         <div
           className="md:hidden px-6 pb-6 pt-2 flex flex-col gap-4"
-          style={{ background: "hsl(var(--navy))" }}
+          style={{ background: "hsl(var(--background-dark))" }}
         >
           {NAV_LINKS.map((l) => (
             <a

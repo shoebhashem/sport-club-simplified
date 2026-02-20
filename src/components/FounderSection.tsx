@@ -16,38 +16,38 @@ export default function FounderSection() {
             className="rounded-3xl p-10 md:p-14 border relative overflow-hidden"
             style={{
               background: "hsl(var(--surface-elevated))",
-              borderColor: "hsl(var(--border))",
+              borderColor: "hsl(0 0% 100% / 0.08)",
               boxShadow: "var(--shadow-lg)",
             }}
           >
             {/* Decorative quote mark */}
             <div
               className="absolute top-6 right-8 font-display font-black text-9xl leading-none select-none pointer-events-none"
-              style={{ color: "hsl(var(--brand) / 0.08)" }}
+              style={{ color: "hsl(var(--brand) / 0.10)" }}
             >
               "
             </div>
 
             <div className="relative space-y-5">
-              <p className="text-lg leading-relaxed" style={{ color: "hsl(var(--foreground))" }}>
+              <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
                 Sportnizer was created from real involvement in youth sports. Through volunteering as a coach and being closely involved in organizing teams, training sessions and matches, it became clear how much time was spent on administration instead of focusing on the sport itself.
               </p>
 
-              <p className="text-lg leading-relaxed" style={{ color: "hsl(var(--foreground))" }}>
+              <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
                 Managing members, tracking attendance and following up on membership fees often felt more complicated than necessary. There were spreadsheets, separate messaging apps, manual payment lists — and none of it talked to each other.
               </p>
 
-              <p className="text-lg leading-relaxed" style={{ color: "hsl(var(--foreground))" }}>
+              <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
                 Sportnizer was built to simplify the essentials — creating structure without unnecessary complexity. Not because it was a business idea first, but because there was a genuine need.
               </p>
 
               <div
                 className="pt-6 mt-4 border-t"
-                style={{ borderColor: "hsl(var(--border))" }}
+                style={{ borderColor: "hsl(0 0% 100% / 0.08)" }}
               >
                 <p
                   className="text-xl font-display font-bold leading-snug"
-                  style={{ color: "hsl(var(--navy))" }}
+                  style={{ color: "hsl(0 0% 100%)" }}
                 >
                   The goal is simple:{" "}
                   <span style={{ color: "hsl(var(--brand))" }}>

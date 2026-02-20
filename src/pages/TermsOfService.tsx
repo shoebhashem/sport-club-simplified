@@ -8,7 +8,7 @@ export default function TermsOfService() {
       <main className="pt-28 pb-24">
         <div className="site-container max-w-3xl">
           <span className="section-label mb-6">Legal</span>
-          <h1 className="font-display font-black text-4xl md:text-5xl mb-4" style={{ color: "hsl(var(--navy))" }}>
+          <h1 className="font-display font-black text-4xl md:text-5xl mb-4" style={{ color: "hsl(0 0% 100%)" }}>
             Terms of Service
           </h1>
           <p className="section-sub mb-10">Last updated: February 2026</p>
@@ -23,7 +23,7 @@ export default function TermsOfService() {
               {
                 title: "2. Service Description",
                 content:
-                  "Sportnizer is a sports club management platform that helps teams and clubs manage members, events, attendance and membership fee tracking. The platform is provided as-is and is continuously evolving.",
+                  "Sportnizer is a sport club management platform that helps teams and clubs manage members, events, attendance and membership fee tracking. The platform is provided as-is and is continuously evolving.",
               },
               {
                 title: "3. User Responsibilities",
@@ -31,9 +31,9 @@ export default function TermsOfService() {
                   "You are responsible for maintaining the confidentiality of your account credentials. You agree to use Sportnizer only for lawful purposes and in accordance with these terms. You are responsible for ensuring that data you enter about other individuals (such as club members) is handled in compliance with applicable privacy regulations.",
               },
               {
-                title: "4. Data and Privacy",
+                title: "4. Data Roles",
                 content:
-                  "Your use of Sportnizer is also governed by our Privacy Policy. We process personal data in accordance with GDPR and applicable regulations. By using the service, you agree to our data handling practices as described in the Privacy Policy.",
+                  "Clubs and organizations using Sportnizer act as Data Controllers and are responsible for the personal data they enter. Sportnizer acts as a Data Processor, processing data only according to club instructions. Your use of Sportnizer is also governed by our Privacy Policy.",
               },
               {
                 title: "5. Intellectual Property",
@@ -63,7 +63,7 @@ export default function TermsOfService() {
               <section key={section.title}>
                 <h2
                   className="font-display font-bold text-2xl mb-3"
-                  style={{ color: "hsl(var(--navy))" }}
+                  style={{ color: "hsl(0 0% 100%)" }}
                 >
                   {section.title}
                 </h2>

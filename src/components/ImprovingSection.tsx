@@ -14,7 +14,7 @@ export default function ImprovingSection() {
             <span className="section-label">Roadmap</span>
             <h2 className="section-heading mb-5">Continuously Improving</h2>
             <p className="section-sub mb-6">
-              Sportnizer is actively evolving and continuously improving based on real-world use and feedback from sports teams and clubs. We are committed to building a sports club management platform that grows together with the needs of modern sports organizations.
+              Sportnizer is actively evolving and continuously improving based on real-world use and feedback from sports teams and clubs. We are committed to building a sport club management platform that grows together with the needs of modern sports organizations.
             </p>
             <p className="section-sub mb-8">
               Every update is guided by practical experience — not trends. Features are added when they genuinely reduce administrative overhead and improve clarity for administrators and coaches.
@@ -24,7 +24,7 @@ export default function ImprovingSection() {
               className="rounded-2xl p-6 border"
               style={{
                 background: "hsl(var(--surface-elevated))",
-                borderColor: "hsl(var(--border))",
+                borderColor: "hsl(0 0% 100% / 0.08)",
                 boxShadow: "var(--shadow-sm)",
               }}
             >
@@ -32,7 +32,7 @@ export default function ImprovingSection() {
                 <div className="feature-icon w-10 h-10">
                   <Zap size={18} style={{ color: "hsl(var(--navy))" }} />
                 </div>
-                <h3 className="font-display font-bold text-base" style={{ color: "hsl(var(--navy))" }}>
+                <h3 className="font-display font-bold text-base" style={{ color: "hsl(0 0% 100%)" }}>
                   Feedback-Driven Development
                 </h3>
               </div>
@@ -59,7 +59,7 @@ export default function ImprovingSection() {
                 <Mail size={22} style={{ color: "hsl(var(--accent-blue))" }} />
               </div>
               <div>
-                <p className="font-display font-semibold text-base mb-0.5" style={{ color: "hsl(var(--navy))" }}>
+                <p className="font-display font-semibold text-base mb-0.5" style={{ color: "hsl(0 0% 100%)" }}>
                   support@sportnizer.com
                 </p>
                 <p className="text-sm" style={{ color: "hsl(var(--foreground-muted))" }}>

@@ -6,8 +6,8 @@ export default function Footer() {
     <footer
       className="border-t mt-0"
       style={{
-        background: "hsl(var(--navy))",
-        borderColor: "hsl(0 0% 100% / 0.08)",
+        background: "hsl(var(--background-dark))",
+        borderColor: "hsl(0 0% 100% / 0.06)",
       }}
     >
       <div className="site-container py-14">
@@ -15,12 +15,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2.5 mb-3">
-              <div
-                className="w-9 h-9 rounded-xl flex items-center justify-center font-display font-black text-lg"
-                style={{ background: "var(--gradient-brand)", color: "hsl(var(--navy))" }}
-              >
-                S
-              </div>
+              <img
+                src="/favicon.ico"
+                alt="Sportnizer logo"
+                className="w-9 h-9 rounded-xl object-contain"
+              />
               <div className="flex flex-col leading-none">
                 <span className="font-display font-bold text-lg tracking-tight" style={{ color: "hsl(0 0% 100%)" }}>
                   Sportnizer
@@ -30,14 +29,14 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-            <p className="text-sm leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.55)" }}>
+            <p className="text-sm leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.50)" }}>
               A modern sport club management platform built to reduce administrative overhead so teams can focus on the sport.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.45)" }}>
+            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.40)" }}>
               Navigation
             </h4>
             <ul className="space-y-2">
@@ -52,9 +51,9 @@ export default function Footer() {
                   <a
                     href={l.href}
                     className="text-sm transition-colors duration-200"
-                    style={{ color: "hsl(0 0% 100% / 0.60)" }}
+                    style={{ color: "hsl(0 0% 100% / 0.55)" }}
                     onMouseEnter={(e) => (e.currentTarget.style.color = "hsl(var(--brand))")}
-                    onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.60)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")}
                   >
                     {l.label}
                   </a>
@@ -65,13 +64,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.45)" }}>
+            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.40)" }}>
               Contact & Support
             </h4>
             <a
               href="mailto:support@sportnizer.com"
               className="inline-flex items-center gap-2 text-sm transition-colors duration-200"
-              style={{ color: "hsl(0 0% 100% / 0.65)" }}
+              style={{ color: "hsl(0 0% 100% / 0.60)" }}
             >
               <Mail size={14} />
               support@sportnizer.com
@@ -90,7 +89,7 @@ export default function Footer() {
 
         <div
           className="border-t pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs"
-          style={{ borderColor: "hsl(0 0% 100% / 0.08)", color: "hsl(0 0% 100% / 0.35)" }}
+          style={{ borderColor: "hsl(0 0% 100% / 0.06)", color: "hsl(0 0% 100% / 0.30)" }}
         >
           <span>© {year} Sportnizer. All rights reserved.</span>
           <span>Built for modern sports teams and clubs.</span>
