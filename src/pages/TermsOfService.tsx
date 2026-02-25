@@ -10,7 +10,7 @@ export default function TermsOfService() {
           <span className="section-label mb-6">Legal</span>
           <h1
             className="font-display font-black text-4xl md:text-5xl mb-4"
-            style={{ color: "hsl(var(--navy))" }}
+            style={{ color: "hsl(0 0% 100%)" }}
           >
             Terms of Service
           </h1>

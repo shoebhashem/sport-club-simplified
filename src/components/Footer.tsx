@@ -21,10 +21,10 @@ export default function Footer() {
                 className="w-9 h-9 rounded-xl object-contain"
               />
               <div className="flex flex-col leading-none">
-                <span className="font-display font-bold text-lg tracking-tight" style={{ color: "hsl(0 0% 100%)" }}>
+                <span className="font-display font-bold text-lg tracking-tight" style={{ color: "hsl(var(--brand))" }}>
                   Sportnizer
                 </span>
-                <span className="text-[10px] font-medium tracking-widest uppercase" style={{ color: "hsl(var(--brand))" }}>
+                <span className="text-[10px] font-medium tracking-widest uppercase" style={{ color: "hsl(0 0% 100%)" }}>
                   Organizing Sports!
                 </span>
               </div>

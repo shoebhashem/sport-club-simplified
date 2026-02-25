@@ -12,9 +12,9 @@
 @layer base {
   :root {
     /* Brand: Amber/Yellow */
-    --brand: 43 100% 62%;
-    --brand-light: 43 100% 90%;
-    --brand-dark: 38 85% 45%;
+    --brand: 37 91% 55%;
+    --brand-light: 37 91% 85%;
+    --brand-dark: 37 85% 40%;
 
     /* Accent: Blue (links only) */
     --accent-blue: 211 100% 50%;
