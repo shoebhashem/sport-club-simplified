@@ -76,7 +76,7 @@ export default function HeroSection() {
             {[
               { value: "Focused", label: "Platform" },
               { value: "Simple", label: "Setup" },
-              { value: "GDPR", label: "Compliant" },
+              { value: "Secure", label: "By Design" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div

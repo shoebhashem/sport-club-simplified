@@ -2,11 +2,11 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsOfService from "./pages/TermsOfService";
+import LegalPrivacy from "./pages/LegalPrivacy";
+import LegalTerms from "./pages/LegalTerms";
 
 const queryClient = new QueryClient();
 
@@ -18,8 +18,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/legal/privacy" element={<LegalPrivacy />} />
+          <Route path="/legal/terms" element={<LegalTerms />} />
+          {/* Redirects from old routes */}
+          <Route path="/privacy" element={<Navigate to="/legal/privacy" replace />} />
+          <Route path="/terms" element={<Navigate to="/legal/terms" replace />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

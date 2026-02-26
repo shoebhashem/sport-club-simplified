@@ -5,19 +5,19 @@ const SECURITY_POINTS = [
     icon: Shield,
     title: "Controller & Processor Structure",
     description:
-      "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Sportnizer operates as a Data Processor, handling data only according to club instructions.",
+      "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Sportnizer operates as a Data Processor for club member data, handling it only according to club instructions. For account-level data, Sportnizer acts as Data Controller.",
   },
   {
     icon: Server,
-    title: "Secure Cloud Infrastructure",
+    title: "Modern Cloud Infrastructure",
     description:
-      "Sportnizer is hosted on secure, modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to protect against unauthorized access.",
+      "Sportnizer is built on modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to help protect against unauthorized access.",
   },
   {
     icon: Lock,
-    title: "GDPR & International Compliance",
+    title: "Designed with Data Protection in Mind",
     description:
-      "Personal data is handled in accordance with GDPR and applicable international privacy standards. We are committed to responsible data handling aligned with modern regulatory expectations.",
+      "Personal data is handled in accordance with applicable data protection laws, including GDPR. We implement appropriate technical and organizational measures to safeguard the data entrusted to us.",
   },
   {
     icon: Eye,
@@ -35,7 +35,7 @@ const SECURITY_POINTS = [
     icon: FileText,
     title: "Responsible Deletion Practices",
     description:
-      "Unused data is removed responsibly. Clubs may request deletion at any time, with a structured grace period before permanent removal from active systems.",
+      "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion. Clubs may request deletion at any time via support@sportnizer.com.",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function SecuritySection() {
           <span className="section-label-blue">Trust & Compliance</span>
           <h2 className="section-heading mb-4">Security and Data Protection</h2>
           <p className="section-sub">
-            Managing a sports club means handling personal data for members — including youth members. We take that responsibility seriously and build Sportnizer with security and privacy at the core.
+            Managing a sports club means handling personal data for members — including youth members. We take that responsibility seriously and build Sportnizer with security and data protection at the core.
           </p>
         </div>
 
@@ -77,11 +77,11 @@ export default function SecuritySection() {
           style={{ color: "hsl(var(--foreground-muted))" }}
         >
           For detailed information about how we handle data, see our{" "}
-          <a href="/privacy" style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
+          <a href="/legal/privacy" style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
             Privacy Policy
           </a>{" "}
           and{" "}
-          <a href="/terms" style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
+          <a href="/legal/terms" style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
             Terms of Service
           </a>
           .

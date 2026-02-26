@@ -5,8 +5,8 @@ const BENEFITS = [
   "Scales across multiple teams within a club",
   "Reduces administrative burden at every level",
   "Maintains clear financial and member overview",
-  "Removes unnecessary complexity from club operations",
-  "Designed for both coaches and club administrators",
+  "Role-based access for coaches, admins and members",
+  "Designed for both small teams and larger organizations",
 ];
 
 export default function TeamsSection() {

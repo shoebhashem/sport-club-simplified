@@ -30,7 +30,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.50)" }}>
-              A modern sport club management platform built to reduce administrative overhead so teams can focus on the sport.
+              A structured sport club management platform designed to reduce administrative overhead so teams can focus on the sport.
             </p>
           </div>
 
@@ -44,8 +44,8 @@ export default function Footer() {
                 { label: "Features", href: "#features" },
                 { label: "Our Story", href: "#story" },
                 { label: "Security", href: "#security" },
-                { label: "Privacy Policy", href: "/privacy" },
-                { label: "Terms of Service", href: "/terms" },
+                { label: "Privacy Policy", href: "/legal/privacy" },
+                { label: "Terms of Service", href: "/legal/terms" },
               ].map((l) => (
                 <li key={l.href}>
                   <a
@@ -92,7 +92,7 @@ export default function Footer() {
           style={{ borderColor: "hsl(0 0% 100% / 0.06)", color: "hsl(0 0% 100% / 0.30)" }}
         >
           <span>© {year} Sportnizer. All rights reserved.</span>
-          <span>Built for modern sports teams and clubs.</span>
+          <span>A structured platform for modern sports teams and clubs.</span>
         </div>
       </div>
     </footer>

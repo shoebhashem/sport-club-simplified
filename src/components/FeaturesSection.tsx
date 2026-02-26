@@ -1,4 +1,4 @@
-import { Users, Calendar, ClipboardCheck, CreditCard } from "lucide-react";
+import { Users, Calendar, ClipboardCheck, CreditCard, MessageSquare } from "lucide-react";
 
 const FEATURES = [
   {
@@ -10,7 +10,7 @@ const FEATURES = [
     points: [
       "Organized member records",
       "Role-based access control",
-      "Parent and player structure",
+      "Parent and guardian structure for youth members",
     ],
   },
   {
@@ -40,16 +40,29 @@ const FEATURES = [
   {
     icon: CreditCard,
     iconType: "blue",
-    title: "Membership Fee Management",
+    title: "Membership Fee & Payment Management",
     description:
-      "Finally get a clean overview of membership fee status. Know exactly who has paid and who hasn't — without manual follow-ups and spreadsheets.",
+      "Get a clean overview of membership fee status. Know exactly who has paid and who hasn't — with secure online payments to reduce manual follow-ups.",
     points: [
       "Track who has paid",
       "See outstanding payments at a glance",
-      "Simple overview for administrators",
-      "Reduce manual follow-ups",
+      "Secure online payments",
+      "Reduced administrative workload",
     ],
-    note: "Payment methods are continuously evolving — Sportnizer is committed to making payment tracking simpler over time.",
+    note: "Payments are processed through secure third-party payment infrastructure. Payment capabilities are continuously evolving.",
+  },
+  {
+    icon: MessageSquare,
+    iconType: "brand",
+    title: "Structured Communication",
+    description:
+      "Targeted communication without chaos. Share announcements and updates at club, group, or subgroup level — reaching the right people with the right information.",
+    points: [
+      "Club-wide announcements",
+      "Group-level updates",
+      "Subgroup coordination",
+      "Role-based visibility",
+    ],
   },
 ];
 
@@ -64,7 +77,7 @@ export default function FeaturesSection() {
             <span style={{ color: "hsl(var(--brand))" }}>Organize Your Club</span>
           </h2>
           <p className="section-sub">
-            Four focused pillars of club administration — designed to replace scattered tools with one clear, structured platform for sports team management.
+            Five focused pillars of club administration — designed to replace scattered tools with one clear, structured platform for sports team management.
           </p>
         </div>
 
