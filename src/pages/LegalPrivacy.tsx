@@ -167,8 +167,8 @@ export default function LegalPrivacy() {
               </h3>
               <ul className="space-y-1.5 list-none mb-4">
                 {[
-                  "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion",
-                  "During the recovery period, reactivation may be possible",
+                  "Deleted accounts and removed memberships are subject to a 30-day recovery period before permanent deletion",
+                  "During the 30-day recovery period, reactivation may be possible",
                   "After the recovery period, data is permanently deleted from active systems",
                   "Backups may retain data for a limited period after deletion from the primary system",
                 ].map((item) => (
@@ -243,21 +243,21 @@ export default function LegalPrivacy() {
 
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
-                14. Additional Information for Specific Jurisdictions
-              </h2>
-              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                If you are located in the European Economic Area (EEA), you have the right to lodge a complaint with your local data protection authority if you believe we have not complied with applicable data protection laws. California residents may have additional rights under the California Consumer Privacy Act (CCPA). We do not sell personal information as defined under CCPA.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
-                15. Contact Us
+                14. Contact Us
               </h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 For questions about this Privacy Policy or our data practices:{" "}
                 <a href="mailto:privacy@sportnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@sportnizer.com</a> (Privacy Inquiries) or{" "}
                 <a href="mailto:support@sportnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@sportnizer.com</a> (General Support). We aim to respond to all inquiries within 30 days.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
+                15. Additional Information for Specific Jurisdictions
+              </h2>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                If you are located in the European Economic Area (EEA), you have the right to lodge a complaint with your local data protection authority if you believe we have not complied with applicable data protection laws. California residents may have additional rights under the California Consumer Privacy Act (CCPA). We do not sell personal information as defined under CCPA.
               </p>
             </section>
 

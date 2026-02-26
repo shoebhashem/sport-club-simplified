@@ -347,9 +347,9 @@ Sportnizer may assign these Terms without restriction, including in connection w
 
 ## 17. Governing Law & Dispute Resolution
 
-These Terms shall be governed by and construed in accordance with the laws of **[JURISDICTION]**, without regard to conflict of law principles.
+These Terms shall be governed by and construed in accordance with the laws of **Sweden**, without regard to conflict of law principles.
 
-Any disputes arising from or relating to these Terms or the Service shall be subject to the exclusive jurisdiction of the courts located in **[JURISDICTION]**.
+Any disputes arising from or relating to these Terms or the Service shall be subject to the exclusive jurisdiction of the courts located in **Sweden**.
 
 ---
 

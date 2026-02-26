@@ -37,6 +37,7 @@ export default function LegalTerms() {
                   '"Guardian": An adult user responsible for a Youth Member\'s participation.',
                   '"Data Controller": The entity that determines the purposes and means of processing personal data (Clubs, in the context of Club member data).',
                   '"Data Processor": The entity that processes personal data on behalf of a Data Controller (Sportnizer, in the context of Club member data).',
+                  '"Personal Data": Any information relating to an identified or identifiable individual.',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
                     <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
@@ -139,14 +140,35 @@ export default function LegalTerms() {
             </section>
 
             <section>
-              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>14. General Provisions</h2>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>14. Entire Agreement</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                These Terms, together with the Privacy Policy, constitute the entire agreement between you and Sportnizer regarding the Service. If any provision is held to be invalid, the remaining provisions shall continue in full force. You may not assign these Terms without Sportnizer's prior written consent.
+                These Terms, together with the Privacy Policy, constitute the entire agreement between you and Sportnizer regarding the Service and supersede all prior agreements, understandings, and communications, whether written or oral.
               </p>
             </section>
 
             <section>
-              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>15. Contact Information</h2>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>15. Severability</h2>
+              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                If any provision of these Terms is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the remaining provisions shall continue in full force and effect. The invalid provision shall be modified to the minimum extent necessary to make it valid and enforceable while preserving its intent, or if such modification is not possible, it shall be severed from these Terms.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>16. Assignment</h2>
+              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                You may not assign or transfer these Terms or any rights hereunder without Sportnizer's prior written consent. Any attempted assignment in violation of this section shall be void. Sportnizer may assign these Terms without restriction, including in connection with a merger, acquisition, or sale of assets.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>17. Governing Law & Dispute Resolution</h2>
+              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                These Terms shall be governed by and construed in accordance with the laws of Sweden, without regard to conflict of law principles. Any disputes arising from or relating to these Terms or the Service shall be subject to the exclusive jurisdiction of the courts located in Sweden.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>18. Contact Information</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 For questions about these Terms:{" "}
                 <a href="mailto:support@sportnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@sportnizer.com</a> (General Support) or{" "}

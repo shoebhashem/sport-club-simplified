@@ -6,7 +6,7 @@ const TIERS = [
     price: "€0",
     period: "",
     description: "Get started with your first team",
-    features: ["Up to 50 members", "Unlimited groups", "Event management", "Attendance tracking"],
+    features: ["Up to 50 members"],
     highlighted: false,
   },
   {
@@ -14,15 +14,15 @@ const TIERS = [
     price: "€29",
     period: "/month",
     description: "For growing clubs with more members",
-    features: ["Up to 500 members", "Unlimited groups", "Membership fee tracking", "Structured communication"],
-    highlighted: true,
+    features: ["Up to 500 members"],
+    highlighted: false,
   },
   {
     name: "Pro",
     price: "€49",
     period: "/month",
     description: "For established clubs and organizations",
-    features: ["Up to 2,000 members", "Unlimited groups", "Full payment management", "Priority support"],
+    features: ["Up to 2,000 members"],
     highlighted: false,
   },
   {
@@ -30,7 +30,7 @@ const TIERS = [
     price: "Contact us",
     period: "",
     description: "For large organizations with custom needs",
-    features: ["Unlimited members", "Custom configuration", "Dedicated support", "Tailored onboarding"],
+    features: ["Unlimited members", "Custom configuration", "Dedicated support"],
     highlighted: false,
   },
 ];
