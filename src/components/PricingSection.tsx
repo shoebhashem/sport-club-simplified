@@ -46,7 +46,7 @@ export default function PricingSection() {
             <span style={{ color: "hsl(var(--brand))" }}>Clubs of All Sizes</span>
           </h2>
           <p className="section-sub">
-            Sportnizer is designed to remain cost-efficient and accessible. Transparent pricing that scales with your organization — no hidden fees.
+            Sponizr is designed to remain cost-efficient and accessible. Transparent pricing that scales with your organization — no hidden fees.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ export default function PricingSection() {
           className="text-center text-sm mt-8 max-w-lg mx-auto"
           style={{ color: "hsl(var(--foreground-muted))" }}
         >
-          Sportnizer is continuously optimized to remain accessible for clubs of all sizes. Pricing is also available in SEK, NOK, and DKK.
+          Sponizr is continuously optimized to remain accessible for clubs of all sizes. Pricing is also available in SEK, NOK, and DKK.
         </p>
       </div>
     </section>

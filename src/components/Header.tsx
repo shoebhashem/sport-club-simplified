@@ -35,7 +35,7 @@ export default function Header() {
         <a href="/" className="flex items-center gap-2.5 group">
           <img
             src="/favicon.ico"
-            alt="Sportnizer logo"
+            alt="Sponizr logo"
             className="w-9 h-9 rounded-xl object-contain"
           />
           <div className="flex flex-col leading-none">
@@ -43,7 +43,7 @@ export default function Header() {
               className="font-display font-bold text-lg tracking-tight"
               style={{ color: "hsl(var(--brand))" }}
             >
-              Sportnizer
+              Sponizr
             </span>
             <span
               className="text-[10px] font-medium tracking-widest uppercase"
@@ -69,7 +69,7 @@ export default function Header() {
 
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a href="https://app.sportnizer.com" className="btn-primary text-sm px-5 py-2.5">
+          <a href="https://app.sponizr.com" className="btn-primary text-sm px-5 py-2.5">
             Try the Web App
           </a>
         </div>
@@ -102,7 +102,7 @@ export default function Header() {
               {l.label}
             </a>
           ))}
-          <a href="https://app.sportnizer.com" className="btn-primary text-sm text-center mt-2">
+          <a href="https://app.sponizr.com" className="btn-primary text-sm text-center mt-2">
             Try the Web App
           </a>
         </div>

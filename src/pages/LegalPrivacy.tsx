@@ -24,7 +24,7 @@ export default function LegalPrivacy() {
                 1. Introduction
               </h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                This Privacy Policy explains how Sportnizer ("we," "us," or "our") collects, uses, shares, and protects personal data when you use our platform for sports club management ("Service"). We are committed to protecting your privacy and handling your data responsibly. This policy applies to all users of Sportnizer, including Club administrators, members, and guardians.
+                This Privacy Policy explains how Sponizr ("we," "us," or "our") collects, uses, shares, and protects personal data when you use our platform for sports club management ("Service"). We are committed to protecting your privacy and handling your data responsibly. This policy applies to all users of Sponizr, including Club administrators, members, and guardians.
               </p>
             </section>
 
@@ -37,17 +37,17 @@ export default function LegalPrivacy() {
               </p>
 
               <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
-                2.1 Club Data (Sportnizer as Data Processor)
+                2.1 Club Data (Sponizr as Data Processor)
               </h3>
               <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
-                <strong>For data processed within Clubs</strong>, the Club acts as the Data Controller. This means the Club (through its administrators) determines why and how member data is processed within their organization. Sportnizer acts as a Data Processor, processing Club data only on behalf of and under the instructions of the Club. We do not independently determine the purposes of processing Club member data.
+                <strong>For data processed within Clubs</strong>, the Club acts as the Data Controller. This means the Club (through its administrators) determines why and how member data is processed within their organization. Sponizr acts as a Data Processor, processing Club data only on behalf of and under the instructions of the Club. We do not independently determine the purposes of processing Club member data.
               </p>
 
               <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
-                2.2 Account Data (Sportnizer as Data Controller)
+                2.2 Account Data (Sponizr as Data Controller)
               </h3>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                <strong>For data related to your Sportnizer account</strong> (such as your login credentials and account settings), Sportnizer acts as the Data Controller and processes such data to provide and maintain the Service.
+                <strong>For data related to your Sponizr account</strong> (such as your login credentials and account settings), Sponizr acts as the Data Controller and processes such data to provide and maintain the Service.
               </p>
             </section>
 
@@ -80,7 +80,7 @@ export default function LegalPrivacy() {
                 </div>
               ))}
               <p className="text-sm italic" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Note: Clubs are responsible for obtaining guardian consent before adding Youth Members. Sportnizer does not independently verify that such consent has been obtained.
+                Note: Clubs are responsible for obtaining guardian consent before adding Youth Members. Sponizr does not independently verify that such consent has been obtained.
               </p>
             </section>
 
@@ -127,7 +127,7 @@ export default function LegalPrivacy() {
                 Youth Members (users under 16 years of age) must be associated with a Guardian in the system. Youth Members cannot create accounts directly. Clubs and their administrators are solely responsible for obtaining appropriate consent from Guardians before adding Youth Members, ensuring Guardians are informed about data processing, and maintaining accurate Guardian contact information.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                <strong>Sportnizer does not independently verify that guardian consent has been obtained.</strong> We rely on Clubs to fulfill this responsibility. Guardians may exercise data subject rights on behalf of their Youth Members.
+                <strong>Sponizr does not independently verify that guardian consent has been obtained.</strong> We rely on Clubs to fulfill this responsibility. Guardians may exercise data subject rights on behalf of their Youth Members.
               </p>
             </section>
 
@@ -183,7 +183,7 @@ export default function LegalPrivacy() {
               </h3>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 Data export is available upon request. Clubs may request an export of their data, which will be provided in a structured, commonly used format. Requests must come from authorized club administrators. To request an export, contact us at{" "}
-                <a href="mailto:support@sportnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@sportnizer.com</a>.
+                <a href="mailto:support@sponizr.com" style={{ color: "hsl(var(--accent-blue))" }}>support@sponizr.com</a>.
               </p>
             </section>
 
@@ -210,7 +210,7 @@ export default function LegalPrivacy() {
               </ul>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 <strong>For Club data:</strong> Contact your Club administrator, who as Data Controller can assist with requests relating to Club membership data. <strong>For account data:</strong> Contact us at{" "}
-                <a href="mailto:privacy@sportnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@sportnizer.com</a>. We aim to respond within 30 days.
+                <a href="mailto:privacy@sponizr.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@sponizr.com</a>. We aim to respond within 30 days.
               </p>
             </section>
 
@@ -247,8 +247,8 @@ export default function LegalPrivacy() {
               </h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 For questions about this Privacy Policy or our data practices:{" "}
-                <a href="mailto:privacy@sportnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@sportnizer.com</a> (Privacy Inquiries) or{" "}
-                <a href="mailto:support@sportnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@sportnizer.com</a> (General Support). We aim to respond to all inquiries within 30 days.
+                <a href="mailto:privacy@sponizr.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@sponizr.com</a> (Privacy Inquiries) or{" "}
+                <a href="mailto:support@sponizr.com" style={{ color: "hsl(var(--accent-blue))" }}>support@sponizr.com</a> (General Support). We aim to respond to all inquiries within 30 days.
               </p>
             </section>
 
@@ -262,7 +262,7 @@ export default function LegalPrivacy() {
             </section>
 
             <p className="text-sm italic pt-6 border-t" style={{ borderColor: "hsl(0 0% 100% / 0.08)", color: "hsl(var(--foreground-muted))" }}>
-              By using Sportnizer, you acknowledge that you have read and understood this Privacy Policy.
+              By using Sponizr, you acknowledge that you have read and understood this Privacy Policy.
             </p>
           </div>
         </div>

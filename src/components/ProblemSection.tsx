@@ -29,7 +29,7 @@ export default function ProblemSection() {
               Club administrators and coaches know the feeling: you volunteer to help a team, and end up spending more time in spreadsheets than on the pitch. Managing sports club administration shouldn't require a full-time commitment.
             </p>
             <p className="section-sub">
-              Sportnizer is built as a focused alternative to complex club management systems — clean, structured, and designed around what actually matters.
+              Sponizr is built as a focused alternative to complex club management systems — clean, structured, and designed around what actually matters.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ export default function ProblemSection() {
                 className="text-sm font-semibold font-display"
                 style={{ color: "hsl(var(--brand))" }}
               >
-                Sportnizer was built to solve exactly these problems — by someone who lived them.
+                Sponizr was built to solve exactly these problems — by someone who lived them.
               </p>
             </div>
           </div>

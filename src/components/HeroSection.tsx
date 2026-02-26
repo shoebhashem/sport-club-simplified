@@ -60,7 +60,7 @@ export default function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="https://app.sportnizer.com" className="btn-primary text-base">
+            <a href="https://app.sponizr.com" className="btn-primary text-base">
               Try the Web App <ArrowRight size={18} />
             </a>
             <a href="#contact" className="btn-hero-outline text-base">
