@@ -17,7 +17,7 @@ for dirpath, _, filenames in os.walk(ROOT):
                 content = f.read()
         except Exception:
             continue  # skip binary or unreadable files
-        new_content = content.replace('Sportnizer', 'Sponizr').replace('sportnizer', 'sponizr')
+        new_content = content.replace('Sponizr', 'Clubnizer').replace('sponizr', 'clubnizer')
         if new_content != content:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(new_content)

@@ -30,7 +30,7 @@ export default function FounderSection() {
 
             <div className="relative space-y-5">
               <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
-                Sponizr was created from real involvement in youth sports. Through volunteering as a coach and being closely involved in organizing teams, training sessions and matches, it became clear how much time was spent on administration instead of focusing on the sport itself.
+                Clubnizer was created from real involvement in youth sports. Through volunteering as a coach and being closely involved in organizing teams, training sessions and matches, it became clear how much time was spent on administration instead of focusing on the sport itself.
               </p>
 
               <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
@@ -38,7 +38,7 @@ export default function FounderSection() {
               </p>
 
               <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
-                Sponizr was built to simplify the essentials — creating structure without unnecessary complexity. Not because it was a business idea first, but because there was a genuine need.
+                Clubnizer was built to simplify the essentials — creating structure without unnecessary complexity. Not because it was a business idea first, but because there was a genuine need.
               </p>
 
               <div

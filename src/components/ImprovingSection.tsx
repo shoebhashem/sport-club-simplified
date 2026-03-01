@@ -14,7 +14,7 @@ export default function ImprovingSection() {
             <span className="section-label">Roadmap</span>
             <h2 className="section-heading mb-5">Continuously Improving</h2>
             <p className="section-sub mb-6">
-              Sponizr is actively evolving and continuously improving based on real-world use and feedback from sports teams and clubs. We are committed to building a sport club management platform that grows together with the needs of modern sports organizations.
+              Clubnizer is actively evolving and continuously improving based on real-world use and feedback from sports teams and clubs. We are committed to building a sport club management platform that grows together with the needs of modern sports organizations.
             </p>
             <p className="section-sub mb-8">
               Every update is guided by practical experience — not trends. Features are added when they genuinely reduce administrative overhead and improve clarity for administrators and coaches.
@@ -47,11 +47,11 @@ export default function ImprovingSection() {
             <span className="section-label-blue">Get In Touch</span>
             <h2 className="section-heading mb-5">Questions or Feedback?</h2>
             <p className="section-sub mb-8">
-              For suggestions, questions or bug reports, reach out directly. Your experience using Sponizr shapes what gets built next.
+              For suggestions, questions or bug reports, reach out directly. Your experience using Clubnizer shapes what gets built next.
             </p>
 
             <a
-              href="mailto:support@sponizr.com"
+              href="mailto:support@clubnizer.com"
               className="feature-card flex items-center gap-4 group cursor-pointer no-underline"
               style={{ textDecoration: "none" }}
             >
@@ -60,7 +60,7 @@ export default function ImprovingSection() {
               </div>
               <div>
                 <p className="font-display font-semibold text-base mb-0.5" style={{ color: "hsl(0 0% 100%)" }}>
-                  support@sponizr.com
+                  support@clubnizer.com
                 </p>
                 <p className="text-sm" style={{ color: "hsl(var(--foreground-muted))" }}>
                   For support, feedback and bug reports

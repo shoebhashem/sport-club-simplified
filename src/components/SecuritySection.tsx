@@ -5,13 +5,13 @@ const SECURITY_POINTS = [
     icon: Shield,
     title: "Controller & Processor Structure",
     description:
-      "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Sponizr operates as a Data Processor for club member data, handling it only according to club instructions. For account-level data, Sponizr acts as Data Controller.",
+      "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Clubnizer operates as a Data Processor for club member data, handling it only according to club instructions. For account-level data, Clubnizer acts as Data Controller.",
   },
   {
     icon: Server,
     title: "Modern Cloud Infrastructure",
     description:
-      "Sponizr is built on modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to help protect against unauthorized access.",
+      "Clubnizer is built on modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to help protect against unauthorized access.",
   },
   {
     icon: Lock,
@@ -23,7 +23,7 @@ const SECURITY_POINTS = [
     icon: Eye,
     title: "Minimal Data Collection",
     description:
-      "We collect and store only the data necessary to provide the service. Sponizr does not sell personal data and does not use data for advertising purposes.",
+      "We collect and store only the data necessary to provide the service. Clubnizer does not sell personal data and does not use data for advertising purposes.",
   },
   {
     icon: Key,
@@ -35,7 +35,7 @@ const SECURITY_POINTS = [
     icon: FileText,
     title: "Responsible Deletion Practices",
     description:
-      "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion. Clubs may request deletion at any time via support@sponizr.com.",
+      "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion. Clubs may request deletion at any time via support@clubnizer.com.",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function SecuritySection() {
           <span className="section-label-blue">Trust & Compliance</span>
           <h2 className="section-heading mb-4">Security and Data Protection</h2>
           <p className="section-sub">
-            Managing a sports club means handling personal data for members — including youth members. We take that responsibility seriously and build Sponizr with security and data protection at the core.
+            Managing a sports club means handling personal data for members — including youth members. We take that responsibility seriously and build Clubnizer with security and data protection at the core.
           </p>
         </div>
 

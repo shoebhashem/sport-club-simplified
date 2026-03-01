@@ -22,7 +22,7 @@ export default function LegalTerms() {
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>1. Introduction & Acceptance</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Welcome to Sponizr ("Service," "Platform," "we," "us," or "our"). These Terms of Service ("Terms") govern your access to and use of Sponizr, a platform for managing sports clubs, groups, events, and member communications. By creating an account, accessing, or using Sponizr, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you may not use the Service.
+                Welcome to Clubnizer ("Service," "Platform," "we," "us," or "our"). These Terms of Service ("Terms") govern your access to and use of Clubnizer, a platform for managing sports clubs, groups, events, and member communications. By creating an account, accessing, or using Clubnizer, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you may not use the Service.
               </p>
             </section>
 
@@ -30,13 +30,13 @@ export default function LegalTerms() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>2. Definitions</h2>
               <ul className="space-y-2 list-none">
                 {[
-                  '"Club": An organization created on Sponizr to manage sports teams, groups, and members.',
+                  '"Club": An organization created on Clubnizer to manage sports teams, groups, and members.',
                   '"Club Administrator": A user with administrative privileges over a Club.',
                   '"Member": A user who belongs to one or more Clubs on the Platform.',
                   '"Youth Member": A member under the age of 16 who requires guardian association.',
                   '"Guardian": An adult user responsible for a Youth Member\'s participation.',
                   '"Data Controller": The entity that determines the purposes and means of processing personal data (Clubs, in the context of Club member data).',
-                  '"Data Processor": The entity that processes personal data on behalf of a Data Controller (Sponizr, in the context of Club member data).',
+                  '"Data Processor": The entity that processes personal data on behalf of a Data Controller (Clubnizer, in the context of Club member data).',
                   '"Personal Data": Any information relating to an identified or identifiable individual.',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
@@ -53,7 +53,7 @@ export default function LegalTerms() {
                 To create an account, you must be at least 16 years of age (or have guardian consent if younger), provide accurate registration information, and maintain the security of your account credentials. You are responsible for all activities that occur under your account.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                <strong>If you create or administer a Club on Sponizr, you represent and warrant that you have the authority to bind the Club (and, if applicable, the legal entity it represents) to these Terms, including the Data Processing provisions contained herein.</strong>
+                <strong>If you create or administer a Club on Clubnizer, you represent and warrant that you have the authority to bind the Club (and, if applicable, the legal entity it represents) to these Terms, including the Data Processing provisions contained herein.</strong>
               </p>
             </section>
 
@@ -63,30 +63,30 @@ export default function LegalTerms() {
                 Clubs and their designated administrators act as Data Controllers for personal data collected and processed within their Club. As Data Controllers, Club administrators determine the purposes for which member data is collected, are responsible for ensuring a lawful basis exists for processing, determine which members have access to other members' information, and are responsible for complying with applicable data protection laws.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                <strong>Club administrators are solely responsible for obtaining appropriate consent from guardians before adding Youth Members to the Platform.</strong> Sponizr does not independently verify that guardian consent has been obtained.
+                <strong>Club administrators are solely responsible for obtaining appropriate consent from guardians before adding Youth Members to the Platform.</strong> Clubnizer does not independently verify that guardian consent has been obtained.
               </p>
             </section>
 
             <section>
-              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>5. Sponizr as Data Processor</h2>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>5. Clubnizer as Data Processor</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Sponizr acts solely as a Data Processor on behalf of Clubs for data processed within Clubs. We process personal data only on documented instructions from Clubs, do not independently determine the purposes or means of processing Club member data, do not use Club member data for our own purposes beyond providing and improving the Service, and implement appropriate technical and organizational measures to protect personal data. For data directly related to your Sponizr account, Sponizr acts as a Data Controller.
+                Clubnizer acts solely as a Data Processor on behalf of Clubs for data processed within Clubs. We process personal data only on documented instructions from Clubs, do not independently determine the purposes or means of processing Club member data, do not use Club member data for our own purposes beyond providing and improving the Service, and implement appropriate technical and organizational measures to protect personal data. For data directly related to your Clubnizer account, Clubnizer acts as a Data Controller.
               </p>
             </section>
 
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>6. Data Processing Agreement</h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                This section constitutes the Data Processing Agreement ("DPA") between Sponizr (Processor) and Clubs (Controllers) as required under applicable data protection laws. Processing covers the provision of club management platform services for the duration of the Club's use of the Service.
+                This section constitutes the Data Processing Agreement ("DPA") between Clubnizer (Processor) and Clubs (Controllers) as required under applicable data protection laws. Processing covers the provision of club management platform services for the duration of the Club's use of the Service.
               </p>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Sponizr engages sub-processors including Google Cloud / Firebase (infrastructure, authentication, database), Stripe (payment processing), and email delivery providers. We may update sub-processors from time to time and will communicate material changes via the Platform.
+                Clubnizer engages sub-processors including Google Cloud / Firebase (infrastructure, authentication, database), Stripe (payment processing), and email delivery providers. We may update sub-processors from time to time and will communicate material changes via the Platform.
               </p>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Sponizr implements appropriate technical and organizational measures to protect personal data, including encryption of data in transit and at rest, access controls and authentication mechanisms, regular security assessments, and incident response procedures. We do not guarantee absolute security, as no method of transmission over the Internet or electronic storage is completely secure.
+                Clubnizer implements appropriate technical and organizational measures to protect personal data, including encryption of data in transit and at rest, access controls and authentication mechanisms, regular security assessments, and incident response procedures. We do not guarantee absolute security, as no method of transmission over the Internet or electronic storage is completely secure.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                In the event of a personal data breach affecting Club data, Sponizr will notify the affected Club without undue delay and in accordance with applicable law.
+                In the event of a personal data breach affecting Club data, Clubnizer will notify the affected Club without undue delay and in accordance with applicable law.
               </p>
             </section>
 
@@ -100,7 +100,7 @@ export default function LegalTerms() {
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>8. Intellectual Property</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                The Service, including its design, features, and content (excluding user content), is owned by Sponizr and protected by intellectual property laws. You retain ownership of content you create on the Platform. By posting content, you grant Sponizr a non-exclusive, worldwide, royalty-free license to use, display, and distribute such content solely for the purpose of providing the Service.
+                The Service, including its design, features, and content (excluding user content), is owned by Clubnizer and protected by intellectual property laws. You retain ownership of content you create on the Platform. By posting content, you grant Clubnizer a non-exclusive, worldwide, royalty-free license to use, display, and distribute such content solely for the purpose of providing the Service.
               </p>
             </section>
 
@@ -114,14 +114,14 @@ export default function LegalTerms() {
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>10. Limitation of Liability</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                To the maximum extent permitted by applicable law, Sponizr shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or business opportunities. Total aggregate liability shall not exceed the fees paid by you in the twelve (12) months preceding the claim. Some jurisdictions do not allow limitation of liability for certain damages; in such jurisdictions, our liability is limited to the greatest extent permitted by applicable law.
+                To the maximum extent permitted by applicable law, Clubnizer shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or business opportunities. Total aggregate liability shall not exceed the fees paid by you in the twelve (12) months preceding the claim. Some jurisdictions do not allow limitation of liability for certain damages; in such jurisdictions, our liability is limited to the greatest extent permitted by applicable law.
               </p>
             </section>
 
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>11. Indemnification</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                You agree to indemnify and hold harmless Sponizr from any claims arising from your use of the Service, violation of these Terms, or violation of any third-party rights. Club administrators additionally agree to indemnify Sponizr for any claims arising from their failure to obtain proper guardian consent for Youth Members, establish lawful basis for processing member data, or fulfill their obligations as Data Controllers.
+                You agree to indemnify and hold harmless Clubnizer from any claims arising from your use of the Service, violation of these Terms, or violation of any third-party rights. Club administrators additionally agree to indemnify Clubnizer for any claims arising from their failure to obtain proper guardian consent for Youth Members, establish lawful basis for processing member data, or fulfill their obligations as Data Controllers.
               </p>
             </section>
 
@@ -142,7 +142,7 @@ export default function LegalTerms() {
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>14. Entire Agreement</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                These Terms, together with the Privacy Policy, constitute the entire agreement between you and Sponizr regarding the Service and supersede all prior agreements, understandings, and communications, whether written or oral.
+                These Terms, together with the Privacy Policy, constitute the entire agreement between you and Clubnizer regarding the Service and supersede all prior agreements, understandings, and communications, whether written or oral.
               </p>
             </section>
 
@@ -156,7 +156,7 @@ export default function LegalTerms() {
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>16. Assignment</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                You may not assign or transfer these Terms or any rights hereunder without Sponizr's prior written consent. Any attempted assignment in violation of this section shall be void. Sponizr may assign these Terms without restriction, including in connection with a merger, acquisition, or sale of assets.
+                You may not assign or transfer these Terms or any rights hereunder without Clubnizer's prior written consent. Any attempted assignment in violation of this section shall be void. Clubnizer may assign these Terms without restriction, including in connection with a merger, acquisition, or sale of assets.
               </p>
             </section>
 
@@ -171,13 +171,13 @@ export default function LegalTerms() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>18. Contact Information</h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 For questions about these Terms:{" "}
-                <a href="mailto:support@sponizr.com" style={{ color: "hsl(var(--accent-blue))" }}>support@sponizr.com</a> (General Support) or{" "}
-                <a href="mailto:legal@sponizr.com" style={{ color: "hsl(var(--accent-blue))" }}>legal@sponizr.com</a> (Legal Inquiries).
+                <a href="mailto:support@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@clubnizer.com</a> (General Support) or{" "}
+                <a href="mailto:legal@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>legal@clubnizer.com</a> (Legal Inquiries).
               </p>
             </section>
 
             <p className="text-sm italic pt-6 border-t" style={{ borderColor: "hsl(0 0% 100% / 0.08)", color: "hsl(var(--foreground-muted))" }}>
-              By using Sponizr, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+              By using Clubnizer, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
             </p>
           </div>
         </div>

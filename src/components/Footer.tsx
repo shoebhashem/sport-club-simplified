@@ -17,12 +17,12 @@ export default function Footer() {
             <div className="flex items-center gap-2.5 mb-3">
               <img
                 src="/favicon.ico"
-                alt="Sponizr logo"
+                alt="Clubnizer logo"
                 className="w-9 h-9 rounded-xl object-contain"
               />
               <div className="flex flex-col leading-none">
                 <span className="font-display font-bold text-lg tracking-tight" style={{ color: "hsl(var(--brand))" }}>
-                  Sponizr
+                  Clubnizer
                 </span>
                 <span className="text-[10px] font-medium tracking-widest uppercase" style={{ color: "hsl(0 0% 100%)" }}>
                   Organizing Sports!
@@ -68,16 +68,16 @@ export default function Footer() {
               Contact & Support
             </h4>
             <a
-              href="mailto:support@sponizr.com"
+              href="mailto:support@clubnizer.com"
               className="inline-flex items-center gap-2 text-sm transition-colors duration-200"
               style={{ color: "hsl(0 0% 100% / 0.60)" }}
             >
               <Mail size={14} />
-              support@sponizr.com
+              support@clubnizer.com
             </a>
             <div className="mt-4">
               <a
-                href="https://app.sponizr.com"
+                href="https://app.clubnizer.com"
                 className="inline-flex items-center gap-1.5 text-sm font-semibold font-display"
                 style={{ color: "hsl(var(--brand))" }}
               >
@@ -91,7 +91,7 @@ export default function Footer() {
           className="border-t pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs"
           style={{ borderColor: "hsl(0 0% 100% / 0.06)", color: "hsl(0 0% 100% / 0.30)" }}
         >
-          <span>© {year} Sponizr. All rights reserved.</span>
+          <span>© {year} Clubnizer. All rights reserved.</span>
           <span>A structured platform for modern sports teams and clubs.</span>
         </div>
       </div>

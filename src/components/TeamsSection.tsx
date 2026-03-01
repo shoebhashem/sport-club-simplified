@@ -27,7 +27,7 @@ export default function TeamsSection() {
               <div className="text-center mb-6">
                 <img
                   src="/favicon.ico"
-                  alt="Sponizr"
+                  alt="Clubnizer"
                   className="w-16 h-16 rounded-2xl mx-auto object-contain"
                 />
                 <p
@@ -83,7 +83,7 @@ export default function TeamsSection() {
               <span style={{ color: "hsl(var(--brand))" }}>Structured for Clubs.</span>
             </h2>
             <p className="section-sub mb-8">
-              Whether you manage a single youth football team or oversee an entire club with multiple squads, Sponizr gives you the structure to stay in control without drowning in administration.
+              Whether you manage a single youth football team or oversee an entire club with multiple squads, Clubnizer gives you the structure to stay in control without drowning in administration.
             </p>
 
             <ul className="space-y-3">

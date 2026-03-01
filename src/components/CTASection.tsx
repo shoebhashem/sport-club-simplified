@@ -43,11 +43,11 @@ export default function CTASection() {
               className="text-lg max-w-xl mx-auto mb-10"
               style={{ color: "hsl(0 0% 100% / 0.60)" }}
             >
-              Let Sponizr organize the structure — so you can focus on the sport.
+              Let Clubnizer organize the structure — so you can focus on the sport.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://app.sponizr.com" className="btn-primary text-base">
+              <a href="https://app.clubnizer.com" className="btn-primary text-base">
                 Get Started <ArrowRight size={18} />
               </a>
               <a href="#contact" className="btn-hero-outline text-base">
