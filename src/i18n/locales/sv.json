@@ -1,0 +1,186 @@
+{
+  "seo": {
+    "title": "Clubnizer – Föreningssystem för idrottsklubbar | Enkel klubbadministration",
+    "description": "Clubnizer är en strukturerad plattform för klubbhantering. Hantera medlemmar, närvaro, evenemang och medlemsavgifter — allt på ett ställe. Föreningssystem byggt för moderna idrottslag och klubbar.",
+    "keywords": "föreningssystem, föreningsadministration, medlemsregister, medlemsavgift, idrottsförening system, laghantering, idrottsapp, föreningsapp, klubbapp, lagapp, klubbadministration, medlemsregister online, digitalt föreningssystem, hantera idrottsförening, närvarohantering idrott, sportlag app, idrottslag administration, alternativ till SportAdmin, idrottsförbund, träningsplanering, matchplanering, klubbhantering, Clubnizer"
+  },
+  "header": {
+    "features": "Funktioner",
+    "pricing": "Priser",
+    "ourStory": "Vår historia",
+    "security": "Säkerhet",
+    "contact": "Kontakt",
+    "tryWebApp": "Testa webbappen",
+    "tagline": "Organizing Sports!"
+  },
+  "hero": {
+    "label": "Plattform för klubbhantering",
+    "titleLine1": "Klubbadministration",
+    "titleLine2": "— Förenklad.",
+    "description": "Hantera medlemmar, evenemang, närvaro och medlemsavgifter i en ren och strukturerad plattform byggd för moderna idrottslag och klubbar.",
+    "ctaPrimary": "Testa webbappen",
+    "ctaSecondary": "Kontakta oss",
+    "stat1Value": "Fokuserad",
+    "stat1Label": "Plattform",
+    "stat2Value": "Enkel",
+    "stat2Label": "Installation",
+    "stat3Value": "Säker",
+    "stat3Label": "Från grunden",
+    "scroll": "Scrolla"
+  },
+  "problem": {
+    "label": "Utmaningen",
+    "heading": "För mycket administration.",
+    "headingHighlight": "För lite idrott.",
+    "description": "Klubbadministratörer och tränare känner igen känslan: du ställer upp frivilligt för att hjälpa ett lag, och slutar med att spendera mer tid i kalkylark än på planen. Att administrera en idrottsförening borde inte kräva ett heltidsjobb.",
+    "descriptionSecondary": "Clubnizer är byggt som ett fokuserat alternativ till komplexa föreningssystem — rent, strukturerat och designat kring det som faktiskt spelar roll.",
+    "listTitle": "Känner du igen dig?",
+    "problems": [
+      "Medlemslistor utspridda i kalkylark",
+      "Manuell uppföljning av medlemsavgifter utan tydlig överblick",
+      "Oklart vem som har betalat och vem som inte har det",
+      "Komplicerade föreningssystem som tar veckor att lära sig",
+      "För många fristående verktyg som drar åt olika håll",
+      "Timmar som slösas på administration istället för att spenderas på idrotten"
+    ],
+    "tagline": "Clubnizer byggdes för att lösa exakt dessa problem — av någon som levde med dem."
+  },
+  "features": {
+    "label": "Funktioner",
+    "heading": "Allt du behöver för att",
+    "headingHighlight": "organisera din klubb",
+    "subheading": "Fem fokuserade grundpelare för klubbadministration — designade för att ersätta utspridda verktyg med en tydlig, strukturerad plattform för idrottslag.",
+    "items": [
+      {
+        "title": "Medlemshantering",
+        "description": "Håll alla medlemsregister organiserade och tillgängliga. Hantera roller, föräldra- och spelarstrukturer och behåll en tydlig överblick över alla i din klubb.",
+        "points": ["Organiserade medlemsregister", "Rollbaserad åtkomstkontroll", "Föräldra- och vårdnadshavarstruktur för ungdomsmedlemmar"]
+      },
+      {
+        "title": "Evenemang & träningsplanering",
+        "description": "Planera träningar, matcher och klubbevenemang enkelt. Skicka inbjudningar och följ tillgänglighet så att du alltid vet vem som kommer.",
+        "points": ["Skapa träningar och matcher", "Skicka inbjudningar till medlemmar", "Följ tillgänglighet och svar"]
+      },
+      {
+        "title": "Närvarohantering",
+        "description": "Få en tydlig överblick över närvaron vid alla träningar och evenemang. Historiska register låter dig upptäcka mönster och hålla alla ansvariga.",
+        "points": ["Tydlig närvaroöversikt", "Historiska närvaroregister", "Följ deltagandetrender"]
+      },
+      {
+        "title": "Medlemsavgifter & betalningshantering",
+        "description": "Få en ren överblick över medlemsavgiftsstatus. Se exakt vem som har betalat och vem som inte har det — med säkra onlinebetalningar för att minska manuella uppföljningar.",
+        "points": ["Se vem som har betalat", "Se utestående betalningar på ett ögonkast", "Säkra onlinebetalningar", "Minskad administrativ arbetsbelastning"],
+        "note": "Betalningar hanteras via säker tredjepartsinrastruktur. Betalningsfunktioner utvecklas kontinuerligt."
+      },
+      {
+        "title": "Strukturerad kommunikation",
+        "description": "Riktad kommunikation utan kaos. Dela nyheter och uppdateringar på klubb-, grupp- eller undergruppsnivå — nå rätt personer med rätt information.",
+        "points": ["Klubbövergripande nyheter", "Gruppnivåuppdateringar", "Undergruppkoordinering", "Rollbaserad synlighet"]
+      }
+    ]
+  },
+  "founder": {
+    "label": "Vår historia",
+    "heading": "Byggt från sidlinjen",
+    "paragraph1": "Clubnizer skapades ur verkligt engagemang i ungdomsidrott. Genom att vara volontärtränare och vara nära involverad i att organisera lag, träningar och matcher blev det tydligt hur mycket tid som gick åt till administration istället för att fokusera på själva idrotten.",
+    "paragraph2": "Att hantera medlemmar, följa närvaro och följa upp medlemsavgifter kändes ofta mer komplicerat än nödvändigt. Det var kalkylark, separata meddelandeappar, manuella betalningslistor — och inget hängde ihop.",
+    "paragraph3": "Clubnizer byggdes för att förenkla det grundläggande — skapa struktur utan onödig komplexitet. Inte för att det var en affärsidé först, utan för att det fanns ett genuint behov.",
+    "goalPrefix": "Målet är enkelt:",
+    "goalHighlight": "Göra det enklare, lugnare och effektivare att organisera idrott."
+  },
+  "teams": {
+    "label": "För lag & klubbar",
+    "heading": "Byggt för lag.",
+    "headingHighlight": "Strukturerat för klubbar.",
+    "description": "Oavsett om du hanterar ett enskilt ungdomsfotbollslag eller överser en hel klubb med flera lag, ger Clubnizer dig strukturen att behålla kontrollen utan att drunkna i administration.",
+    "yourClub": "Din klubb",
+    "teamA": "Lag A",
+    "teamB": "Lag B",
+    "teamC": "Lag C",
+    "diagramCaption": "En plattform — flera lag, en tydlig överblick",
+    "benefits": [
+      "Fungerar sömlöst för ett enskilt lag",
+      "Skalar upp för flera lag inom en klubb",
+      "Minskar den administrativa bördan på alla nivåer",
+      "Behåller tydlig ekonomisk- och medlemsöversikt",
+      "Rollbaserad åtkomst för tränare, administratörer och medlemmar",
+      "Designat för både små lag och större organisationer"
+    ]
+  },
+  "pricing": {
+    "label": "Priser",
+    "heading": "Tillgängliga priser för",
+    "headingHighlight": "klubbar i alla storlekar",
+    "subheading": "Clubnizer är designat för att förbli kostnadseffektivt och tillgängligt. Transparent prissättning som skalar med din organisation — inga dolda avgifter.",
+    "popular": "Populär",
+    "perMonth": "/mån",
+    "footnote": "Clubnizer optimeras kontinuerligt för att förbli tillgängligt för klubbar i alla storlekar. Priser finns även i SEK, NOK och DKK.",
+    "tiers": [
+      { "name": "Gratis", "price": "0 kr", "description": "Kom igång med ditt första lag", "features": ["Upp till 50 medlemmar"] },
+      { "name": "Basic", "price": "299 kr", "description": "För växande klubbar med fler medlemmar", "features": ["Upp till 500 medlemmar"] },
+      { "name": "Pro", "price": "549 kr", "description": "För etablerade klubbar och organisationer", "features": ["Upp till 2 000 medlemmar"] },
+      { "name": "Enterprise", "price": "Kontakta oss", "description": "För stora organisationer med specialbehov", "features": ["Obegränsat antal medlemmar", "Anpassad konfiguration", "Dedikerad support"] }
+    ]
+  },
+  "improving": {
+    "roadmapLabel": "Utveckling",
+    "roadmapHeading": "Ständig förbättring",
+    "roadmapDescription": "Clubnizer utvecklas aktivt och förbättras löpande baserat på verklig användning och feedback från idrottslag och klubbar. Vi är engagerade i att bygga en plattform som växer tillsammans med moderna idrottsorganisationers behov.",
+    "roadmapDescription2": "Varje uppdatering styrs av praktisk erfarenhet — inte trender. Funktioner läggs till när de genuint minskar administration och förbättrar tydligheten för administratörer och tränare.",
+    "feedbackTitle": "Feedbackdriven utveckling",
+    "feedbackDescription": "Varje förslag räknas. Om du stöter på en bugg, har en funktionsidé eller vill dela feedback från verklig klubbanvändning, vill vi höra från dig.",
+    "contactLabel": "Kontakta oss",
+    "contactHeading": "Frågor eller feedback?",
+    "contactDescription": "För förslag, frågor eller buggrapporter, hör av dig direkt. Din upplevelse av Clubnizer formar vad som byggs härnäst.",
+    "emailLabel": "För support, feedback och buggrapporter",
+    "contactTopics": [
+      "Buggrapporter och tekniska problem",
+      "Funktionsförslag från verklig användning",
+      "Allmänna frågor om plattformen",
+      "Feedback om din klubbhanteringsupplevelse"
+    ]
+  },
+  "security": {
+    "label": "Förtroende & efterlevnad",
+    "heading": "Säkerhet och dataskydd",
+    "subheading": "Att hantera en idrottsförening innebär hantering av personuppgifter — inklusive för ungdomsmedlemmar. Vi tar det ansvaret på allvar och bygger Clubnizer med säkerhet och dataskydd i kärnan.",
+    "items": [
+      { "title": "Personuppgiftsansvarig & biträdesstruktur", "description": "Klubbar och organisationer agerar som personuppgiftsansvariga och bestämmer vilka personuppgifter som registreras. Clubnizer fungerar som personuppgiftsbiträde för klubbmedlemsdata och hanterar den enbart enligt klubbens instruktioner." },
+      { "title": "Modern molninfrastruktur", "description": "Clubnizer är byggt på modern molninfrastruktur med kryptering under överföring och i vila. Åtkomstkontroller och övervakning finns på plats för att skydda mot obehörig åtkomst." },
+      { "title": "Byggt med dataskydd i åtanke", "description": "Personuppgifter hanteras i enlighet med tillämpliga dataskyddslagar, inklusive GDPR. Vi implementerar lämpliga tekniska och organisatoriska åtgärder för att skydda data som anförtros oss." },
+      { "title": "Minimal datainsamling", "description": "Vi samlar in och lagrar bara den data som krävs för att tillhandahålla tjänsten. Clubnizer säljer inte personuppgifter och använder inte data för reklamändamål." },
+      { "title": "Kryptering & åtkomstkontroller", "description": "Data skyddas med branschstandardkryptering. Åtkomst till system och data begränsas baserat på roll och behov, enligt principen om minsta behörighet." },
+      { "title": "Ansvarsfulla raderingsrutiner", "description": "Raderade konton och borttagna medlemskap har en tillfällig återställningsperiod innan permanent radering. Klubbar kan begära radering när som helst via support@clubnizer.com." }
+    ],
+    "legalNote": "För detaljerad information om hur vi hanterar data, se vår",
+    "privacyPolicy": "Integritetspolicy",
+    "and": "och",
+    "termsOfService": "Användarvillkor"
+  },
+  "cta": {
+    "label": "Kom igång idag",
+    "headingLine1": "Spendera mer tid",
+    "headingLine2": "på planen.",
+    "description": "Låt Clubnizer organisera strukturen — så att du kan fokusera på idrotten.",
+    "ctaPrimary": "Kom igång",
+    "ctaSecondary": "Kontakta oss"
+  },
+  "footer": {
+    "brandDescription": "En strukturerad plattform för klubbhantering designad för att minska administrativt arbete så att lagen kan fokusera på idrotten.",
+    "navigation": "Navigering",
+    "contactSupport": "Kontakt & support",
+    "openWebApp": "Öppna webbappen",
+    "copyright": "© {{year}} Clubnizer. Alla rättigheter förbehållna.",
+    "tagline": "En strukturerad plattform för moderna idrottslag och klubbar.",
+    "privacyPolicy": "Integritetspolicy",
+    "termsOfService": "Användarvillkor"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hoppsan! Sidan hittades inte",
+    "returnHome": "Tillbaka till startsidan"
+  },
+  "languageSwitcher": {
+    "label": "Språk"
+  }
+}

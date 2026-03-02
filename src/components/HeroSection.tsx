@@ -1,7 +1,10 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
+  const { t } = useTranslation();
+
   return (
     <section
       className="relative min-h-screen flex flex-col justify-center overflow-hidden"
@@ -30,14 +33,14 @@ export default function HeroSection() {
       <div className="relative site-container pt-32 pb-24 md:pt-40 md:pb-32">
         <div className="max-w-3xl">
           <div className="section-label mb-6">
-            Sport Club Management Platform
+            {t("hero.label")}
           </div>
 
           <h1
             className="font-display font-black text-4xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight mb-6"
             style={{ color: "hsl(0 0% 100%)" }}
           >
-            Sport Club Management
+            {t("hero.titleLine1")}
             <span
               className="block"
               style={{
@@ -47,7 +50,7 @@ export default function HeroSection() {
                 backgroundClip: "text",
               }}
             >
-              — Simplified.
+              {t("hero.titleLine2")}
             </span>
           </h1>
 
@@ -55,16 +58,15 @@ export default function HeroSection() {
             className="text-lg md:text-xl leading-relaxed mb-10 max-w-2xl"
             style={{ color: "hsl(0 0% 100% / 0.65)" }}
           >
-            Manage members, events, attendance and membership fees in a clean and
-            structured platform designed for modern sports teams and clubs.
+            {t("hero.description")}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="https://app.clubnizer.com" className="btn-primary text-base">
-              Try the Web App <ArrowRight size={18} />
+              {t("hero.ctaPrimary")} <ArrowRight size={18} />
             </a>
             <a href="#contact" className="btn-hero-outline text-base">
-              Contact Us
+              {t("hero.ctaSecondary")}
             </a>
           </div>
 
@@ -74,9 +76,9 @@ export default function HeroSection() {
             style={{ borderTop: "1px solid hsl(0 0% 100% / 0.10)" }}
           >
             {[
-              { value: "Focused", label: "Platform" },
-              { value: "Simple", label: "Setup" },
-              { value: "Secure", label: "By Design" },
+              { value: t("hero.stat1Value"), label: t("hero.stat1Label") },
+              { value: t("hero.stat2Value"), label: t("hero.stat2Label") },
+              { value: t("hero.stat3Value"), label: t("hero.stat3Label") },
             ].map((stat) => (
               <div key={stat.label}>
                 <div
@@ -101,7 +103,7 @@ export default function HeroSection() {
         style={{ color: "hsl(0 0% 100% / 0.30)" }}
         aria-label="Scroll down"
       >
-        <span className="text-xs font-medium uppercase tracking-widest font-display">Scroll</span>
+        <span className="text-xs font-medium uppercase tracking-widest font-display">{t("hero.scroll")}</span>
         <ChevronDown size={18} className="animate-bounce" />
       </a>
     </section>

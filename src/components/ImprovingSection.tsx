@@ -1,6 +1,10 @@
 import { Zap, Mail } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function ImprovingSection() {
+  const { t } = useTranslation();
+  const contactTopics = t("improving.contactTopics", { returnObjects: true }) as string[];
+
   return (
     <section
       id="contact"
@@ -11,13 +15,13 @@ export default function ImprovingSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Continuously Improving */}
           <div>
-            <span className="section-label">Roadmap</span>
-            <h2 className="section-heading mb-5">Continuously Improving</h2>
+            <span className="section-label">{t("improving.roadmapLabel")}</span>
+            <h2 className="section-heading mb-5">{t("improving.roadmapHeading")}</h2>
             <p className="section-sub mb-6">
-              Clubnizer is actively evolving and continuously improving based on real-world use and feedback from sports teams and clubs. We are committed to building a sport club management platform that grows together with the needs of modern sports organizations.
+              {t("improving.roadmapDescription")}
             </p>
             <p className="section-sub mb-8">
-              Every update is guided by practical experience — not trends. Features are added when they genuinely reduce administrative overhead and improve clarity for administrators and coaches.
+              {t("improving.roadmapDescription2")}
             </p>
 
             <div
@@ -33,21 +37,21 @@ export default function ImprovingSection() {
                   <Zap size={18} style={{ color: "hsl(var(--navy))" }} />
                 </div>
                 <h3 className="font-display font-bold text-base" style={{ color: "hsl(0 0% 100%)" }}>
-                  Feedback-Driven Development
+                  {t("improving.feedbackTitle")}
                 </h3>
               </div>
               <p className="text-sm leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Every suggestion counts. If you encounter a bug, have a feature idea, or want to share feedback from real club use, we want to hear from you.
+                {t("improving.feedbackDescription")}
               </p>
             </div>
           </div>
 
           {/* Contact */}
           <div>
-            <span className="section-label-blue">Get In Touch</span>
-            <h2 className="section-heading mb-5">Questions or Feedback?</h2>
+            <span className="section-label-blue">{t("improving.contactLabel")}</span>
+            <h2 className="section-heading mb-5">{t("improving.contactHeading")}</h2>
             <p className="section-sub mb-8">
-              For suggestions, questions or bug reports, reach out directly. Your experience using Clubnizer shapes what gets built next.
+              {t("improving.contactDescription")}
             </p>
 
             <a
@@ -63,19 +67,14 @@ export default function ImprovingSection() {
                   support@clubnizer.com
                 </p>
                 <p className="text-sm" style={{ color: "hsl(var(--foreground-muted))" }}>
-                  For support, feedback and bug reports
+                  {t("improving.emailLabel")}
                 </p>
               </div>
             </a>
 
             <div className="mt-6 space-y-3">
-              {[
-                "Bug reports and technical issues",
-                "Feature suggestions from real use",
-                "General questions about the platform",
-                "Feedback on your club management experience",
-              ].map((item) => (
-                <div key={item} className="flex items-center gap-3 text-sm">
+              {contactTopics.map((item, i) => (
+                <div key={i} className="flex items-center gap-3 text-sm">
                   <span
                     className="w-1.5 h-1.5 rounded-full shrink-0"
                     style={{ background: "hsl(var(--accent-blue))" }}

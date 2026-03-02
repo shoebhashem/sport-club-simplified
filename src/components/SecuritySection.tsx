@@ -1,61 +1,35 @@
 import { Shield, Lock, Eye, FileText, Server, Key } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { useLocalePath } from "@/hooks/use-locale-path";
 
-const SECURITY_POINTS = [
-  {
-    icon: Shield,
-    title: "Controller & Processor Structure",
-    description:
-      "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Clubnizer operates as a Data Processor for club member data, handling it only according to club instructions. For account-level data, Clubnizer acts as Data Controller.",
-  },
-  {
-    icon: Server,
-    title: "Modern Cloud Infrastructure",
-    description:
-      "Clubnizer is built on modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to help protect against unauthorized access.",
-  },
-  {
-    icon: Lock,
-    title: "Designed with Data Protection in Mind",
-    description:
-      "Personal data is handled in accordance with applicable data protection laws, including GDPR. We implement appropriate technical and organizational measures to safeguard the data entrusted to us.",
-  },
-  {
-    icon: Eye,
-    title: "Minimal Data Collection",
-    description:
-      "We collect and store only the data necessary to provide the service. Clubnizer does not sell personal data and does not use data for advertising purposes.",
-  },
-  {
-    icon: Key,
-    title: "Encryption & Access Controls",
-    description:
-      "Data is protected using industry-standard encryption. Access to systems and data is restricted based on role and necessity, following the principle of least privilege.",
-  },
-  {
-    icon: FileText,
-    title: "Responsible Deletion Practices",
-    description:
-      "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion. Clubs may request deletion at any time via support@clubnizer.com.",
-  },
-];
+const SECURITY_ICONS = [Shield, Server, Lock, Eye, Key, FileText];
+
+interface SecurityItem {
+  title: string;
+  description: string;
+}
 
 export default function SecuritySection() {
+  const { t } = useTranslation();
+  const lp = useLocalePath();
+  const items = t("security.items", { returnObjects: true }) as SecurityItem[];
+
   return (
     <section id="security" className="py-24 md:py-32">
       <div className="site-container">
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <span className="section-label-blue">Trust & Compliance</span>
-          <h2 className="section-heading mb-4">Security and Data Protection</h2>
+          <span className="section-label-blue">{t("security.label")}</span>
+          <h2 className="section-heading mb-4">{t("security.heading")}</h2>
           <p className="section-sub">
-            Managing a sports club means handling personal data for members — including youth members. We take that responsibility seriously and build Clubnizer with security and data protection at the core.
+            {t("security.subheading")}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {SECURITY_POINTS.map((point) => {
-            const Icon = point.icon;
+          {items.map((point, i) => {
+            const Icon = SECURITY_ICONS[i] || Shield;
             return (
-              <div key={point.title} className="feature-card flex flex-col gap-4">
+              <div key={i} className="feature-card flex flex-col gap-4">
                 <div className="feature-icon-blue w-11 h-11 shrink-0">
                   <Icon size={20} style={{ color: "hsl(var(--accent-blue))" }} />
                 </div>
@@ -76,13 +50,13 @@ export default function SecuritySection() {
           className="text-center text-sm mt-10 max-w-xl mx-auto"
           style={{ color: "hsl(var(--foreground-muted))" }}
         >
-          For detailed information about how we handle data, see our{" "}
-          <a href="/legal/privacy" style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
-            Privacy Policy
+          {t("security.legalNote")}{" "}
+          <a href={lp("/legal/privacy")} style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
+            {t("security.privacyPolicy")}
           </a>{" "}
-          and{" "}
-          <a href="/legal/terms" style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
-            Terms of Service
+          {t("security.and")}{" "}
+          <a href={lp("/legal/terms")} style={{ color: "hsl(var(--accent-blue))" }} className="underline underline-offset-2">
+            {t("security.termsOfService")}
           </a>
           .
         </p>

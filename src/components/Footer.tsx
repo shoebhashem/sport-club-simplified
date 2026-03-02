@@ -1,7 +1,20 @@
 import { Mail, ExternalLink } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { useLocalePath } from "@/hooks/use-locale-path";
 
 export default function Footer() {
+  const { t } = useTranslation();
+  const lp = useLocalePath();
   const year = new Date().getFullYear();
+
+  const navLinks = [
+    { label: t("header.features"), href: "#features" },
+    { label: t("header.ourStory"), href: "#story" },
+    { label: t("header.security"), href: "#security" },
+    { label: t("footer.privacyPolicy"), href: lp("/legal/privacy") },
+    { label: t("footer.termsOfService"), href: lp("/legal/terms") },
+  ];
+
   return (
     <footer
       className="border-t mt-0"
@@ -25,28 +38,22 @@ export default function Footer() {
                   Clubnizer
                 </span>
                 <span className="text-[10px] font-medium tracking-widest uppercase" style={{ color: "hsl(0 0% 100%)" }}>
-                  Organizing Sports!
+                  {t("header.tagline")}
                 </span>
               </div>
             </div>
             <p className="text-sm leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.50)" }}>
-              A structured sport club management platform designed to reduce administrative overhead so teams can focus on the sport.
+              {t("footer.brandDescription")}
             </p>
           </div>
 
           {/* Links */}
           <div>
             <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.40)" }}>
-              Navigation
+              {t("footer.navigation")}
             </h4>
             <ul className="space-y-2">
-              {[
-                { label: "Features", href: "#features" },
-                { label: "Our Story", href: "#story" },
-                { label: "Security", href: "#security" },
-                { label: "Privacy Policy", href: "/legal/privacy" },
-                { label: "Terms of Service", href: "/legal/terms" },
-              ].map((l) => (
+              {navLinks.map((l) => (
                 <li key={l.href}>
                   <a
                     href={l.href}
@@ -65,7 +72,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.40)" }}>
-              Contact & Support
+              {t("footer.contactSupport")}
             </h4>
             <a
               href="mailto:support@clubnizer.com"
@@ -81,7 +88,7 @@ export default function Footer() {
                 className="inline-flex items-center gap-1.5 text-sm font-semibold font-display"
                 style={{ color: "hsl(var(--brand))" }}
               >
-                Open Web App <ExternalLink size={13} />
+                {t("footer.openWebApp")} <ExternalLink size={13} />
               </a>
             </div>
           </div>
@@ -91,8 +98,8 @@ export default function Footer() {
           className="border-t pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs"
           style={{ borderColor: "hsl(0 0% 100% / 0.06)", color: "hsl(0 0% 100% / 0.30)" }}
         >
-          <span>© {year} Clubnizer. All rights reserved.</span>
-          <span>A structured platform for modern sports teams and clubs.</span>
+          <span>{t("footer.copyright", { year })}</span>
+          <span>{t("footer.tagline")}</span>
         </div>
       </div>
     </footer>

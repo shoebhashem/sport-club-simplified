@@ -1,15 +1,10 @@
 import { XCircle } from "lucide-react";
-
-const PROBLEMS = [
-  "Membership lists scattered across spreadsheets",
-  "Manual tracking of membership fees with no clear overview",
-  "Unclear picture of who has paid and who hasn't",
-  "Complicated club systems that take weeks to learn",
-  "Too many disconnected tools pulling in different directions",
-  "Hours wasted on administration that should be spent on sport",
-];
+import { useTranslation } from "react-i18next";
 
 export default function ProblemSection() {
+  const { t } = useTranslation();
+  const problems = t("problem.problems", { returnObjects: true }) as string[];
+
   return (
     <section
       id="problem"
@@ -20,16 +15,16 @@ export default function ProblemSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Text */}
           <div>
-            <span className="section-label">The Challenge</span>
+            <span className="section-label">{t("problem.label")}</span>
             <h2 className="section-heading mb-5">
-              Too Much Administration.{" "}
-              <span style={{ color: "hsl(var(--brand))" }}>Not Enough Sport.</span>
+              {t("problem.heading")}{" "}
+              <span style={{ color: "hsl(var(--brand))" }}>{t("problem.headingHighlight")}</span>
             </h2>
             <p className="section-sub mb-8">
-              Club administrators and coaches know the feeling: you volunteer to help a team, and end up spending more time in spreadsheets than on the pitch. Managing sports club administration shouldn't require a full-time commitment.
+              {t("problem.description")}
             </p>
             <p className="section-sub">
-              Clubnizer is built as a focused alternative to complex club management systems — clean, structured, and designed around what actually matters.
+              {t("problem.descriptionSecondary")}
             </p>
           </div>
 
@@ -46,11 +41,11 @@ export default function ProblemSection() {
               className="font-display font-bold text-base mb-5 uppercase tracking-widest"
               style={{ color: "hsl(var(--foreground-muted))" }}
             >
-              Does This Sound Familiar?
+              {t("problem.listTitle")}
             </h3>
             <ul className="space-y-4">
-              {PROBLEMS.map((problem) => (
-                <li key={problem} className="problem-item">
+              {problems.map((problem, i) => (
+                <li key={i} className="problem-item">
                   <XCircle
                     size={20}
                     className="mt-0.5 shrink-0"
@@ -71,7 +66,7 @@ export default function ProblemSection() {
                 className="text-sm font-semibold font-display"
                 style={{ color: "hsl(var(--brand))" }}
               >
-                Clubnizer was built to solve exactly these problems — by someone who lived them.
+                {t("problem.tagline")}
               </p>
             </div>
           </div>

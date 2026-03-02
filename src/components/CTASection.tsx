@@ -1,6 +1,9 @@
 import { ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function CTASection() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 md:py-32">
       <div className="site-container">
@@ -18,14 +21,14 @@ export default function CTASection() {
 
           <div className="relative px-10 py-16 md:py-24 text-center">
             <span className="section-label mb-6">
-              Get Started Today
+              {t("cta.label")}
             </span>
 
             <h2
               className="font-display font-black text-4xl md:text-5xl lg:text-6xl leading-tight mb-5"
               style={{ color: "hsl(0 0% 100%)" }}
             >
-              Spend More Time
+              {t("cta.headingLine1")}
               <br />
               <span
                 style={{
@@ -35,7 +38,7 @@ export default function CTASection() {
                   backgroundClip: "text",
                 }}
               >
-                on the Field.
+                {t("cta.headingLine2")}
               </span>
             </h2>
 
@@ -43,15 +46,15 @@ export default function CTASection() {
               className="text-lg max-w-xl mx-auto mb-10"
               style={{ color: "hsl(0 0% 100% / 0.60)" }}
             >
-              Let Clubnizer organize the structure — so you can focus on the sport.
+              {t("cta.description")}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="https://app.clubnizer.com" className="btn-primary text-base">
-                Get Started <ArrowRight size={18} />
+                {t("cta.ctaPrimary")} <ArrowRight size={18} />
               </a>
               <a href="#contact" className="btn-hero-outline text-base">
-                Contact Us
+                {t("cta.ctaSecondary")}
               </a>
             </div>
           </div>

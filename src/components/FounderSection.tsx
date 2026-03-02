@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 export default function FounderSection() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="story"
@@ -8,8 +12,8 @@ export default function FounderSection() {
       <div className="site-container">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <span className="section-label">Our Story</span>
-            <h2 className="section-heading">Built From the Sidelines</h2>
+            <span className="section-label">{t("founder.label")}</span>
+            <h2 className="section-heading">{t("founder.heading")}</h2>
           </div>
 
           <div
@@ -30,15 +34,15 @@ export default function FounderSection() {
 
             <div className="relative space-y-5">
               <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
-                Clubnizer was created from real involvement in youth sports. Through volunteering as a coach and being closely involved in organizing teams, training sessions and matches, it became clear how much time was spent on administration instead of focusing on the sport itself.
+                {t("founder.paragraph1")}
               </p>
 
               <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
-                Managing members, tracking attendance and following up on membership fees often felt more complicated than necessary. There were spreadsheets, separate messaging apps, manual payment lists — and none of it talked to each other.
+                {t("founder.paragraph2")}
               </p>
 
               <p className="text-lg leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.85)" }}>
-                Clubnizer was built to simplify the essentials — creating structure without unnecessary complexity. Not because it was a business idea first, but because there was a genuine need.
+                {t("founder.paragraph3")}
               </p>
 
               <div
@@ -49,9 +53,9 @@ export default function FounderSection() {
                   className="text-xl font-display font-bold leading-snug"
                   style={{ color: "hsl(0 0% 100%)" }}
                 >
-                  The goal is simple:{" "}
+                  {t("founder.goalPrefix")}{" "}
                   <span style={{ color: "hsl(var(--brand))" }}>
-                    Make organizing sports easier, calmer and more efficient.
+                    {t("founder.goalHighlight")}
                   </span>
                 </p>
               </div>

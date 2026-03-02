@@ -1,17 +1,22 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-
-const NAV_LINKS = [
-  { label: "Features", href: "#features" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Our Story", href: "#story" },
-  { label: "Security", href: "#security" },
-  { label: "Contact", href: "#contact" },
-];
+import { useTranslation } from "react-i18next";
+import { useLocalePath } from "@/hooks/use-locale-path";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Header() {
+  const { t } = useTranslation();
+  const lp = useLocalePath();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const NAV_LINKS = [
+    { label: t("header.features"), href: "#features" },
+    { label: t("header.pricing"), href: "#pricing" },
+    { label: t("header.ourStory"), href: "#story" },
+    { label: t("header.security"), href: "#security" },
+    { label: t("header.contact"), href: "#contact" },
+  ];
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 20);
@@ -32,7 +37,7 @@ export default function Header() {
     >
       <div className="site-container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2.5 group">
+        <a href={lp("/")} className="flex items-center gap-2.5 group">
           <img
             src="/favicon.ico"
             alt="Clubnizer logo"
@@ -49,7 +54,7 @@ export default function Header() {
               className="text-[10px] font-medium tracking-widest uppercase"
               style={{ color: "hsl(0 0% 100%)" }}
             >
-              Organizing Sports!
+              {t("header.tagline")}
             </span>
           </div>
         </a>
@@ -67,10 +72,11 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* CTA */}
+        {/* CTA + Language Switcher */}
         <div className="hidden md:flex items-center gap-3">
+          <LanguageSwitcher />
           <a href="https://app.clubnizer.com" className="btn-primary text-sm px-5 py-2.5">
-            Try the Web App
+            {t("header.tryWebApp")}
           </a>
         </div>
 
@@ -102,8 +108,11 @@ export default function Header() {
               {l.label}
             </a>
           ))}
+          <div className="py-2">
+            <LanguageSwitcher />
+          </div>
           <a href="https://app.clubnizer.com" className="btn-primary text-sm text-center mt-2">
-            Try the Web App
+            {t("header.tryWebApp")}
           </a>
         </div>
       )}

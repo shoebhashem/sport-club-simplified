@@ -1,15 +1,15 @@
 import { CheckCircle } from "lucide-react";
-
-const BENEFITS = [
-  "Works seamlessly for a single team",
-  "Scales across multiple teams within a club",
-  "Reduces administrative burden at every level",
-  "Maintains clear financial and member overview",
-  "Role-based access for coaches, admins and members",
-  "Designed for both small teams and larger organizations",
-];
+import { useTranslation } from "react-i18next";
 
 export default function TeamsSection() {
+  const { t } = useTranslation();
+  const benefits = t("teams.benefits", { returnObjects: true }) as string[];
+  const teams = [
+    { key: "teamA", label: t("teams.teamA") },
+    { key: "teamB", label: t("teams.teamB") },
+    { key: "teamC", label: t("teams.teamC") },
+  ];
+
   return (
     <section className="py-24 md:py-32">
       <div className="site-container">
@@ -34,14 +34,14 @@ export default function TeamsSection() {
                   className="mt-2 font-display font-bold text-lg"
                   style={{ color: "hsl(0 0% 100%)" }}
                 >
-                  Your Club
+                  {t("teams.yourClub")}
                 </p>
               </div>
 
               <div className="grid grid-cols-3 gap-3">
-                {["Team A", "Team B", "Team C"].map((team) => (
+                {teams.map((team) => (
                   <div
-                    key={team}
+                    key={team.key}
                     className="rounded-xl p-3 text-center"
                     style={{
                       background: "hsl(0 0% 100% / 0.05)",
@@ -52,10 +52,10 @@ export default function TeamsSection() {
                       className="w-8 h-8 rounded-lg mx-auto mb-1.5 flex items-center justify-center text-xs font-bold font-display"
                       style={{ background: "hsl(var(--brand) / 0.20)", color: "hsl(var(--brand))" }}
                     >
-                      {team[5]}
+                      {team.label.slice(-1)}
                     </div>
                     <span className="text-xs font-medium font-display" style={{ color: "hsl(0 0% 100% / 0.65)" }}>
-                      {team}
+                      {team.label}
                     </span>
                   </div>
                 ))}
@@ -69,7 +69,7 @@ export default function TeamsSection() {
                 }}
               >
                 <p className="text-xs font-medium text-center font-display" style={{ color: "hsl(0 0% 100% / 0.50)" }}>
-                  One platform — multiple teams, one clear overview
+                  {t("teams.diagramCaption")}
                 </p>
               </div>
             </div>
@@ -77,18 +77,18 @@ export default function TeamsSection() {
 
           {/* Text */}
           <div className="order-1 lg:order-2">
-            <span className="section-label">For Teams & Clubs</span>
+            <span className="section-label">{t("teams.label")}</span>
             <h2 className="section-heading mb-5">
-              Built for Teams.{" "}
-              <span style={{ color: "hsl(var(--brand))" }}>Structured for Clubs.</span>
+              {t("teams.heading")}{" "}
+              <span style={{ color: "hsl(var(--brand))" }}>{t("teams.headingHighlight")}</span>
             </h2>
             <p className="section-sub mb-8">
-              Whether you manage a single youth football team or oversee an entire club with multiple squads, Clubnizer gives you the structure to stay in control without drowning in administration.
+              {t("teams.description")}
             </p>
 
             <ul className="space-y-3">
-              {BENEFITS.map((benefit) => (
-                <li key={benefit} className="flex items-start gap-3">
+              {benefits.map((benefit, i) => (
+                <li key={i} className="flex items-start gap-3">
                   <CheckCircle
                     size={20}
                     className="mt-0.5 shrink-0"

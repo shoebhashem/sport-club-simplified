@@ -1,0 +1,186 @@
+{
+  "seo": {
+    "title": "Clubnizer – Vereinsverwaltung für Sportvereine | Einfache Clubverwaltung",
+    "description": "Clubnizer ist eine strukturierte Plattform zur Verwaltung von Sportvereinen. Mitglieder verwalten, Anwesenheit verfolgen, Veranstaltungen planen und Mitgliedsbeiträge nachverfolgen — alles an einem Ort. Vereinssoftware für moderne Sportteams und Vereine.",
+    "keywords": "Vereinsverwaltung, Sportvereinsmanagement, Mitgliederverwaltung, Anwesenheitskontrolle, Vereinssoftware, Sportverein App, Mannschaftsverwaltung, Mitgliedsbeitrag verwalten, Trainingsplanung, Vereinsadministration, Sportverein organisieren, Jugendverein Software, Teamverwaltung, digitale Vereinsverwaltung, Alternative zu SportAdmin, Vereinsorganisation, Sportverwaltung Software, Vereinsapp kostenlos testen, Mitgliederbeitrag Software, Anwesenheit erfassen Sportverein, Vereinsplaner online, ehrenamtliche Vereinsarbeit digital, Fußballverein verwalten, Handballverein Software, Sportclub Management, Jugendmannschaft verwalten, Vereinsbuchhaltung Mitgliedsbeiträge, Veranstaltungsplanung Verein, Sportverein digitalisieren, Clubnizer"
+  },
+  "header": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "ourStory": "Unsere Geschichte",
+    "security": "Sicherheit",
+    "contact": "Kontakt",
+    "tryWebApp": "Web-App testen",
+    "tagline": "Organizing Sports!"
+  },
+  "hero": {
+    "label": "Plattform für Vereinsverwaltung",
+    "titleLine1": "Sportverein-Verwaltung",
+    "titleLine2": "— Vereinfacht.",
+    "description": "Verwalten Sie Mitglieder, Veranstaltungen, Anwesenheit und Mitgliedsbeiträge in einer übersichtlichen und strukturierten Plattform für moderne Sportteams und Vereine.",
+    "ctaPrimary": "Web-App testen",
+    "ctaSecondary": "Kontaktieren Sie uns",
+    "stat1Value": "Fokussiert",
+    "stat1Label": "Plattform",
+    "stat2Value": "Einfach",
+    "stat2Label": "Einrichtung",
+    "stat3Value": "Sicher",
+    "stat3Label": "Von Grund auf",
+    "scroll": "Scrollen"
+  },
+  "problem": {
+    "label": "Die Herausforderung",
+    "heading": "Zu viel Verwaltung.",
+    "headingHighlight": "Zu wenig Sport.",
+    "description": "Vereinsadministratoren und Trainer kennen das Gefühl: Man meldet sich freiwillig, um einem Team zu helfen, und verbringt am Ende mehr Zeit in Tabellen als auf dem Platz. Die Verwaltung eines Sportvereins sollte kein Vollzeitjob sein.",
+    "descriptionSecondary": "Clubnizer ist als fokussierte Alternative zu komplexen Vereinssystemen gebaut — übersichtlich, strukturiert und auf das Wesentliche ausgerichtet.",
+    "listTitle": "Kommt Ihnen das bekannt vor?",
+    "problems": [
+      "Mitgliederlisten verstreut in Tabellenkalkulationen",
+      "Manuelle Nachverfolgung von Mitgliedsbeiträgen ohne klaren Überblick",
+      "Unklares Bild darüber, wer bezahlt hat und wer nicht",
+      "Komplizierte Vereinssysteme, die Wochen zum Erlernen brauchen",
+      "Zu viele getrennte Tools, die in verschiedene Richtungen ziehen",
+      "Stunden, die für Verwaltung verschwendet werden, statt für den Sport"
+    ],
+    "tagline": "Clubnizer wurde gebaut, um genau diese Probleme zu lösen — von jemandem, der sie selbst erlebt hat."
+  },
+  "features": {
+    "label": "Funktionen",
+    "heading": "Alles, was Sie brauchen, um",
+    "headingHighlight": "Ihren Verein zu organisieren",
+    "subheading": "Fünf fokussierte Säulen der Vereinsverwaltung — entwickelt, um verstreute Tools durch eine klare, strukturierte Plattform für Sportteams zu ersetzen.",
+    "items": [
+      {
+        "title": "Mitgliederverwaltung",
+        "description": "Halten Sie alle Mitgliederdaten organisiert und zugänglich. Verwalten Sie Rollen, Eltern- und Spielerstrukturen und behalten Sie den Überblick über alle in Ihrem Verein.",
+        "points": ["Organisierte Mitgliederregister", "Rollenbasierte Zugriffskontrolle", "Eltern- und Erziehungsberechtigtenstruktur für Jugendmitglieder"]
+      },
+      {
+        "title": "Veranstaltungs- & Trainingsplanung",
+        "description": "Planen Sie Trainings, Spiele und Vereinsveranstaltungen einfach. Senden Sie Einladungen und verfolgen Sie die Verfügbarkeit, damit Sie immer wissen, wer kommt.",
+        "points": ["Trainings und Spiele erstellen", "Einladungen an Mitglieder senden", "Verfügbarkeit und Antworten verfolgen"]
+      },
+      {
+        "title": "Anwesenheitsverfolgung",
+        "description": "Erhalten Sie einen klaren Überblick über die Anwesenheit bei allen Trainings und Veranstaltungen. Historische Aufzeichnungen helfen, Muster zu erkennen und Verantwortlichkeit zu fördern.",
+        "points": ["Klarer Anwesenheitsüberblick", "Historische Anwesenheitsaufzeichnungen", "Teilnahmetrends verfolgen"]
+      },
+      {
+        "title": "Mitgliedsbeiträge & Zahlungsverwaltung",
+        "description": "Erhalten Sie einen übersichtlichen Status der Mitgliedsbeiträge. Sehen Sie genau, wer bezahlt hat und wer nicht — mit sicheren Online-Zahlungen zur Reduzierung manueller Nachfassaktionen.",
+        "points": ["Sehen, wer bezahlt hat", "Ausstehende Zahlungen auf einen Blick", "Sichere Online-Zahlungen", "Reduzierter Verwaltungsaufwand"],
+        "note": "Zahlungen werden über sichere Drittanbieter-Infrastruktur abgewickelt. Zahlungsfunktionen werden kontinuierlich weiterentwickelt."
+      },
+      {
+        "title": "Strukturierte Kommunikation",
+        "description": "Gezielte Kommunikation ohne Chaos. Teilen Sie Ankündigungen und Updates auf Vereins-, Gruppen- oder Untergruppenebene — erreichen Sie die richtigen Leute mit den richtigen Informationen.",
+        "points": ["Vereinsweite Ankündigungen", "Updates auf Gruppenebene", "Untergruppenkoordination", "Rollenbasierte Sichtbarkeit"]
+      }
+    ]
+  },
+  "founder": {
+    "label": "Unsere Geschichte",
+    "heading": "Von der Seitenlinie gebaut",
+    "paragraph1": "Clubnizer entstand aus echtem Engagement im Jugendsport. Durch die Freiwilligenarbeit als Trainer und die enge Beteiligung an der Organisation von Teams, Trainings und Spielen wurde klar, wie viel Zeit für Verwaltung aufgewendet wurde, anstatt sich auf den Sport zu konzentrieren.",
+    "paragraph2": "Mitglieder verwalten, Anwesenheit verfolgen und Mitgliedsbeiträge nachverfolgen fühlte sich oft komplizierter an als nötig. Es gab Tabellenkalkulationen, separate Messenger-Apps, manuelle Zahlungslisten — und nichts war miteinander verbunden.",
+    "paragraph3": "Clubnizer wurde gebaut, um das Wesentliche zu vereinfachen — Struktur schaffen ohne unnötige Komplexität. Nicht weil es zuerst eine Geschäftsidee war, sondern weil es einen echten Bedarf gab.",
+    "goalPrefix": "Das Ziel ist einfach:",
+    "goalHighlight": "Sport organisieren einfacher, ruhiger und effizienter machen."
+  },
+  "teams": {
+    "label": "Für Teams & Vereine",
+    "heading": "Gebaut für Teams.",
+    "headingHighlight": "Strukturiert für Vereine.",
+    "description": "Ob Sie ein einzelnes Jugendfußballteam leiten oder einen ganzen Verein mit mehreren Mannschaften betreuen — Clubnizer gibt Ihnen die Struktur, um die Kontrolle zu behalten, ohne in Verwaltung zu versinken.",
+    "yourClub": "Ihr Verein",
+    "teamA": "Team A",
+    "teamB": "Team B",
+    "teamC": "Team C",
+    "diagramCaption": "Eine Plattform — mehrere Teams, ein klarer Überblick",
+    "benefits": [
+      "Funktioniert nahtlos für ein einzelnes Team",
+      "Skaliert über mehrere Teams innerhalb eines Vereins",
+      "Reduziert den Verwaltungsaufwand auf jeder Ebene",
+      "Behält klaren Finanz- und Mitgliederüberblick",
+      "Rollenbasierter Zugriff für Trainer, Admins und Mitglieder",
+      "Entwickelt für kleine Teams und größere Organisationen"
+    ]
+  },
+  "pricing": {
+    "label": "Preise",
+    "heading": "Zugängliche Preise für",
+    "headingHighlight": "Vereine jeder Größe",
+    "subheading": "Clubnizer ist darauf ausgelegt, kosteneffizient und zugänglich zu bleiben. Transparente Preisgestaltung, die mit Ihrer Organisation skaliert — keine versteckten Gebühren.",
+    "popular": "Beliebt",
+    "perMonth": "/Monat",
+    "footnote": "Clubnizer wird kontinuierlich optimiert, um für Vereine jeder Größe zugänglich zu bleiben. Preise sind auch in SEK, NOK und DKK verfügbar.",
+    "tiers": [
+      { "name": "Kostenlos", "price": "€0", "description": "Starten Sie mit Ihrem ersten Team", "features": ["Bis zu 50 Mitglieder"] },
+      { "name": "Basic", "price": "€29", "description": "Für wachsende Vereine mit mehr Mitgliedern", "features": ["Bis zu 500 Mitglieder"] },
+      { "name": "Pro", "price": "€49", "description": "Für etablierte Vereine und Organisationen", "features": ["Bis zu 2.000 Mitglieder"] },
+      { "name": "Enterprise", "price": "Kontaktieren Sie uns", "description": "Für große Organisationen mit individuellen Anforderungen", "features": ["Unbegrenzte Mitglieder", "Individuelle Konfiguration", "Dedizierter Support"] }
+    ]
+  },
+  "improving": {
+    "roadmapLabel": "Entwicklung",
+    "roadmapHeading": "Kontinuierliche Verbesserung",
+    "roadmapDescription": "Clubnizer wird aktiv weiterentwickelt und basierend auf realer Nutzung und Feedback von Sportteams und Vereinen verbessert. Wir sind bestrebt, eine Plattform zu bauen, die mit den Bedürfnissen moderner Sportorganisationen wächst.",
+    "roadmapDescription2": "Jedes Update wird von praktischer Erfahrung geleitet — nicht von Trends. Funktionen werden hinzugefügt, wenn sie den Verwaltungsaufwand tatsächlich reduzieren und die Übersichtlichkeit verbessern.",
+    "feedbackTitle": "Feedback-gesteuerte Entwicklung",
+    "feedbackDescription": "Jeder Vorschlag zählt. Wenn Sie einen Fehler finden, eine Funktionsidee haben oder Feedback aus der echten Vereinsnutzung teilen möchten, möchten wir von Ihnen hören.",
+    "contactLabel": "Kontakt",
+    "contactHeading": "Fragen oder Feedback?",
+    "contactDescription": "Für Vorschläge, Fragen oder Fehlerberichte wenden Sie sich direkt an uns. Ihre Erfahrung mit Clubnizer bestimmt, was als Nächstes gebaut wird.",
+    "emailLabel": "Für Support, Feedback und Fehlerberichte",
+    "contactTopics": [
+      "Fehlerberichte und technische Probleme",
+      "Funktionsvorschläge aus der echten Nutzung",
+      "Allgemeine Fragen zur Plattform",
+      "Feedback zu Ihrer Vereinsverwaltungserfahrung"
+    ]
+  },
+  "security": {
+    "label": "Vertrauen & Compliance",
+    "heading": "Sicherheit und Datenschutz",
+    "subheading": "Einen Sportverein zu verwalten bedeutet, personenbezogene Daten zu verarbeiten — auch von Jugendmitgliedern. Wir nehmen diese Verantwortung ernst und bauen Clubnizer mit Sicherheit und Datenschutz im Kern.",
+    "items": [
+      { "title": "Verantwortlicher & Auftragsverarbeiter", "description": "Vereine agieren als Verantwortliche und bestimmen, welche personenbezogenen Daten erhoben werden. Clubnizer fungiert als Auftragsverarbeiter für Vereinsmitgliedsdaten und verarbeitet diese ausschließlich nach Anweisungen des Vereins." },
+      { "title": "Moderne Cloud-Infrastruktur", "description": "Clubnizer basiert auf moderner Cloud-Infrastruktur mit Verschlüsselung bei Übertragung und Speicherung. Zugriffskontrollen und Monitoring schützen vor unbefugtem Zugriff." },
+      { "title": "Mit Datenschutz im Blick entwickelt", "description": "Personenbezogene Daten werden gemäß den geltenden Datenschutzgesetzen, einschließlich DSGVO, verarbeitet. Wir setzen angemessene technische und organisatorische Maßnahmen zum Schutz der uns anvertrauten Daten um." },
+      { "title": "Minimale Datenerhebung", "description": "Wir erheben und speichern nur die Daten, die zur Erbringung des Dienstes erforderlich sind. Clubnizer verkauft keine personenbezogenen Daten und verwendet Daten nicht für Werbezwecke." },
+      { "title": "Verschlüsselung & Zugriffskontrollen", "description": "Daten werden mit branchenüblicher Verschlüsselung geschützt. Der Zugang zu Systemen und Daten ist rollenbasiert und nach dem Prinzip der geringsten Berechtigung eingeschränkt." },
+      { "title": "Verantwortungsvolle Löschpraktiken", "description": "Gelöschte Konten und entfernte Mitgliedschaften unterliegen einer vorübergehenden Wiederherstellungsphase vor der endgültigen Löschung. Vereine können jederzeit eine Löschung über support@clubnizer.com beantragen." }
+    ],
+    "legalNote": "Detaillierte Informationen zum Umgang mit Daten finden Sie in unserer",
+    "privacyPolicy": "Datenschutzerklärung",
+    "and": "und",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "cta": {
+    "label": "Jetzt loslegen",
+    "headingLine1": "Verbringen Sie mehr Zeit",
+    "headingLine2": "auf dem Platz.",
+    "description": "Lassen Sie Clubnizer die Struktur organisieren — damit Sie sich auf den Sport konzentrieren können.",
+    "ctaPrimary": "Jetzt starten",
+    "ctaSecondary": "Kontaktieren Sie uns"
+  },
+  "footer": {
+    "brandDescription": "Eine strukturierte Plattform für Vereinsverwaltung, die den Verwaltungsaufwand reduziert, damit sich Teams auf den Sport konzentrieren können.",
+    "navigation": "Navigation",
+    "contactSupport": "Kontakt & Support",
+    "openWebApp": "Web-App öffnen",
+    "copyright": "© {{year}} Clubnizer. Alle Rechte vorbehalten.",
+    "tagline": "Eine strukturierte Plattform für moderne Sportteams und Vereine.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hoppla! Seite nicht gefunden",
+    "returnHome": "Zurück zur Startseite"
+  },
+  "languageSwitcher": {
+    "label": "Sprache"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "seo": {
+    "title": "Clubnizer – Sport Club Management Platform | Simplified Administration",
+    "description": "Clubnizer is a structured sport club management platform. Manage members, track attendance, plan events and follow up on membership fees — all in one place. Built for modern sports teams and clubs.",
+    "keywords": "sport club management app, sports team management software, manage sports team members, youth sports management app, track attendance for sports teams, membership fee management for clubs, club payment tracking system, club administration software, alternative to SportAdmin, team event planning software, sports club organizer, club member database, team scheduling app, youth team management, sports organization tool, coaching administration app, Clubnizer"
+  },
+  "header": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "ourStory": "Our Story",
+    "security": "Security",
+    "contact": "Contact",
+    "tryWebApp": "Try the Web App",
+    "tagline": "Organizing Sports!"
+  },
+  "hero": {
+    "label": "Sport Club Management Platform",
+    "titleLine1": "Sport Club Management",
+    "titleLine2": "— Simplified.",
+    "description": "Manage members, events, attendance and membership fees in a clean and structured platform designed for modern sports teams and clubs.",
+    "ctaPrimary": "Try the Web App",
+    "ctaSecondary": "Contact Us",
+    "stat1Value": "Focused",
+    "stat1Label": "Platform",
+    "stat2Value": "Simple",
+    "stat2Label": "Setup",
+    "stat3Value": "Secure",
+    "stat3Label": "By Design",
+    "scroll": "Scroll"
+  },
+  "problem": {
+    "label": "The Challenge",
+    "heading": "Too Much Administration.",
+    "headingHighlight": "Not Enough Sport.",
+    "description": "Club administrators and coaches know the feeling: you volunteer to help a team, and end up spending more time in spreadsheets than on the pitch. Managing sports club administration shouldn't require a full-time commitment.",
+    "descriptionSecondary": "Clubnizer is built as a focused alternative to complex club management systems — clean, structured, and designed around what actually matters.",
+    "listTitle": "Does This Sound Familiar?",
+    "problems": [
+      "Membership lists scattered across spreadsheets",
+      "Manual tracking of membership fees with no clear overview",
+      "Unclear picture of who has paid and who hasn't",
+      "Complicated club systems that take weeks to learn",
+      "Too many disconnected tools pulling in different directions",
+      "Hours wasted on administration that should be spent on sport"
+    ],
+    "tagline": "Clubnizer was built to solve exactly these problems — by someone who lived them."
+  },
+  "features": {
+    "label": "Features",
+    "heading": "Everything You Need to",
+    "headingHighlight": "Organize Your Club",
+    "subheading": "Five focused pillars of club administration — designed to replace scattered tools with one clear, structured platform for sports team management.",
+    "items": [
+      {
+        "title": "Member Management",
+        "description": "Keep all your member records organized and accessible. Manage roles, parent and player structures, and maintain a clear overview of everyone in your club.",
+        "points": ["Organized member records", "Role-based access control", "Parent and guardian structure for youth members"]
+      },
+      {
+        "title": "Event & Training Planning",
+        "description": "Plan sessions, matches and club events with ease. Send invitations and track availability so you always know who's coming.",
+        "points": ["Create sessions and matches", "Send invitations to members", "Track availability and responses"]
+      },
+      {
+        "title": "Attendance Tracking",
+        "description": "Get a clear overview of attendance across all training sessions and events. Historical records let you spot patterns and keep everyone accountable.",
+        "points": ["Clear attendance overview", "Historical attendance records", "Track participation trends"]
+      },
+      {
+        "title": "Membership Fee & Payment Management",
+        "description": "Get a clean overview of membership fee status. Know exactly who has paid and who hasn't — with secure online payments to reduce manual follow-ups.",
+        "points": ["Track who has paid", "See outstanding payments at a glance", "Secure online payments", "Reduced administrative workload"],
+        "note": "Payments are processed through secure third-party payment infrastructure. Payment capabilities are continuously evolving."
+      },
+      {
+        "title": "Structured Communication",
+        "description": "Targeted communication without chaos. Share announcements and updates at club, group, or subgroup level — reaching the right people with the right information.",
+        "points": ["Club-wide announcements", "Group-level updates", "Subgroup coordination", "Role-based visibility"]
+      }
+    ]
+  },
+  "founder": {
+    "label": "Our Story",
+    "heading": "Built From the Sidelines",
+    "paragraph1": "Clubnizer was created from real involvement in youth sports. Through volunteering as a coach and being closely involved in organizing teams, training sessions and matches, it became clear how much time was spent on administration instead of focusing on the sport itself.",
+    "paragraph2": "Managing members, tracking attendance and following up on membership fees often felt more complicated than necessary. There were spreadsheets, separate messaging apps, manual payment lists — and none of it talked to each other.",
+    "paragraph3": "Clubnizer was built to simplify the essentials — creating structure without unnecessary complexity. Not because it was a business idea first, but because there was a genuine need.",
+    "goalPrefix": "The goal is simple:",
+    "goalHighlight": "Make organizing sports easier, calmer and more efficient."
+  },
+  "teams": {
+    "label": "For Teams & Clubs",
+    "heading": "Built for Teams.",
+    "headingHighlight": "Structured for Clubs.",
+    "description": "Whether you manage a single youth football team or oversee an entire club with multiple squads, Clubnizer gives you the structure to stay in control without drowning in administration.",
+    "yourClub": "Your Club",
+    "teamA": "Team A",
+    "teamB": "Team B",
+    "teamC": "Team C",
+    "diagramCaption": "One platform — multiple teams, one clear overview",
+    "benefits": [
+      "Works seamlessly for a single team",
+      "Scales across multiple teams within a club",
+      "Reduces administrative burden at every level",
+      "Maintains clear financial and member overview",
+      "Role-based access for coaches, admins and members",
+      "Designed for both small teams and larger organizations"
+    ]
+  },
+  "pricing": {
+    "label": "Pricing",
+    "heading": "Accessible Pricing for",
+    "headingHighlight": "Clubs of All Sizes",
+    "subheading": "Clubnizer is designed to remain cost-efficient and accessible. Transparent pricing that scales with your organization — no hidden fees.",
+    "popular": "Popular",
+    "perMonth": "/month",
+    "footnote": "Clubnizer is continuously optimized to remain accessible for clubs of all sizes. Pricing is also available in SEK, NOK, and DKK.",
+    "tiers": [
+      { "name": "Free", "price": "€0", "description": "Get started with your first team", "features": ["Up to 50 members"] },
+      { "name": "Basic", "price": "€29", "description": "For growing clubs with more members", "features": ["Up to 500 members"] },
+      { "name": "Pro", "price": "€49", "description": "For established clubs and organizations", "features": ["Up to 2,000 members"] },
+      { "name": "Enterprise", "price": "Contact us", "description": "For large organizations with custom needs", "features": ["Unlimited members", "Custom configuration", "Dedicated support"] }
+    ]
+  },
+  "improving": {
+    "roadmapLabel": "Roadmap",
+    "roadmapHeading": "Continuously Improving",
+    "roadmapDescription": "Clubnizer is actively evolving and continuously improving based on real-world use and feedback from sports teams and clubs. We are committed to building a sport club management platform that grows together with the needs of modern sports organizations.",
+    "roadmapDescription2": "Every update is guided by practical experience — not trends. Features are added when they genuinely reduce administrative overhead and improve clarity for administrators and coaches.",
+    "feedbackTitle": "Feedback-Driven Development",
+    "feedbackDescription": "Every suggestion counts. If you encounter a bug, have a feature idea, or want to share feedback from real club use, we want to hear from you.",
+    "contactLabel": "Get In Touch",
+    "contactHeading": "Questions or Feedback?",
+    "contactDescription": "For suggestions, questions or bug reports, reach out directly. Your experience using Clubnizer shapes what gets built next.",
+    "emailLabel": "For support, feedback and bug reports",
+    "contactTopics": [
+      "Bug reports and technical issues",
+      "Feature suggestions from real use",
+      "General questions about the platform",
+      "Feedback on your club management experience"
+    ]
+  },
+  "security": {
+    "label": "Trust & Compliance",
+    "heading": "Security and Data Protection",
+    "subheading": "Managing a sports club means handling personal data for members — including youth members. We take that responsibility seriously and build Clubnizer with security and data protection at the core.",
+    "items": [
+      { "title": "Controller & Processor Structure", "description": "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Clubnizer operates as a Data Processor for club member data, handling it only according to club instructions. For account-level data, Clubnizer acts as Data Controller." },
+      { "title": "Modern Cloud Infrastructure", "description": "Clubnizer is built on modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to help protect against unauthorized access." },
+      { "title": "Designed with Data Protection in Mind", "description": "Personal data is handled in accordance with applicable data protection laws, including GDPR. We implement appropriate technical and organizational measures to safeguard the data entrusted to us." },
+      { "title": "Minimal Data Collection", "description": "We collect and store only the data necessary to provide the service. Clubnizer does not sell personal data and does not use data for advertising purposes." },
+      { "title": "Encryption & Access Controls", "description": "Data is protected using industry-standard encryption. Access to systems and data is restricted based on role and necessity, following the principle of least privilege." },
+      { "title": "Responsible Deletion Practices", "description": "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion. Clubs may request deletion at any time via support@clubnizer.com." }
+    ],
+    "legalNote": "For detailed information about how we handle data, see our",
+    "privacyPolicy": "Privacy Policy",
+    "and": "and",
+    "termsOfService": "Terms of Service"
+  },
+  "cta": {
+    "label": "Get Started Today",
+    "headingLine1": "Spend More Time",
+    "headingLine2": "on the Field.",
+    "description": "Let Clubnizer organize the structure — so you can focus on the sport.",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Contact Us"
+  },
+  "footer": {
+    "brandDescription": "A structured sport club management platform designed to reduce administrative overhead so teams can focus on the sport.",
+    "navigation": "Navigation",
+    "contactSupport": "Contact & Support",
+    "openWebApp": "Open Web App",
+    "copyright": "© {{year}} Clubnizer. All rights reserved.",
+    "tagline": "A structured platform for modern sports teams and clubs.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "returnHome": "Return to Home"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}
