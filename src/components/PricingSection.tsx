@@ -30,6 +30,7 @@ export default function PricingSection() {
           {tiers.map((tier, i) => {
             const highlighted = false;
             const hasPeriod = tier.price !== "Contact us" && tier.price !== "Kontakta oss" && tier.price !== "Kontakt oss" && tier.price !== "Kontakt os" && tier.price !== "Kontaktieren Sie uns" && tier.price !== "Contactez-nous" && tier.price !== "Contattaci" && tier.price !== "Contáctanos" && i > 0;
+            const showTrial = i === 1 || i === 2; // Basic and Pro
             return (
               <div
                 key={i}
@@ -46,6 +47,14 @@ export default function PricingSection() {
                     style={{ background: "hsl(var(--brand) / 0.15)", color: "hsl(var(--brand))" }}
                   >
                     {t("pricing.popular")}
+                  </span>
+                )}
+                {showTrial && (
+                  <span
+                    className="text-[10px] font-bold uppercase tracking-widest mb-3 self-start px-2.5 py-1 rounded-full"
+                    style={{ background: "hsl(142 71% 45% / 0.15)", color: "hsl(142 71% 45%)" }}
+                  >
+                    {t("pricing.trialBadge")}
                   </span>
                 )}
                 <h3 className="font-display font-bold text-lg mb-1" style={{ color: "hsl(0 0% 100%)" }}>
