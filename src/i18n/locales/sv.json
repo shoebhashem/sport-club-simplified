@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Clubnizer – Gratis föreningssystem för idrottsklubbar | 100% gratis för alla klubbar",
-    "description": "Clubnizer är ett helt gratis föreningssystem och sporthanteringssystem. Hantera medlemmar, närvaro, evenemang och medlemsavgifter — allt på ett ställe. Gratis för alla idrottsföreningar och lag, inga dolda avgifter.",
+    "title": "Clubnizer – Gratis föreningssystem för idrottsklubbar | Gratis för alla klubbar",
+    "description": "Clubnizer är ett gratis föreningssystem och sporthanteringssystem. Hantera medlemmar, närvaro, evenemang och medlemsavgifter — allt på ett ställe. Gratis för alla idrottsföreningar och lag.",
     "keywords": "gratis föreningshantering app, gratis laghantering, gratis föreningssystem, gratis medlemshantering app, gratis idrottsförening administration, hantera sportlag online gratis, gratis medlemsregister förening, gratis närvarorapportering idrott, gratis LOK-stöd rapportering, gratis föreningsapp, gratis klubbapp, gratis lagapp, gratis tränare app, gratis alternativ till Spond, gratis alternativ till SportAdmin, bästa gratis app för ungdomsidrott, 100% gratis föreningssystem, föreningssystem, föreningsadministration, medlemsregister, medlemsavgift, idrottsförening system, laghantering, idrottsapp, föreningsapp, klubbapp, lagapp, klubbadministration, medlemsregister online, digitalt föreningssystem, hantera idrottsförening, närvarohantering idrott, sportlag app, idrottslag administration, idrottsförbund, träningsplanering, matchplanering, klubbhantering, sporthanteringssystem, gratis sporthanteringssystem, Clubnizer"
   },
   "header": {
@@ -15,14 +15,14 @@
   },
   "hero": {
     "label": "Gratis föreningssystem för idrottslag",
-    "freeBadge": "100% Gratis — För alla klubbar",
+    "freeBadge": "Gratis för alla klubbar",
     "titleLine1": "Klubbadministration",
     "titleLine2": "— Förenklad.",
-    "description": "Ett helt gratis föreningssystem för moderna idrottslag och klubbar. Hantera medlemmar, evenemang, närvaro och medlemsavgifter — utan kostnad, utan dolda avgifter, utan begränsningar.",
+    "description": "Ett gratis föreningssystem för moderna idrottslag och klubbar. Hantera medlemmar, evenemang, närvaro och medlemsavgifter — gratis för alla klubbar.",
     "ctaPrimary": "Testa webbappen — Det är gratis",
     "ctaSecondary": "Kontakta oss",
-    "stat1Value": "100% Gratis",
-    "stat1Label": "För alltid",
+    "stat1Value": "Gratis",
+    "stat1Label": "För alla",
     "stat2Value": "Enkel",
     "stat2Label": "Installation",
     "stat3Value": "Säker",
@@ -110,22 +110,20 @@
   },
   "pricing": {
     "label": "Priser",
-    "heading": "100% Gratis för",
+    "heading": "Gratis för",
     "headingHighlight": "alla klubbar",
-    "subheading": "Clubnizer är helt gratis för alla idrottsföreningar, lag och organisationer. Inga dolda avgifter, inga betalplaner, inga begränsningar. Fokusera på idrotten — vi sköter resten.",
-    "freeBadge": "Gratis för alltid",
+    "subheading": "Clubnizer är gratis för alla idrottsföreningar, lag och organisationer. Inga prenumerationsavgifter.",
+    "freeBadge": "Gratis",
     "freePrice": "0 kr",
-    "freeDescription": "Full tillgång till alla funktioner — för varje klubb, varje lag, varje medlem.",
+    "freeDescription": "Allt du behöver för att driva din klubb.",
     "freeFeatures": [
-      "Obegränsat antal medlemmar",
-      "Medlemshantering med roller",
-      "Evenemang- och träningsplanering",
-      "Närvarohantering",
-      "Strukturerad kommunikation",
-      "Säker molninfrastruktur",
-      "GDPR-kompatibelt dataskydd"
+      "Skapa och hantera klubbar med flera grupper",
+      "Planera träningar, matcher och möten",
+      "Håll kontakten med ditt lag",
+      "Hantera medlemsavgifter enkelt",
+      "Följ närvaro och se statistik"
     ],
-    "footnote": "Clubnizer är och kommer förbli gratis för alla klubbar. Vårt uppdrag är att göra klubbadministration tillgängligt för alla."
+    "footnote": "En liten transaktionsavgift kan tillkomma vid betalningar via plattformen."
   },
   "improving": {
     "roadmapLabel": "Utveckling",
