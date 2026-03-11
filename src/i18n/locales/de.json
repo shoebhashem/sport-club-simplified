@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Clubnizer – Vereinsverwaltung für Sportvereine | Einfache Clubverwaltung",
-    "description": "Clubnizer ist eine strukturierte Plattform zur Verwaltung von Sportvereinen. Mitglieder verwalten, Anwesenheit verfolgen, Veranstaltungen planen und Mitgliedsbeiträge nachverfolgen — alles an einem Ort. Vereinssoftware für moderne Sportteams und Vereine.",
-    "keywords": "Vereinsverwaltung, Sportvereinsmanagement, Mitgliederverwaltung, Anwesenheitskontrolle, Vereinssoftware, Sportverein App, Mannschaftsverwaltung, Mitgliedsbeitrag verwalten, Trainingsplanung, Vereinsadministration, Sportverein organisieren, Jugendverein Software, Teamverwaltung, digitale Vereinsverwaltung, Alternative zu SportAdmin, Vereinsorganisation, Sportverwaltung Software, Vereinsapp kostenlos testen, Mitgliederbeitrag Software, Anwesenheit erfassen Sportverein, Vereinsplaner online, ehrenamtliche Vereinsarbeit digital, Fußballverein verwalten, Handballverein Software, Sportclub Management, Jugendmannschaft verwalten, Vereinsbuchhaltung Mitgliedsbeiträge, Veranstaltungsplanung Verein, Sportverein digitalisieren, Clubnizer"
+    "title": "Clubnizer – Kostenlose Vereinsverwaltung für Sportvereine | 100% kostenlos",
+    "description": "Clubnizer ist eine 100% kostenlose Plattform zur Verwaltung von Sportvereinen. Mitglieder verwalten, Anwesenheit verfolgen, Veranstaltungen planen und Mitgliedsbeiträge nachverfolgen — alles an einem Ort. Kostenlos für alle Sportvereine und Teams.",
+    "keywords": "kostenlose Vereinsverwaltung, kostenlose Sportvereins-App, kostenlose Mitgliederverwaltung, kostenlose Anwesenheitskontrolle Sport, kostenlose Mannschaftsverwaltung, kostenlose Trainingsplanung App, kostenlose Alternative zu Spond, kostenlose Alternative zu SportAdmin, kostenlose Jugendverein Software, kostenlose Vereinsapp, kostenloses Sportmanagementsystem, Vereinsverwaltung gratis, Sportvereinsmanagement kostenlos, Mitgliederverwaltung, Anwesenheitskontrolle, Vereinssoftware, Sportverein App, Mannschaftsverwaltung, Mitgliedsbeitrag verwalten, Trainingsplanung, Vereinsadministration, Sportverein organisieren, Jugendverein Software, Teamverwaltung, digitale Vereinsverwaltung, Vereinsorganisation, Sportverwaltung Software, Mitgliederbeitrag Software, Anwesenheit erfassen Sportverein, Vereinsplaner online, ehrenamtliche Vereinsarbeit digital, Fußballverein verwalten, Handballverein Software, Sportclub Management, Jugendmannschaft verwalten, Vereinsbuchhaltung Mitgliedsbeiträge, Veranstaltungsplanung Verein, Sportverein digitalisieren, Clubnizer"
   },
   "header": {
     "features": "Funktionen",
@@ -14,14 +14,15 @@
     "tagline": "Organizing Sports!"
   },
   "hero": {
-    "label": "Plattform für Vereinsverwaltung",
+    "label": "Kostenlose Plattform für Vereinsverwaltung",
+    "freeBadge": "100% Kostenlos — Für alle Vereine",
     "titleLine1": "Sportverein-Verwaltung",
     "titleLine2": "— Vereinfacht.",
-    "description": "Verwalten Sie Mitglieder, Veranstaltungen, Anwesenheit und Mitgliedsbeiträge in einer übersichtlichen und strukturierten Plattform für moderne Sportteams und Vereine.",
-    "ctaPrimary": "Web-App testen",
+    "description": "Eine komplett kostenlose Plattform für moderne Sportteams und Vereine. Verwalten Sie Mitglieder, Veranstaltungen, Anwesenheit und Mitgliedsbeiträge — ohne Kosten, ohne versteckte Gebühren, ohne Einschränkungen.",
+    "ctaPrimary": "Web-App testen — Kostenlos",
     "ctaSecondary": "Kontaktieren Sie uns",
-    "stat1Value": "Fokussiert",
-    "stat1Label": "Plattform",
+    "stat1Value": "100% Kostenlos",
+    "stat1Label": "Für immer",
     "stat2Value": "Einfach",
     "stat2Label": "Einrichtung",
     "stat3Value": "Sicher",
@@ -109,19 +110,22 @@
   },
   "pricing": {
     "label": "Preise",
-    "heading": "Zugängliche Preise für",
-    "headingHighlight": "Vereine jeder Größe",
-    "subheading": "Clubnizer ist darauf ausgelegt, kosteneffizient und zugänglich zu bleiben. Transparente Preisgestaltung, die mit Ihrer Organisation skaliert — keine versteckten Gebühren.",
-    "popular": "Beliebt",
-    "trialBadge": "6 Monate kostenlos",
-    "perMonth": "/Monat",
-    "footnote": "Clubnizer wird kontinuierlich optimiert, um für Vereine jeder Größe zugänglich zu bleiben. Preise sind auch in SEK, NOK und DKK verfügbar.",
-    "tiers": [
-      { "name": "Kostenlos", "price": "€0", "description": "Starten Sie mit Ihrem ersten Team", "features": ["Bis zu 50 Mitglieder"] },
-      { "name": "Basic", "price": "€29", "description": "Für wachsende Vereine mit mehr Mitgliedern", "features": ["Bis zu 500 Mitglieder"] },
-      { "name": "Pro", "price": "€49", "description": "Für etablierte Vereine und Organisationen", "features": ["Bis zu 2.000 Mitglieder"] },
-      { "name": "Enterprise", "price": "Kontaktieren Sie uns", "description": "Für große Organisationen mit individuellen Anforderungen", "features": ["Unbegrenzte Mitglieder", "Individuelle Konfiguration", "Dedizierter Support"] }
-    ]
+    "heading": "100% Kostenlos für",
+    "headingHighlight": "alle Vereine",
+    "subheading": "Clubnizer ist komplett kostenlos für alle Sportvereine, Teams und Organisationen. Keine versteckten Gebühren, keine Bezahlpläne, keine Einschränkungen. Konzentrieren Sie sich auf den Sport — wir kümmern uns um den Rest.",
+    "freeBadge": "Für immer kostenlos",
+    "freePrice": "€0",
+    "freeDescription": "Voller Zugang zu allen Funktionen — für jeden Verein, jedes Team, jedes Mitglied.",
+    "freeFeatures": [
+      "Unbegrenzte Mitglieder",
+      "Mitgliederverwaltung mit Rollen",
+      "Veranstaltungs- & Trainingsplanung",
+      "Anwesenheitskontrolle",
+      "Strukturierte Kommunikation",
+      "Sichere Cloud-Infrastruktur",
+      "DSGVO-konformer Datenschutz"
+    ],
+    "footnote": "Clubnizer ist und bleibt kostenlos für alle Vereine. Unsere Mission ist es, Vereinsverwaltung für alle zugänglich zu machen."
   },
   "improving": {
     "roadmapLabel": "Entwicklung",
@@ -163,7 +167,7 @@
     "headingLine1": "Verbringen Sie mehr Zeit",
     "headingLine2": "auf dem Platz.",
     "description": "Lassen Sie Clubnizer die Struktur organisieren — damit Sie sich auf den Sport konzentrieren können.",
-    "ctaPrimary": "Jetzt starten",
+    "ctaPrimary": "Jetzt starten — Kostenlos",
     "ctaSecondary": "Kontaktieren Sie uns"
   },
   "footer": {

@@ -12,7 +12,7 @@
   <!-- English (default) -->
   <url>
     <loc>https://clubnizer.com/en</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />
@@ -29,7 +29,7 @@
   <!-- Swedish -->
   <url>
     <loc>https://clubnizer.com/sv</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />
@@ -46,7 +46,7 @@
   <!-- German -->
   <url>
     <loc>https://clubnizer.com/de</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />
@@ -63,7 +63,7 @@
   <!-- French -->
   <url>
     <loc>https://clubnizer.com/fr</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />
@@ -80,7 +80,7 @@
   <!-- Italian -->
   <url>
     <loc>https://clubnizer.com/it</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />
@@ -97,7 +97,7 @@
   <!-- Spanish -->
   <url>
     <loc>https://clubnizer.com/es</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />
@@ -114,7 +114,7 @@
   <!-- Norwegian -->
   <url>
     <loc>https://clubnizer.com/no</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />
@@ -131,7 +131,7 @@
   <!-- Danish -->
   <url>
     <loc>https://clubnizer.com/da</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://clubnizer.com/en" />

@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Clubnizer – Föreningssystem för idrottsklubbar | Enkel klubbadministration",
-    "description": "Clubnizer är en strukturerad plattform för klubbhantering. Hantera medlemmar, närvaro, evenemang och medlemsavgifter — allt på ett ställe. Föreningssystem byggt för moderna idrottslag och klubbar.",
-    "keywords": "föreningssystem, föreningsadministration, medlemsregister, medlemsavgift, idrottsförening system, laghantering, idrottsapp, föreningsapp, klubbapp, lagapp, klubbadministration, medlemsregister online, digitalt föreningssystem, hantera idrottsförening, närvarohantering idrott, sportlag app, idrottslag administration, alternativ till SportAdmin, idrottsförbund, träningsplanering, matchplanering, klubbhantering, Clubnizer"
+    "title": "Clubnizer – Gratis föreningssystem för idrottsklubbar | 100% gratis för alla klubbar",
+    "description": "Clubnizer är ett helt gratis föreningssystem och sporthanteringssystem. Hantera medlemmar, närvaro, evenemang och medlemsavgifter — allt på ett ställe. Gratis för alla idrottsföreningar och lag, inga dolda avgifter.",
+    "keywords": "gratis föreningshantering app, gratis laghantering, gratis föreningssystem, gratis medlemshantering app, gratis idrottsförening administration, hantera sportlag online gratis, gratis medlemsregister förening, gratis närvarorapportering idrott, gratis LOK-stöd rapportering, gratis föreningsapp, gratis klubbapp, gratis lagapp, gratis tränare app, gratis alternativ till Spond, gratis alternativ till SportAdmin, bästa gratis app för ungdomsidrott, 100% gratis föreningssystem, föreningssystem, föreningsadministration, medlemsregister, medlemsavgift, idrottsförening system, laghantering, idrottsapp, föreningsapp, klubbapp, lagapp, klubbadministration, medlemsregister online, digitalt föreningssystem, hantera idrottsförening, närvarohantering idrott, sportlag app, idrottslag administration, idrottsförbund, träningsplanering, matchplanering, klubbhantering, sporthanteringssystem, gratis sporthanteringssystem, Clubnizer"
   },
   "header": {
     "features": "Funktioner",
@@ -14,14 +14,15 @@
     "tagline": "Organizing Sports!"
   },
   "hero": {
-    "label": "Plattform för klubbhantering",
+    "label": "Gratis föreningssystem för idrottslag",
+    "freeBadge": "100% Gratis — För alla klubbar",
     "titleLine1": "Klubbadministration",
     "titleLine2": "— Förenklad.",
-    "description": "Hantera medlemmar, evenemang, närvaro och medlemsavgifter i en ren och strukturerad plattform byggd för moderna idrottslag och klubbar.",
-    "ctaPrimary": "Testa webbappen",
+    "description": "Ett helt gratis föreningssystem för moderna idrottslag och klubbar. Hantera medlemmar, evenemang, närvaro och medlemsavgifter — utan kostnad, utan dolda avgifter, utan begränsningar.",
+    "ctaPrimary": "Testa webbappen — Det är gratis",
     "ctaSecondary": "Kontakta oss",
-    "stat1Value": "Fokuserad",
-    "stat1Label": "Plattform",
+    "stat1Value": "100% Gratis",
+    "stat1Label": "För alltid",
     "stat2Value": "Enkel",
     "stat2Label": "Installation",
     "stat3Value": "Säker",
@@ -109,19 +110,22 @@
   },
   "pricing": {
     "label": "Priser",
-    "heading": "Tillgängliga priser för",
-    "headingHighlight": "klubbar i alla storlekar",
-    "subheading": "Clubnizer är designat för att förbli kostnadseffektivt och tillgängligt. Transparent prissättning som skalar med din organisation — inga dolda avgifter.",
-    "popular": "Populär",
-    "trialBadge": "Gratis i 6 månader",
-    "perMonth": "/mån",
-    "footnote": "Clubnizer optimeras kontinuerligt för att förbli tillgängligt för klubbar i alla storlekar. Priser finns även i SEK, NOK och DKK.",
-    "tiers": [
-      { "name": "Gratis", "price": "0 kr", "description": "Kom igång med ditt första lag", "features": ["Upp till 50 medlemmar"] },
-      { "name": "Basic", "price": "299 kr", "description": "För växande klubbar med fler medlemmar", "features": ["Upp till 500 medlemmar"] },
-      { "name": "Pro", "price": "549 kr", "description": "För etablerade klubbar och organisationer", "features": ["Upp till 2 000 medlemmar"] },
-      { "name": "Enterprise", "price": "Kontakta oss", "description": "För stora organisationer med specialbehov", "features": ["Obegränsat antal medlemmar", "Anpassad konfiguration", "Dedikerad support"] }
-    ]
+    "heading": "100% Gratis för",
+    "headingHighlight": "alla klubbar",
+    "subheading": "Clubnizer är helt gratis för alla idrottsföreningar, lag och organisationer. Inga dolda avgifter, inga betalplaner, inga begränsningar. Fokusera på idrotten — vi sköter resten.",
+    "freeBadge": "Gratis för alltid",
+    "freePrice": "0 kr",
+    "freeDescription": "Full tillgång till alla funktioner — för varje klubb, varje lag, varje medlem.",
+    "freeFeatures": [
+      "Obegränsat antal medlemmar",
+      "Medlemshantering med roller",
+      "Evenemang- och träningsplanering",
+      "Närvarohantering",
+      "Strukturerad kommunikation",
+      "Säker molninfrastruktur",
+      "GDPR-kompatibelt dataskydd"
+    ],
+    "footnote": "Clubnizer är och kommer förbli gratis för alla klubbar. Vårt uppdrag är att göra klubbadministration tillgängligt för alla."
   },
   "improving": {
     "roadmapLabel": "Utveckling",
@@ -163,7 +167,7 @@
     "headingLine1": "Spendera mer tid",
     "headingLine2": "på planen.",
     "description": "Låt Clubnizer organisera strukturen — så att du kan fokusera på idrotten.",
-    "ctaPrimary": "Kom igång",
+    "ctaPrimary": "Kom igång — Det är gratis",
     "ctaSecondary": "Kontakta oss"
   },
   "footer": {

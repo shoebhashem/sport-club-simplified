@@ -32,8 +32,21 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative site-container pt-32 pb-24 md:pt-40 md:pb-32">
         <div className="max-w-3xl">
-          <div className="section-label mb-6">
+          <div className="section-label mb-4">
             {t("hero.label")}
+          </div>
+
+          {/* Free badge */}
+          <div
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold mb-6"
+            style={{
+              background: "hsl(142 71% 45% / 0.15)",
+              color: "hsl(142 71% 45%)",
+              border: "1px solid hsl(142 71% 45% / 0.30)",
+            }}
+          >
+            <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "hsl(142 71% 45%)" }} />
+            {t("hero.freeBadge")}
           </div>
 
           <h1

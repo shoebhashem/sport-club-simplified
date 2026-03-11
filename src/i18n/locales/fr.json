@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Clubnizer – Plateforme de gestion de club sportif | Administration simplifiée",
-    "description": "Clubnizer est une plateforme structurée de gestion de clubs sportifs. Gérez les membres, suivez les présences, planifiez les événements et suivez les cotisations — le tout en un seul endroit. Conçu pour les équipes et clubs sportifs modernes.",
-    "keywords": "gestion de club sportif, logiciel association sportive, suivi des cotisations, gestion des membres, logiciel de gestion d'équipe, application club de sport, suivi des présences sport, planification d'entraînement, gestion de cotisations, administration de club, organisation sportive, alternative à SportAdmin, application équipe sportive, logiciel association loi 1901, gestion de licence sportive, gestion club de football, planning sportif en ligne, communication équipe sportive, outil d'administration sportive, gestion des adhérents, suivi de paiement club, logiciel de planification sportive, gestion club jeunes, inscription en ligne club sportif, plateforme sportive, logiciel trésorerie association, organisation de tournoi sportif, Clubnizer"
+    "title": "Clubnizer – Gestion de club sportif gratuite | 100% gratuit pour tous les clubs",
+    "description": "Clubnizer est une plateforme 100% gratuite de gestion de clubs sportifs et système de gestion sportive. Gérez les membres, suivez les présences, planifiez les événements et suivez les cotisations — le tout gratuitement. Pour toutes les équipes et clubs sportifs.",
+    "keywords": "gestion de club sportif gratuit, logiciel association sportive gratuit, application gratuite pour équipe sportive, gestion des membres gratuite, suivi des présences sport gratuit, application gratuite club de sport, outil de communication sportive gratuit, application gratuite pour entraîneurs, alternative gratuite à Spond, alternative gratuite à SportAdmin, meilleure application gratuite pour clubs de sport, plateforme de gestion sportive 100% gratuite, système de gestion sportive gratuit, logiciel de gestion d'équipe gratuit, gestion de club sportif, logiciel association sportive, suivi des cotisations, gestion des membres, logiciel de gestion d'équipe, application club de sport, suivi des présences sport, planification d'entraînement, gestion de cotisations, administration de club, organisation sportive, application équipe sportive, logiciel association loi 1901, gestion de licence sportive, gestion club de football, planning sportif en ligne, communication équipe sportive, outil d'administration sportive, gestion des adhérents, suivi de paiement club, logiciel de planification sportive, gestion club jeunes, inscription en ligne club sportif, plateforme sportive, logiciel trésorerie association, organisation de tournoi sportif, Clubnizer"
   },
   "header": {
     "features": "Fonctionnalités",
@@ -14,14 +14,15 @@
     "tagline": "Organizing Sports!"
   },
   "hero": {
-    "label": "Plateforme de gestion de club sportif",
+    "label": "Plateforme gratuite de gestion de club sportif",
+    "freeBadge": "100% Gratuit — Pour tous les clubs",
     "titleLine1": "Gestion de club sportif",
     "titleLine2": "— Simplifiée.",
-    "description": "Gérez les membres, événements, présences et cotisations dans une plateforme claire et structurée conçue pour les équipes et clubs sportifs modernes.",
-    "ctaPrimary": "Essayer l'application",
+    "description": "Une plateforme de gestion sportive complètement gratuite pour les équipes et clubs sportifs modernes. Gérez les membres, événements, présences et cotisations — sans coût, sans frais cachés, sans limitations.",
+    "ctaPrimary": "Essayer l'application — C'est gratuit",
     "ctaSecondary": "Contactez-nous",
-    "stat1Value": "Ciblée",
-    "stat1Label": "Plateforme",
+    "stat1Value": "100% Gratuit",
+    "stat1Label": "Pour toujours",
     "stat2Value": "Simple",
     "stat2Label": "Mise en place",
     "stat3Value": "Sécurisée",
@@ -109,19 +110,22 @@
   },
   "pricing": {
     "label": "Tarifs",
-    "heading": "Des tarifs accessibles pour",
-    "headingHighlight": "les clubs de toutes tailles",
-    "subheading": "Clubnizer est conçu pour rester économique et accessible. Une tarification transparente qui évolue avec votre organisation — sans frais cachés.",
-    "popular": "Populaire",
-    "trialBadge": "Gratuit pendant 6 mois",
-    "perMonth": "/mois",
-    "footnote": "Clubnizer est continuellement optimisé pour rester accessible aux clubs de toutes tailles. Les tarifs sont également disponibles en SEK, NOK et DKK.",
-    "tiers": [
-      { "name": "Gratuit", "price": "€0", "description": "Commencez avec votre première équipe", "features": ["Jusqu'à 50 membres"] },
-      { "name": "Basic", "price": "€29", "description": "Pour les clubs en croissance", "features": ["Jusqu'à 500 membres"] },
-      { "name": "Pro", "price": "€49", "description": "Pour les clubs établis et organisations", "features": ["Jusqu'à 2 000 membres"] },
-      { "name": "Enterprise", "price": "Contactez-nous", "description": "Pour les grandes organisations avec des besoins spécifiques", "features": ["Membres illimités", "Configuration personnalisée", "Support dédié"] }
-    ]
+    "heading": "100% Gratuit pour",
+    "headingHighlight": "tous les clubs",
+    "subheading": "Clubnizer est entièrement gratuit pour tous les clubs sportifs, équipes et organisations. Aucun frais caché, aucun forfait payant, aucune limitation. Concentrez-vous sur le sport — nous nous occupons du reste.",
+    "freeBadge": "Gratuit pour toujours",
+    "freePrice": "€0",
+    "freeDescription": "Accès complet à toutes les fonctionnalités — pour chaque club, chaque équipe, chaque membre.",
+    "freeFeatures": [
+      "Membres illimités",
+      "Gestion des membres avec rôles",
+      "Planification d'événements et d'entraînements",
+      "Suivi des présences",
+      "Communication structurée",
+      "Infrastructure cloud sécurisée",
+      "Protection des données conforme au RGPD"
+    ],
+    "footnote": "Clubnizer est et restera gratuit pour tous les clubs. Notre mission est de rendre la gestion de club sportif accessible à tous."
   },
   "improving": {
     "roadmapLabel": "Développement",
@@ -163,7 +167,7 @@
     "headingLine1": "Passez plus de temps",
     "headingLine2": "sur le terrain.",
     "description": "Laissez Clubnizer organiser la structure — pour que vous puissiez vous concentrer sur le sport.",
-    "ctaPrimary": "Commencer",
+    "ctaPrimary": "Commencer — C'est gratuit",
     "ctaSecondary": "Contactez-nous"
   },
   "footer": {

@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Clubnizer – Sport Club Management Platform | Simplified Administration",
-    "description": "Clubnizer is a structured sport club management platform. Manage members, track attendance, plan events and follow up on membership fees — all in one place. Built for modern sports teams and clubs.",
-    "keywords": "sport club management app, sports team management software, manage sports team members, youth sports management app, track attendance for sports teams, membership fee management for clubs, club payment tracking system, club administration software, alternative to SportAdmin, team event planning software, sports club organizer, club member database, team scheduling app, youth team management, sports organization tool, coaching administration app, Clubnizer"
+    "title": "Clubnizer – Free Sport Club Management Platform | 100% Free for All Clubs",
+    "description": "Clubnizer is a 100% free sport club management platform and sport management system. Manage members, track attendance, plan events and follow up on membership fees — all in one place. Free for all sports teams and clubs, no hidden fees.",
+    "keywords": "free sports club management app, free team management software, free club organizer app, free membership management app, manage sports club online free, free sports team organizer, free event attendance tracker for sports, free team roster management app, free youth sports team management, free club member registration app, free sports club communication tool, free coaching app for sports teams, best free app to manage youth sports clubs, 100% free all-in-one sports club management platform, free alternative to Spond for sports clubs, free club management app for coaches and parents, sport management system, sports management system, sport management software, sports management platform, free sport management system, free sports management software, sport club management app, sports team management software, manage sports team members, youth sports management app, track attendance for sports teams, membership fee management for clubs, club payment tracking system, club administration software, alternative to SportAdmin, team event planning software, sports club organizer, club member database, team scheduling app, youth team management, sports organization tool, coaching administration app, Clubnizer"
   },
   "header": {
     "features": "Features",
@@ -14,14 +14,15 @@
     "tagline": "Organizing Sports!"
   },
   "hero": {
-    "label": "Sport Club Management Platform",
+    "label": "Free Sport Club Management Platform",
+    "freeBadge": "100% Free — For All Clubs",
     "titleLine1": "Sport Club Management",
     "titleLine2": "— Simplified.",
-    "description": "Manage members, events, attendance and membership fees in a clean and structured platform designed for modern sports teams and clubs.",
-    "ctaPrimary": "Try the Web App",
+    "description": "A completely free sport management system for modern sports teams and clubs. Manage members, events, attendance and membership fees — no cost, no hidden fees, no limitations.",
+    "ctaPrimary": "Try the Web App — It's Free",
     "ctaSecondary": "Contact Us",
-    "stat1Value": "Focused",
-    "stat1Label": "Platform",
+    "stat1Value": "100% Free",
+    "stat1Label": "Forever",
     "stat2Value": "Simple",
     "stat2Label": "Setup",
     "stat3Value": "Secure",
@@ -109,19 +110,22 @@
   },
   "pricing": {
     "label": "Pricing",
-    "heading": "Accessible Pricing for",
-    "headingHighlight": "Clubs of All Sizes",
-    "subheading": "Clubnizer is designed to remain cost-efficient and accessible. Transparent pricing that scales with your organization — no hidden fees.",
-    "popular": "Popular",
-    "trialBadge": "Free for 6 months",
-    "perMonth": "/month",
-    "footnote": "Clubnizer is continuously optimized to remain accessible for clubs of all sizes. Pricing is also available in SEK, NOK, and DKK.",
-    "tiers": [
-      { "name": "Free", "price": "€0", "description": "Get started with your first team", "features": ["Up to 50 members"] },
-      { "name": "Basic", "price": "€29", "description": "For growing clubs with more members", "features": ["Up to 500 members"] },
-      { "name": "Pro", "price": "€49", "description": "For established clubs and organizations", "features": ["Up to 2,000 members"] },
-      { "name": "Enterprise", "price": "Contact us", "description": "For large organizations with custom needs", "features": ["Unlimited members", "Custom configuration", "Dedicated support"] }
-    ]
+    "heading": "100% Free for",
+    "headingHighlight": "All Clubs",
+    "subheading": "Clubnizer is completely free for all sports clubs, teams and organizations. No hidden fees, no paid tiers, no limitations. Focus on your sport — we handle the rest.",
+    "freeBadge": "Free Forever",
+    "freePrice": "€0",
+    "freeDescription": "Full access to all features — for every club, every team, every member.",
+    "freeFeatures": [
+      "Unlimited members",
+      "Member management with roles",
+      "Event & training planning",
+      "Attendance tracking",
+      "Structured communication",
+      "Secure cloud infrastructure",
+      "GDPR-compliant data protection"
+    ],
+    "footnote": "Clubnizer is and will remain free for all clubs. Our mission is to make sport club management accessible to everyone."
   },
   "improving": {
     "roadmapLabel": "Roadmap",
@@ -163,7 +167,7 @@
     "headingLine1": "Spend More Time",
     "headingLine2": "on the Field.",
     "description": "Let Clubnizer organize the structure — so you can focus on the sport.",
-    "ctaPrimary": "Get Started",
+    "ctaPrimary": "Get Started — It's Free",
     "ctaSecondary": "Contact Us"
   },
   "footer": {
