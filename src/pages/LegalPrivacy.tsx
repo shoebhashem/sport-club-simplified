@@ -174,18 +174,21 @@ export default function LegalPrivacy() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 9. Data Retention
               </h2>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                9.1 Active Accounts
+              </h3>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
                 We retain your data while your account remains active and as necessary to provide the Service.
               </p>
               <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
-                Deleted Accounts & Removed Memberships
+                9.2 Inactive Memberships
               </h3>
               <ul className="space-y-1.5 list-none mb-4">
                 {[
-                  "Deleted accounts and removed memberships are subject to a 30-day recovery period before permanent deletion",
-                  "During the 30-day recovery period, reactivation may be possible",
-                  "After the recovery period, data is permanently deleted from active systems",
-                  "Backups may retain data for a limited period after deletion from the primary system",
+                  "When you leave a group, are removed from a Club, or your membership becomes inactive, your membership record is soft-deleted and marked as inactive",
+                  "A 30-day grace period applies, during which a Club administrator can reactivate your membership",
+                  "After 30 days, inactive membership records are permanently deleted by an automated cleanup process",
+                  "Any outstanding membership fees associated with the membership are cancelled upon removal",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
                     <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--accent-blue))" }} />
@@ -194,11 +197,86 @@ export default function LegalPrivacy() {
                 ))}
               </ul>
               <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
-                Data Export
+                9.3 Account Deletion ("Delete My Account")
+              </h3>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                You can delete your own account at any time using the <strong>"Delete My Account"</strong> option in your Profile settings within the app. Account deletion is <strong>immediate and permanent</strong> — there is no recovery period.
+              </p>
+              <h4 className="font-display font-semibold text-base mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                Pre-conditions
+              </h4>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Before you can delete your account, you must meet all of the following conditions:
+              </p>
+              <ol className="space-y-1.5 list-decimal pl-5 mb-4 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                <li>Leave all groups — you cannot have any active group memberships.</li>
+                <li>Not hold a club-admin role — another club admin must remove you as club admin first.</li>
+                <li>Not be a guardian of active youth players — contact a club admin to remove the guardian association first.</li>
+              </ol>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                If any of these conditions are not met, the app will inform you of the specific steps required.
+              </p>
+              <div className="mb-4">
+                <h4 className="font-display font-semibold text-base mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                  What is deleted immediately
+                </h4>
+                <ul className="space-y-1.5 list-none">
+                  {[
+                    "Your Firebase Authentication account (login credentials)",
+                    "Your user profile document (name, email, phone, profile photo reference, preferences)",
+                    "Your in-app notifications",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                      <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--accent-blue))" }} />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mb-4">
+                <h4 className="font-display font-semibold text-base mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                  What is NOT deleted by account deletion
+                </h4>
+                <ul className="space-y-1.5 list-none">
+                  {[
+                    "Club membership records — these are managed by the Club and follow the inactive membership lifecycle described in Section 9.2. Since you must leave all groups before deleting your account, these records will already be in the soft-deleted state.",
+                    "Event and attendance data — historical event responses and attendance records you contributed while active may be retained by the Club for administrative purposes.",
+                    "Payment and transaction records — retained as required by law and by our payment processor (Stripe) for financial compliance.",
+                    "Anonymized usage data — aggregated, non-identifiable analytics data may be retained.",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                      <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--accent-blue))" }} />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                9.3a Admin-Deactivated Accounts
+              </h3>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                If your account is deactivated by an administrator rather than self-deleted, a <strong>60-day grace period</strong> applies. During this period, the account may be reactivated. After 60 days, the account is permanently deleted by an automated cleanup process.
+              </p>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                9.4 Extended Retention
+              </h3>
+              <ul className="space-y-1.5 list-none mb-4">
+                {[
+                  "Required by law (for example, financial records)",
+                  "Necessary for legitimate business purposes (for example, fraud prevention)",
+                  "Subject to ongoing disputes or legal proceedings",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--accent-blue))" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                9.5 Backup Retention
               </h3>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Data export is available upon request. Clubs may request an export of their data, which will be provided in a structured, commonly used format. Requests must come from authorized club administrators. To request an export, contact us at{" "}
-                <a href="mailto:support@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@clubnizer.com</a>.
+                Backups may retain data for a limited period after deletion from the primary system.
               </p>
             </section>
 
@@ -207,26 +285,50 @@ export default function LegalPrivacy() {
                 10. Your Rights
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Under applicable data protection laws, you may have the right to:
+                Under applicable data protection laws, you may have the following rights:
               </p>
-              <ul className="space-y-1.5 list-none mb-4">
-                {[
-                  "Access the personal data we hold about you",
-                  "Request correction of inaccurate data",
-                  "Request deletion of your personal data",
-                  "Object to or restrict how we process your data",
-                  "Request a copy of your data in a portable format",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--accent-blue))" }} />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                <strong>For Club data:</strong> Contact your Club administrator, who as Data Controller can assist with requests relating to Club membership data. <strong>For account data:</strong> Contact us at{" "}
-                <a href="mailto:privacy@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@clubnizer.com</a>. We aim to respond within 30 days.
-              </p>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.1 Right of Access</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>Request a copy of the personal data we hold about you.</p>
+                </div>
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.2 Right to Rectification</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>Request correction of inaccurate or incomplete personal data.</p>
+                </div>
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.3 Right to Erasure</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>Request deletion of your personal data, subject to legal retention requirements. You can exercise this right directly by using the <strong>"Delete My Account"</strong> feature in the app. See Section 9.3 for details and pre-conditions.</p>
+                </div>
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.4 Right to Restriction</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>Request that we limit processing of your data in certain circumstances.</p>
+                </div>
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.5 Right to Data Portability</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>Request your data in a portable format for transfer to another service.</p>
+                </div>
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.6 Right to Object</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>Object to processing based on legitimate interests in certain circumstances.</p>
+                </div>
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.7 Data Export</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}><strong>Data export is available upon request.</strong> To request an export of your data, please contact us at <a href="mailto:support@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@clubnizer.com</a>. We will respond within a reasonable timeframe.</p>
+                </div>
+                <div>
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>10.8 How to Exercise Your Rights</h3>
+                  <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <strong>To delete your account:</strong> Use the <strong>"Delete My Account"</strong> option in your Profile settings within the app. This performs an immediate, permanent deletion of your account data. See Section 9.3.
+                  </p>
+                  <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <strong>For Club data:</strong> Contact your Club administrator, who as Data Controller can assist with requests relating to Club membership data.
+                  </p>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <strong>For account data or other requests:</strong> Contact us directly at <a href="mailto:privacy@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@clubnizer.com</a>. We aim to respond to requests within 30 days.
+                  </p>
+                </div>
+              </div>
             </section>
 
             <section>
