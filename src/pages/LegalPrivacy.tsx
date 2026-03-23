@@ -57,7 +57,7 @@ export default function LegalPrivacy() {
               </h2>
               {[
                 { sub: "3.1 Account Data", items: ["Email address", "Display name", "Password (stored as a secure hash)"] },
-                { sub: "3.2 Profile Data", items: ["Profile photo", "Phone number", "Date of birth (required for Youth Members)"], note: "You may optionally provide:" },
+                { sub: "3.2 Profile Data", items: ["Profile photo (may be taken with your device camera or selected from your photo library)", "Phone number", "Date of birth (required for Youth Members)"], note: "You may optionally provide:" },
                 { sub: "3.3 Club Membership Data", items: ["Club and group associations", "Roles within the Club (e.g., player, coach, admin)", "Guardian relationships (for Youth Members)"] },
                 { sub: "3.4 Youth Member Data", items: ["Name", "Date of birth", "Guardian contact information"], note: "For Youth Members (users under 16):" },
                 { sub: "3.5 Event and Attendance Data", items: ["Event RSVPs and responses", "Attendance records", "Participation history for statistical purposes"] },
@@ -81,6 +81,21 @@ export default function LegalPrivacy() {
               ))}
               <p className="text-sm italic" style={{ color: "hsl(var(--foreground-muted))" }}>
                 Note: Clubs are responsible for obtaining guardian consent before adding Youth Members. Clubnizer does not independently verify that such consent has been obtained.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
+                3.8 Images and Media
+              </h2>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Users may upload images within the app, including profile photos, club logos, and group images. When you choose to upload an image, the app may request access to your device camera or photo library. This access is optional and is only requested at the moment you actively choose to upload a photo.
+              </p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Uploaded images are stored in Google Firebase Storage. Images stored this way are accessible via a direct URL and are not restricted by user authentication. Do not upload images containing sensitive personal information.
+              </p>
+              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Images are used solely for the purpose for which they were uploaded (e.g., displaying a profile picture or club logo) and are not used for facial recognition or other automated processing.
               </p>
             </section>
 
@@ -139,7 +154,7 @@ export default function LegalPrivacy() {
                 Your data is shared with the Club(s) you belong to, as determined by Club administrators. Certain information (such as name, profile photo, email, and role) may be visible to other members within the same Club.
               </p>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                We share data with service providers who process data on our behalf, including Google Cloud / Firebase (infrastructure, authentication, database), Stripe (payment processing), and email delivery providers.
+                We share data with service providers who process data on our behalf, including Google Cloud / Firebase (infrastructure, authentication, database, image storage), Stripe (payment processing), and email delivery providers.
               </p>
               <p className="text-base leading-relaxed font-semibold" style={{ color: "hsl(var(--foreground-muted))" }}>
                 We do not sell your personal data to third parties.
@@ -229,6 +244,41 @@ export default function LegalPrivacy() {
               </h2>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, or destruction. Our security measures include encryption of data in transit and at rest, access controls and authentication, and regular security reviews. However, no method of transmission over the Internet or electronic storage is completely secure. We cannot guarantee absolute security.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
+                12a. Device Permissions
+              </h2>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                The app may request the following device permissions. All permissions are optional and are only requested when you actively choose to use the relevant feature.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm border-collapse">
+                  <thead>
+                    <tr style={{ borderBottom: "1px solid hsl(0 0% 100% / 0.12)" }}>
+                      <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Permission</th>
+                      <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Purpose</th>
+                      <th className="text-left py-2 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Required</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style={{ borderBottom: "1px solid hsl(0 0% 100% / 0.06)" }}>
+                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Camera<br /><span className="text-xs opacity-70">android.permission.CAMERA</span></td>
+                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Take a photo when uploading a profile picture, club logo, or group image</td>
+                      <td className="py-2" style={{ color: "hsl(var(--foreground-muted))" }}>Optional</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Photo Library / Media Access</td>
+                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Select an existing image from your device when uploading a profile picture, club logo, or group image</td>
+                      <td className="py-2" style={{ color: "hsl(var(--foreground-muted))" }}>Optional</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-sm mt-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                You can revoke these permissions at any time in your device settings. Revoking a permission will only prevent future use of that feature — it does not delete previously uploaded images.
               </p>
             </section>
 

@@ -44,7 +44,7 @@ When you create an account, we collect:
 
 You may optionally provide:
 
-- Profile photo
+- Profile photo (may be taken with your device camera or selected from your photo library)
 - Phone number
 - Date of birth (required for Youth Members)
 
@@ -91,6 +91,23 @@ We automatically collect:
 - Error logs and performance data
 
 This data helps us improve the Service and troubleshoot issues.
+
+### 3.8 Images and Media
+
+The app allows you to upload images in the following contexts:
+
+- **Profile photos** — a personal image associated with your account
+- **Club logos** — an image representing your club
+- **Group images** — an image representing a group within a club
+
+**Camera and Photo Library Access**
+To upload images, the app may request access to your device camera or photo library. This permission is requested only when you actively choose to upload an image. You can decline this permission and still use all other features of the app.
+
+**Image Storage**
+Uploaded images are stored using Firebase Storage (Google Cloud). Uploaded images may be accessible via a direct URL, meaning anyone who obtains the link to an image may be able to view it. You should not upload images containing sensitive or personal information you do not want to be publicly accessible.
+
+**Purpose**
+Images are used solely to personalize your profile or club within the app. We do not use uploaded images for advertising, analytics, or any purpose beyond providing the core functionality of the Service.
 
 ---
 
@@ -185,7 +202,7 @@ We share data with service providers who process data on our behalf:
 
 | Sub-Processor           | Purpose                                  | Location   |
 | ----------------------- | ---------------------------------------- | ---------- |
-| Google Cloud / Firebase | Infrastructure, authentication, database | USA/EU     |
+| Google Cloud / Firebase | Infrastructure, authentication, database, image storage | USA/EU     |
 | Stripe                  | Payment processing                       | USA/EU     |
 | [Email Provider]        | Transactional email delivery             | [Location] |
 
@@ -319,6 +336,19 @@ Our security measures include:
 - Regular security reviews
 
 **However, no method of transmission over the Internet or electronic storage is completely secure.** We cannot guarantee absolute security, and you use the Service at your own risk.
+
+---
+
+## 12a. Device Permissions
+
+Clubnizer may request the following device permissions:
+
+| Permission | Purpose | Required |
+|---|---|---|
+| Camera (`android.permission.CAMERA`) | Allows you to take a photo when uploading a profile picture, club logo, or group image | Optional |
+| Photo Library / Media Access | Allows you to select an existing image from your device when uploading | Optional |
+
+All permissions are requested at the moment you choose to use the relevant feature. You may decline any permission — this will prevent the specific upload feature from working but will not affect other app functionality. You can manage or revoke permissions at any time through your device settings.
 
 ---
 
