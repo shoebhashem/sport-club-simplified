@@ -89,13 +89,37 @@ export default function LegalPrivacy() {
                 3.8 Images and Media
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Users may upload images within the app, including profile photos, club logos, and group images. When you choose to upload an image, the app may request access to your device camera or photo library. This access is optional and is only requested at the moment you actively choose to upload a photo.
+                The app allows you to upload images in the following contexts:
               </p>
-              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Uploaded images are stored in Google Firebase Storage. Images stored this way are accessible via a direct URL and are not restricted by user authentication. Do not upload images containing sensitive personal information.
+              <ul className="space-y-1.5 list-none mb-4">
+                {[
+                  "Profile photos — a personal image associated with your account",
+                  "Club logos — an image representing your club",
+                  "Group images — an image representing a group within a club",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                Camera and Photo Library Access
+              </h3>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                To upload images, the app may request access to your device camera or photo library. This permission is requested only when you actively choose to upload an image. You can decline this permission and still use all other features of the app.
               </p>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                Image Storage
+              </h3>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Uploaded images are stored using Firebase Storage (Google Cloud). Uploaded images may be accessible via a direct URL, meaning anyone who obtains the link to an image may be able to view it. You should not upload images containing sensitive or personal information you do not want to be publicly accessible.
+              </p>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                Purpose
+              </h3>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Images are used solely for the purpose for which they were uploaded (e.g., displaying a profile picture or club logo) and are not used for facial recognition or other automated processing.
+                Images are used solely to personalize your profile or club within the app. We do not use uploaded images for advertising, analytics, or any purpose beyond providing the core functionality of the Service.
               </p>
             </section>
 
@@ -106,23 +130,55 @@ export default function LegalPrivacy() {
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
                 We use the data we collect to:
               </p>
-              <ul className="space-y-1.5 list-none">
-                {[
-                  "Create and maintain your account",
-                  "Enable Club administration and member management",
-                  "Facilitate event scheduling and communications",
-                  "Process payments",
-                  "Analyze usage patterns to improve features",
-                  "Fix bugs and resolve technical issues",
-                  "Send notifications about events and Club activities",
-                  "Prevent unauthorized access and ensure security",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
-                    {item}
-                  </li>
-                ))}
-              </ul>
+              {[
+                {
+                  sub: "4.1 Provide the Service",
+                  items: [
+                    "Create and maintain your account",
+                    "Enable Club administration and member management",
+                    "Facilitate event scheduling and communications",
+                    "Process payments",
+                  ],
+                },
+                {
+                  sub: "4.2 Improve the Service",
+                  items: [
+                    "Analyze usage patterns to improve features",
+                    "Fix bugs and resolve technical issues",
+                    "Develop new functionality",
+                  ],
+                },
+                {
+                  sub: "4.3 Communicate with You",
+                  items: [
+                    "Send notifications about events and Club activities",
+                    "Deliver invitation emails",
+                    "Provide customer support",
+                  ],
+                },
+                {
+                  sub: "4.4 Ensure Security",
+                  items: [
+                    "Prevent unauthorized access",
+                    "Detect and prevent fraud",
+                    "Enforce our Terms of Service",
+                  ],
+                },
+              ].map((group) => (
+                <div key={group.sub} className="mb-4 last:mb-0">
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                    {group.sub}
+                  </h3>
+                  <ul className="space-y-1.5 list-none">
+                    {group.items.map((item) => (
+                      <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </section>
 
             <section>
@@ -150,12 +206,69 @@ export default function LegalPrivacy() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 7. Data Sharing
               </h2>
-              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                Your data is shared with the Club(s) you belong to, as determined by Club administrators. Certain information (such as name, profile photo, email, and role) may be visible to other members within the same Club.
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                7.1 With Your Club
+              </h3>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Your data is shared with the Club(s) you belong to, as determined by Club administrators. Club administrators can view member information as necessary for Club administration.
               </p>
-              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                We share data with service providers who process data on our behalf, including Google Cloud / Firebase (infrastructure, authentication, database, image storage), Stripe (payment processing), and email delivery providers.
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                7.2 With Other Club Members
+              </h3>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Certain information (such as name, profile photo, email, and role) may be visible to other members within the same Club, as configured by Club administrators.
               </p>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                7.3 With Sub-Processors
+              </h3>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                We share data with service providers who process data on our behalf:
+              </p>
+              <div className="overflow-x-auto mb-4">
+                <table className="w-full text-sm border-collapse">
+                  <thead>
+                    <tr style={{ borderBottom: "1px solid hsl(0 0% 100% / 0.12)" }}>
+                      <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Sub-Processor</th>
+                      <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Purpose</th>
+                      <th className="text-left py-2 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Location</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["Google Cloud / Firebase", "Infrastructure, authentication, database, image storage", "USA/EU"],
+                      ["Stripe", "Payment processing", "USA/EU"],
+                      ["[Email Provider]", "Transactional email delivery", "[Location]"],
+                    ].map(([name, purpose, location], index) => (
+                      <tr key={name} style={index < 2 ? { borderBottom: "1px solid hsl(0 0% 100% / 0.06)" } : undefined}>
+                        <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>{name}</td>
+                        <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>{purpose}</td>
+                        <td className="py-2" style={{ color: "hsl(var(--foreground-muted))" }}>{location}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                7.4 Legal Requirements
+              </h3>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                We may disclose data when required by law or to:
+              </p>
+              <ul className="space-y-1.5 list-none mb-4">
+                {[
+                  "Comply with legal processes",
+                  "Protect our rights and safety",
+                  "Prevent fraud or security threats",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                7.5 No Selling of Data
+              </h3>
               <p className="text-base leading-relaxed font-semibold" style={{ color: "hsl(var(--foreground-muted))" }}>
                 We do not sell your personal data to third parties.
               </p>
@@ -335,8 +448,28 @@ export default function LegalPrivacy() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 11. Cookies and Tracking
               </h2>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                11.1 Essential Cookies
+              </h3>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                We use essential cookies necessary for the Service to function, including:
+              </p>
+              <ul className="space-y-1.5 list-none mb-4">
+                {[
+                  "Authentication and session management",
+                  "Security features",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                11.2 Analytics
+              </h3>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                We use essential cookies necessary for the Service to function, including authentication and session management, and security features. We may collect anonymized usage data to improve the Service. This does not include personal identifiers.
+                We may collect anonymized usage data to improve the Service. This does not include personal identifiers.
               </p>
             </section>
 
@@ -344,8 +477,27 @@ export default function LegalPrivacy() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 12. Security
               </h2>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, or destruction.
+              </p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Our security measures include:
+              </p>
+              <ul className="space-y-1.5 list-none mb-4">
+                {[
+                  "Encryption of data in transit (HTTPS/TLS)",
+                  "Encryption of data at rest",
+                  "Access controls and authentication",
+                  "Regular security reviews",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, or destruction. Our security measures include encryption of data in transit and at rest, access controls and authentication, and regular security reviews. However, no method of transmission over the Internet or electronic storage is completely secure. We cannot guarantee absolute security.
+                <strong>However, no method of transmission over the Internet or electronic storage is completely secure.</strong> We cannot guarantee absolute security, and you use the Service at your own risk.
               </p>
             </section>
 
@@ -354,33 +506,38 @@ export default function LegalPrivacy() {
                 12a. Device Permissions
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                The app may request the following device permissions. All permissions are optional and are only requested when you actively choose to use the relevant feature.
+                Clubnizer may request the following device permissions. The specific permission identifiers differ by platform but serve the same purpose.
               </p>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm border-collapse">
                   <thead>
                     <tr style={{ borderBottom: "1px solid hsl(0 0% 100% / 0.12)" }}>
                       <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Permission</th>
+                      <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Android</th>
+                      <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>iOS</th>
                       <th className="text-left py-2 pr-4 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Purpose</th>
                       <th className="text-left py-2 font-semibold" style={{ color: "hsl(0 0% 100%)" }}>Required</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr style={{ borderBottom: "1px solid hsl(0 0% 100% / 0.06)" }}>
-                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Camera<br /><span className="text-xs opacity-70">android.permission.CAMERA</span></td>
-                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Take a photo when uploading a profile picture, club logo, or group image</td>
-                      <td className="py-2" style={{ color: "hsl(var(--foreground-muted))" }}>Optional</td>
-                    </tr>
-                    <tr>
-                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Photo Library / Media Access</td>
-                      <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>Select an existing image from your device when uploading a profile picture, club logo, or group image</td>
-                      <td className="py-2" style={{ color: "hsl(var(--foreground-muted))" }}>Optional</td>
-                    </tr>
+                    {[
+                      ["Camera", "android.permission.CAMERA", "NSCameraUsageDescription", "Allows you to take a photo when uploading a profile picture, club logo, or group image", "Optional"],
+                      ["Photo Library", "android.permission.READ_EXTERNAL_STORAGE", "NSPhotoLibraryUsageDescription", "Allows you to select an existing image from your device photo library when uploading", "Optional"],
+                      ["Push Notifications", "android.permission.POST_NOTIFICATIONS", "Prompted at runtime by iOS", "Allows the app to send you notifications about events and club activities", "Optional"],
+                    ].map(([permission, android, ios, purpose, required], index, arr) => (
+                      <tr key={permission} style={index < arr.length - 1 ? { borderBottom: "1px solid hsl(0 0% 100% / 0.06)" } : undefined}>
+                        <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>{permission}</td>
+                        <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>{android}</td>
+                        <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>{ios}</td>
+                        <td className="py-2 pr-4" style={{ color: "hsl(var(--foreground-muted))" }}>{purpose}</td>
+                        <td className="py-2" style={{ color: "hsl(var(--foreground-muted))" }}>{required}</td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>
               <p className="text-sm mt-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                You can revoke these permissions at any time in your device settings. Revoking a permission will only prevent future use of that feature — it does not delete previously uploaded images.
+                All permissions are requested at the moment you choose to use the relevant feature, or (for notifications) when you first enable them in the app. You may decline any permission — this will prevent the specific feature from working but will not affect other app functionality. You can manage or revoke permissions at any time through your device settings.
               </p>
             </section>
 
@@ -388,8 +545,23 @@ export default function LegalPrivacy() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 13. Changes to This Policy
               </h2>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                We may update this Privacy Policy from time to time. When we make changes:
+              </p>
+              <ul className="space-y-1.5 list-none mb-4">
+                {[
+                  'The "Last Updated" date will be revised',
+                  "Material changes will be communicated via the Platform or email",
+                  "Continued use of the Service after changes constitutes acceptance",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                We may update this Privacy Policy from time to time. When we make changes, the "Last Updated" date will be revised. Material changes will be communicated via the Platform or email. Continued use of the Service after changes constitutes acceptance. We encourage you to review this policy periodically.
+                We encourage you to review this policy periodically.
               </p>
             </section>
 
@@ -397,10 +569,21 @@ export default function LegalPrivacy() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 14. Contact Us
               </h2>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                For questions about this Privacy Policy or our data practices:
+              </p>
+              <ul className="space-y-1.5 list-none mb-4">
+                <li className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                  <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                  <span><strong>Privacy Inquiries:</strong> <a href="mailto:privacy@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@clubnizer.com</a></span>
+                </li>
+                <li className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                  <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                  <span><strong>General Support:</strong> <a href="mailto:support@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@clubnizer.com</a></span>
+                </li>
+              </ul>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
-                For questions about this Privacy Policy or our data practices:{" "}
-                <a href="mailto:privacy@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>privacy@clubnizer.com</a> (Privacy Inquiries) or{" "}
-                <a href="mailto:support@clubnizer.com" style={{ color: "hsl(var(--accent-blue))" }}>support@clubnizer.com</a> (General Support). We aim to respond to all inquiries within 30 days.
+                We aim to respond to all inquiries within 30 days.
               </p>
             </section>
 
@@ -408,8 +591,17 @@ export default function LegalPrivacy() {
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 15. Additional Information for Specific Jurisdictions
               </h2>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                15.1 European Economic Area (EEA) Users
+              </h3>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                If you are located in the EEA, you have the right to lodge a complaint with your local data protection authority if you believe we have not complied with applicable data protection laws.
+              </p>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                15.2 California Users
+              </h3>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
-                If you are located in the European Economic Area (EEA), you have the right to lodge a complaint with your local data protection authority if you believe we have not complied with applicable data protection laws. California residents may have additional rights under the California Consumer Privacy Act (CCPA). We do not sell personal information as defined under CCPA.
+                California residents may have additional rights under the California Consumer Privacy Act (CCPA). We do not sell personal information as defined under CCPA.
               </p>
             </section>
 
