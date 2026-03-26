@@ -55,13 +55,6 @@ export default function PricingSection() {
             </ul>
           </div>
         </div>
-
-        <p
-          className="text-center text-sm mt-8 max-w-lg mx-auto"
-          style={{ color: "hsl(var(--foreground-muted))" }}
-        >
-          {t("pricing.footnote")}
-        </p>
       </div>
     </section>
   );
