@@ -11,6 +11,7 @@
     "security": "Sicherheit",
     "contact": "Kontakt",
     "tryWebApp": "Web-App testen",
+    "getApp": "App herunterladen",
     "tagline": "Organizing Sports!"
   },
   "hero": {
@@ -27,7 +28,24 @@
     "stat2Label": "Einrichtung",
     "stat3Value": "Sicher",
     "stat3Label": "Von Grund auf",
-    "scroll": "Scrollen"
+    "scroll": "Scrollen",
+    "downloadOn": "Laden im",
+    "appStore": "App Store",
+    "getItOn": "Jetzt bei",
+    "googlePlay": "Google Play",
+    "orUseWeb": "Oder Web-App nutzen"
+  },
+  "appDownload": {
+    "label": "Überall verfügbar",
+    "heading": "Clubnizer",
+    "headingHighlight": "überall dabei",
+    "description": "Laden Sie die kostenlose App auf Ihr Smartphone herunter oder nutzen Sie die Web-Version in jedem Browser.",
+    "iosQrLabel": "Mit iPhone-Kamera scannen",
+    "androidQrLabel": "Mit Android-Kamera scannen",
+    "iosAlt": "Clubnizer im App Store herunterladen",
+    "androidAlt": "Clubnizer bei Google Play holen",
+    "webAppPrefix": "Am Computer?",
+    "webAppLabel": "Web-App nutzen"
   },
   "problem": {
     "label": "Die Herausforderung",
@@ -165,13 +183,17 @@
     "headingLine2": "auf dem Platz.",
     "description": "Lassen Sie Clubnizer die Struktur organisieren — damit Sie sich auf den Sport konzentrieren können.",
     "ctaPrimary": "Jetzt starten — Kostenlos",
-    "ctaSecondary": "Kontaktieren Sie uns"
+    "ctaIos": "App Store",
+    "ctaAndroid": "Google Play",
+    "ctaSecondary": "Alle Download-Optionen ansehen"
   },
   "footer": {
     "brandDescription": "Eine strukturierte Plattform für Vereinsverwaltung, die den Verwaltungsaufwand reduziert, damit sich Teams auf den Sport konzentrieren können.",
     "navigation": "Navigation",
     "contactSupport": "Kontakt & Support",
     "openWebApp": "Web-App öffnen",
+    "downloadOnAppStore": "App Store",
+    "downloadOnGooglePlay": "Google Play",
     "copyright": "© {{year}} Clubnizer. Alle Rechte vorbehalten.",
     "tagline": "Eine strukturierte Plattform für moderne Sportteams und Vereine.",
     "privacyPolicy": "Datenschutzerklärung",

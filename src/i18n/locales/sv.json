@@ -11,6 +11,7 @@
     "security": "Säkerhet",
     "contact": "Kontakt",
     "tryWebApp": "Testa webbappen",
+    "getApp": "Ladda ner appen",
     "tagline": "Organizing Sports!"
   },
   "hero": {
@@ -27,7 +28,24 @@
     "stat2Label": "Installation",
     "stat3Value": "Säker",
     "stat3Label": "Från grunden",
-    "scroll": "Scrolla"
+    "scroll": "Scrolla",
+    "downloadOn": "Ladda ner på",
+    "appStore": "App Store",
+    "getItOn": "Hämta på",
+    "googlePlay": "Google Play",
+    "orUseWeb": "Eller använd webbappen"
+  },
+  "appDownload": {
+    "label": "Tillgänglig överallt",
+    "heading": "Ta med dig Clubnizer",
+    "headingHighlight": "överallt",
+    "description": "Ladda ner den kostnadsfria appen på din mobil eller använd den fullständiga webbversionen i valfri webbläsare.",
+    "iosQrLabel": "Skanna med iPhone-kameran",
+    "androidQrLabel": "Skanna med Android-kameran",
+    "iosAlt": "Ladda ner Clubnizer på App Store",
+    "androidAlt": "Hämta Clubnizer på Google Play",
+    "webAppPrefix": "Använder du dator?",
+    "webAppLabel": "Använd webbappen"
   },
   "problem": {
     "label": "Utmaningen",
@@ -165,13 +183,17 @@
     "headingLine2": "på planen.",
     "description": "Låt Clubnizer organisera strukturen — så att du kan fokusera på idrotten.",
     "ctaPrimary": "Kom igång — Det är gratis",
-    "ctaSecondary": "Kontakta oss"
+    "ctaIos": "App Store",
+    "ctaAndroid": "Google Play",
+    "ctaSecondary": "Se alla nedladdningsalternativ"
   },
   "footer": {
     "brandDescription": "En strukturerad plattform för klubbhantering designad för att minska administrativt arbete så att lagen kan fokusera på idrotten.",
     "navigation": "Navigering",
     "contactSupport": "Kontakt & support",
     "openWebApp": "Öppna webbappen",
+    "downloadOnAppStore": "App Store",
+    "downloadOnGooglePlay": "Google Play",
     "copyright": "© {{year}} Clubnizer. Alla rättigheter förbehållna.",
     "tagline": "En strukturerad plattform för moderna idrottslag och klubbar.",
     "privacyPolicy": "Integritetspolicy",

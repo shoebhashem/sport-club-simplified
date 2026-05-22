@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Serve static assets with long-lived cache (hashed filenames from Vite)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache QR codes and images in public/
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# SPA fallback: send all routes to index.html for React Router / locale routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false

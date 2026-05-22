@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { APP_STORE_URL_IOS, APP_STORE_URL_ANDROID } from "@/lib/app-links";
 
 export default function CTASection() {
   const { t } = useTranslation();
@@ -50,10 +51,29 @@ export default function CTASection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://app.clubnizer.com" className="btn-primary text-base">
-                {t("cta.ctaPrimary")} <ArrowRight size={18} />
+              <a
+                href={APP_STORE_URL_IOS}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-base"
+              >
+                {t("cta.ctaIos")} <ArrowRight size={18} />
               </a>
-              <a href="#contact" className="btn-hero-outline text-base">
+              <a
+                href={APP_STORE_URL_ANDROID}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-hero-outline text-base"
+              >
+                {t("cta.ctaAndroid")} <ArrowRight size={18} />
+              </a>
+            </div>
+            <div className="mt-4">
+              <a
+                href="#download"
+                className="text-sm transition-opacity hover:opacity-80"
+                style={{ color: "hsl(0 0% 100% / 0.40)" }}
+              >
                 {t("cta.ctaSecondary")}
               </a>
             </div>

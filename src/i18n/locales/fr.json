@@ -11,6 +11,7 @@
     "security": "Sécurité",
     "contact": "Contact",
     "tryWebApp": "Essayer l'application",
+    "getApp": "Télécharger l'app",
     "tagline": "Organizing Sports!"
   },
   "hero": {
@@ -27,7 +28,24 @@
     "stat2Label": "Mise en place",
     "stat3Value": "Sécurisée",
     "stat3Label": "Par conception",
-    "scroll": "Défiler"
+    "scroll": "Défiler",
+    "downloadOn": "Télécharger sur",
+    "appStore": "l'App Store",
+    "getItOn": "Disponible sur",
+    "googlePlay": "Google Play",
+    "orUseWeb": "Ou utiliser l'application web"
+  },
+  "appDownload": {
+    "label": "Disponible partout",
+    "heading": "Emportez Clubnizer",
+    "headingHighlight": "partout",
+    "description": "Téléchargez l'application gratuite sur votre mobile ou utilisez la version web dans n'importe quel navigateur.",
+    "iosQrLabel": "Scanner avec l'appareil photo iPhone",
+    "androidQrLabel": "Scanner avec l'appareil photo Android",
+    "iosAlt": "Télécharger Clubnizer sur l'App Store",
+    "androidAlt": "Obtenir Clubnizer sur Google Play",
+    "webAppPrefix": "Sur ordinateur ?",
+    "webAppLabel": "Utiliser l'application web"
   },
   "problem": {
     "label": "Le défi",
@@ -165,13 +183,17 @@
     "headingLine2": "sur le terrain.",
     "description": "Laissez Clubnizer organiser la structure — pour que vous puissiez vous concentrer sur le sport.",
     "ctaPrimary": "Commencer — C'est gratuit",
-    "ctaSecondary": "Contactez-nous"
+    "ctaIos": "App Store",
+    "ctaAndroid": "Google Play",
+    "ctaSecondary": "Voir toutes les options"
   },
   "footer": {
     "brandDescription": "Une plateforme structurée de gestion de club sportif conçue pour réduire la charge administrative afin que les équipes puissent se concentrer sur le sport.",
     "navigation": "Navigation",
     "contactSupport": "Contact & support",
     "openWebApp": "Ouvrir l'application",
+    "downloadOnAppStore": "App Store",
+    "downloadOnGooglePlay": "Google Play",
     "copyright": "© {{year}} Clubnizer. Tous droits réservés.",
     "tagline": "Une plateforme structurée pour les équipes et clubs sportifs modernes.",
     "privacyPolicy": "Politique de confidentialité",

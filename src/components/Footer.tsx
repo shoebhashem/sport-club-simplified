@@ -1,6 +1,7 @@
-import { Mail, ExternalLink } from "lucide-react";
+import { Mail, ExternalLink, Smartphone } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useLocalePath } from "@/hooks/use-locale-path";
+import { APP_STORE_URL_IOS, APP_STORE_URL_ANDROID, WEB_APP_URL } from "@/lib/app-links";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -82,9 +83,35 @@ export default function Footer() {
               <Mail size={14} />
               support@clubnizer.com
             </a>
-            <div className="mt-4">
+            <div className="mt-4 flex flex-col gap-2">
               <a
-                href="https://app.clubnizer.com"
+                href={APP_STORE_URL_IOS}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm transition-colors duration-200"
+                style={{ color: "hsl(0 0% 100% / 0.55)" }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "hsl(var(--brand))")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")}
+              >
+                <Smartphone size={13} />
+                {t("footer.downloadOnAppStore")}
+              </a>
+              <a
+                href={APP_STORE_URL_ANDROID}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm transition-colors duration-200"
+                style={{ color: "hsl(0 0% 100% / 0.55)" }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "hsl(var(--brand))")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")}
+              >
+                <Smartphone size={13} />
+                {t("footer.downloadOnGooglePlay")}
+              </a>
+              <a
+                href={WEB_APP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sm font-semibold font-display"
                 style={{ color: "hsl(var(--brand))" }}
               >

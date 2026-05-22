@@ -11,6 +11,7 @@
     "security": "Security",
     "contact": "Contact",
     "tryWebApp": "Try the Web App",
+    "getApp": "Get the App",
     "tagline": "Organizing Sports!"
   },
   "hero": {
@@ -27,7 +28,24 @@
     "stat2Label": "Setup",
     "stat3Value": "Secure",
     "stat3Label": "By Design",
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "downloadOn": "Download on the",
+    "appStore": "App Store",
+    "getItOn": "Get it on",
+    "googlePlay": "Google Play",
+    "orUseWeb": "Or use the Web App"
+  },
+  "appDownload": {
+    "label": "Available Everywhere",
+    "heading": "Take Clubnizer",
+    "headingHighlight": "Everywhere",
+    "description": "Download the free app on your phone or use the full web version in any browser.",
+    "iosQrLabel": "Scan with your iPhone camera",
+    "androidQrLabel": "Scan with your Android camera",
+    "iosAlt": "Download Clubnizer on the App Store",
+    "androidAlt": "Get Clubnizer on Google Play",
+    "webAppPrefix": "Already on a computer?",
+    "webAppLabel": "Use the Web App"
   },
   "problem": {
     "label": "The Challenge",
@@ -165,13 +183,17 @@
     "headingLine2": "on the Field.",
     "description": "Let Clubnizer organize the structure — so you can focus on the sport.",
     "ctaPrimary": "Get Started — It's Free",
-    "ctaSecondary": "Contact Us"
+    "ctaIos": "App Store",
+    "ctaAndroid": "Google Play",
+    "ctaSecondary": "See all download options"
   },
   "footer": {
     "brandDescription": "A structured sport club management platform designed to reduce administrative overhead so teams can focus on the sport.",
     "navigation": "Navigation",
     "contactSupport": "Contact & Support",
     "openWebApp": "Open Web App",
+    "downloadOnAppStore": "App Store",
+    "downloadOnGooglePlay": "Google Play",
     "copyright": "© {{year}} Clubnizer. All rights reserved.",
     "tagline": "A structured platform for modern sports teams and clubs.",
     "privacyPolicy": "Privacy Policy",

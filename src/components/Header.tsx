@@ -75,8 +75,8 @@ export default function Header() {
         {/* CTA + Language Switcher */}
         <div className="hidden md:flex items-center gap-3">
           <LanguageSwitcher />
-          <a href="https://app.clubnizer.com" className="btn-primary text-sm px-5 py-2.5">
-            {t("header.tryWebApp")}
+          <a href="#download" className="btn-primary text-sm px-5 py-2.5">
+            {t("header.getApp")}
           </a>
         </div>
 
@@ -111,8 +111,8 @@ export default function Header() {
           <div className="py-2">
             <LanguageSwitcher />
           </div>
-          <a href="https://app.clubnizer.com" className="btn-primary text-sm text-center mt-2">
-            {t("header.tryWebApp")}
+          <a href="#download" className="btn-primary text-sm text-center mt-2">
+            {t("header.getApp")}
           </a>
         </div>
       )}
