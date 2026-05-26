@@ -73,28 +73,50 @@
       {
         "title": "Medlemshantering",
         "description": "Håll alla medlemsregister organiserade och tillgängliga. Hantera roller, föräldra- och spelarstrukturer och behåll en tydlig överblick över alla i din klubb.",
-        "points": ["Organiserade medlemsregister", "Rollbaserad åtkomstkontroll", "Föräldra- och vårdnadshavarstruktur för ungdomsmedlemmar"]
+        "points": [
+          "Organiserade medlemsregister",
+          "Rollbaserad åtkomstkontroll",
+          "Föräldra- och vårdnadshavarstruktur för ungdomsmedlemmar"
+        ]
       },
       {
         "title": "Evenemang & träningsplanering",
         "description": "Planera träningar, matcher och klubbevenemang enkelt. Skicka inbjudningar och följ tillgänglighet så att du alltid vet vem som kommer.",
-        "points": ["Skapa träningar och matcher", "Skicka inbjudningar till medlemmar", "Följ tillgänglighet och svar"]
+        "points": [
+          "Skapa träningar och matcher",
+          "Skicka inbjudningar till medlemmar",
+          "Följ tillgänglighet och svar"
+        ]
       },
       {
         "title": "Närvarohantering",
         "description": "Få en tydlig överblick över närvaron vid alla träningar och evenemang. Historiska register låter dig upptäcka mönster och hålla alla ansvariga.",
-        "points": ["Tydlig närvaroöversikt", "Historiska närvaroregister", "Följ deltagandetrender"]
+        "points": [
+          "Tydlig närvaroöversikt",
+          "Historiska närvaroregister",
+          "Följ deltagandetrender"
+        ]
       },
       {
         "title": "Medlemsavgifter & betalningshantering",
         "description": "Få en ren överblick över medlemsavgiftsstatus. Se exakt vem som har betalat och vem som inte har det — med säkra onlinebetalningar för att minska manuella uppföljningar.",
-        "points": ["Se vem som har betalat", "Se utestående betalningar på ett ögonkast", "Säkra onlinebetalningar", "Minskad administrativ arbetsbelastning"],
+        "points": [
+          "Se vem som har betalat",
+          "Se utestående betalningar på ett ögonkast",
+          "Säkra onlinebetalningar",
+          "Minskad administrativ arbetsbelastning"
+        ],
         "note": "Betalningar hanteras via säker tredjepartsinrastruktur. Betalningsfunktioner utvecklas kontinuerligt."
       },
       {
         "title": "Strukturerad kommunikation",
         "description": "Riktad kommunikation utan kaos. Dela nyheter och uppdateringar på klubb-, grupp- eller undergruppsnivå — nå rätt personer med rätt information.",
-        "points": ["Klubbövergripande nyheter", "Gruppnivåuppdateringar", "Undergruppkoordinering", "Rollbaserad synlighet"]
+        "points": [
+          "Klubbövergripande nyheter",
+          "Gruppnivåuppdateringar",
+          "Undergruppkoordinering",
+          "Rollbaserad synlighet"
+        ]
       }
     ]
   },
@@ -165,12 +187,30 @@
     "heading": "Säkerhet och dataskydd",
     "subheading": "Att hantera en idrottsförening innebär hantering av personuppgifter — inklusive för ungdomsmedlemmar. Vi tar det ansvaret på allvar och bygger Clubnizer med säkerhet och dataskydd i kärnan.",
     "items": [
-      { "title": "Personuppgiftsansvarig & biträdesstruktur", "description": "Klubbar och organisationer agerar som personuppgiftsansvariga och bestämmer vilka personuppgifter som registreras. Clubnizer fungerar som personuppgiftsbiträde för klubbmedlemsdata och hanterar den enbart enligt klubbens instruktioner." },
-      { "title": "Modern molninfrastruktur", "description": "Clubnizer är byggt på modern molninfrastruktur med kryptering under överföring och i vila. Åtkomstkontroller och övervakning finns på plats för att skydda mot obehörig åtkomst." },
-      { "title": "Byggt med dataskydd i åtanke", "description": "Personuppgifter hanteras i enlighet med tillämpliga dataskyddslagar, inklusive GDPR. Vi implementerar lämpliga tekniska och organisatoriska åtgärder för att skydda data som anförtros oss." },
-      { "title": "Minimal datainsamling", "description": "Vi samlar in och lagrar bara den data som krävs för att tillhandahålla tjänsten. Clubnizer säljer inte personuppgifter och använder inte data för reklamändamål." },
-      { "title": "Kryptering & åtkomstkontroller", "description": "Data skyddas med branschstandardkryptering. Åtkomst till system och data begränsas baserat på roll och behov, enligt principen om minsta behörighet." },
-      { "title": "Ansvarsfulla raderingsrutiner", "description": "Raderade konton och borttagna medlemskap har en tillfällig återställningsperiod innan permanent radering. Klubbar kan begära radering när som helst via support@clubnizer.com." }
+      {
+        "title": "Personuppgiftsansvarig & biträdesstruktur",
+        "description": "Klubbar och organisationer agerar som personuppgiftsansvariga och bestämmer vilka personuppgifter som registreras. Clubnizer fungerar som personuppgiftsbiträde för klubbmedlemsdata och hanterar den enbart enligt klubbens instruktioner."
+      },
+      {
+        "title": "Modern molninfrastruktur",
+        "description": "Clubnizer är byggt på modern molninfrastruktur med kryptering under överföring och i vila. Åtkomstkontroller och övervakning finns på plats för att skydda mot obehörig åtkomst."
+      },
+      {
+        "title": "Byggt med dataskydd i åtanke",
+        "description": "Personuppgifter hanteras i enlighet med tillämpliga dataskyddslagar, inklusive GDPR. Vi implementerar lämpliga tekniska och organisatoriska åtgärder för att skydda data som anförtros oss."
+      },
+      {
+        "title": "Minimal datainsamling",
+        "description": "Vi samlar in och lagrar bara den data som krävs för att tillhandahålla tjänsten. Clubnizer säljer inte personuppgifter och använder inte data för reklamändamål."
+      },
+      {
+        "title": "Kryptering & åtkomstkontroller",
+        "description": "Data skyddas med branschstandardkryptering. Åtkomst till system och data begränsas baserat på roll och behov, enligt principen om minsta behörighet."
+      },
+      {
+        "title": "Ansvarsfulla raderingsrutiner",
+        "description": "Raderade konton och borttagna medlemskap har en tillfällig återställningsperiod innan permanent radering. Klubbar kan begära radering när som helst via support@clubnizer.com."
+      }
     ],
     "legalNote": "För detaljerad information om hur vi hanterar data, se vår",
     "privacyPolicy": "Integritetspolicy",

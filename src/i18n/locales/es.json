@@ -4,30 +4,245 @@
     "description": "Clubnizer es una plataforma gratuita de gestión de clubes deportivos y sistema de gestión deportiva. Gestiona miembros, controla la asistencia, planifica eventos y haz seguimiento de las cuotas — todo gratis. Para todos los equipos y clubes deportivos.",
     "keywords": "gestión de club deportivo gratis, app gratuita para equipos deportivos, gestión de miembros gratuita, control de asistencia deportiva gratis, app gratuita club deportivo, herramienta de comunicación deportiva gratuita, app gratuita para entrenadores, alternativa gratuita a Spond, alternativa gratuita a SportAdmin, mejor app gratuita para clubes deportivos, plataforma de gestión deportiva 100% gratuita, sistema de gestión deportiva gratuito, software de gestión de equipo gratuito, gestión de club deportivo, software de gestión deportiva, control de asistencia, cuotas de socios, app club deportivo, gestión de equipos deportivos, administración deportiva, planificación de entrenamientos, gestión de socios, organización deportiva, app equipo deportivo, software club de fútbol, gestión de ligas deportivas, registro de miembros club, seguimiento de pagos club deportivo, herramienta para entrenadores, gestión club deportivo juvenil, plataforma deportiva online, comunicación equipo deportivo, administración de asociación deportiva, organizar equipo de fútbol, app para entrenadores deportivos, gestión cantera deportiva, planificación de partidos, software polideportivo, Clubnizer"
   },
-  "header": { "features": "Funcionalidades", "pricing": "Precios", "ourStory": "Nuestra historia", "security": "Seguridad", "contact": "Contacto", "tryWebApp": "Probar la app web", "getApp": "Descargar la app", "tagline": "Organizing Sports!" },
-  "hero": { "label": "Plataforma gratuita de gestión de clubes deportivos", "freeBadge": "Gratis para todos los clubes", "titleLine1": "Gestión de club deportivo", "titleLine2": "— Simplificada.", "description": "Una plataforma de gestión deportiva gratuita para equipos y clubes deportivos modernos. Gestiona miembros, eventos, asistencia y cuotas — gratis para todos los clubes.", "ctaPrimary": "Probar la app web — Es gratis", "ctaSecondary": "Contáctanos", "stat1Value": "Gratis", "stat1Label": "Para todos", "stat2Value": "Simple", "stat2Label": "Configuración", "stat3Value": "Segura", "stat3Label": "Por diseño", "scroll": "Desplazar", "downloadOn": "Descargar en", "appStore": "App Store", "getItOn": "Disponible en", "googlePlay": "Google Play", "orUseWeb": "O usar la app web" }, "appDownload": { "label": "Disponible en todas partes", "heading": "Lleva Clubnizer", "headingHighlight": "a donde vayas", "description": "Descarga la app gratuita en tu móvil o usa la versión web en tu navegador.", "iosQrLabel": "Escanea con la cámara del iPhone", "androidQrLabel": "Escanea con la cámara del Android", "iosAlt": "Descargar Clubnizer en App Store", "androidAlt": "Obtener Clubnizer en Google Play", "webAppPrefix": "¿Ya en el ordenador?", "webAppLabel": "Usar la app web" },
-  "problem": { "label": "El desafío", "heading": "Demasiada administración.", "headingHighlight": "Poco deporte.", "description": "Los administradores de clubes y entrenadores conocen la sensación: te ofreces como voluntario para ayudar a un equipo, y terminas pasando más tiempo en hojas de cálculo que en el campo. Administrar un club deportivo no debería ser un trabajo a tiempo completo.", "descriptionSecondary": "Clubnizer está construido como una alternativa enfocada a los sistemas complejos de gestión de clubes — limpio, estructurado y diseñado alrededor de lo que realmente importa.", "listTitle": "¿Te resulta familiar?", "problems": ["Listas de miembros dispersas en hojas de cálculo", "Seguimiento manual de cuotas sin visión clara", "Imagen confusa de quién ha pagado y quién no", "Sistemas de club complicados que toman semanas aprender", "Demasiadas herramientas desconectadas tirando en diferentes direcciones", "Horas desperdiciadas en administración que deberían dedicarse al deporte"], "tagline": "Clubnizer fue construido para resolver exactamente estos problemas — por alguien que los vivió." },
-  "features": { "label": "Funcionalidades", "heading": "Todo lo que necesitas para", "headingHighlight": "organizar tu club", "subheading": "Cinco pilares enfocados de administración de clubes — diseñados para reemplazar herramientas dispersas con una plataforma clara y estructurada.", "items": [
-    { "title": "Gestión de miembros", "description": "Mantén todos los registros de miembros organizados y accesibles. Gestiona roles, estructuras de padres y jugadores, y mantén una visión clara de todos en tu club.", "points": ["Registros de miembros organizados", "Control de acceso basado en roles", "Estructura para padres y tutores de miembros jóvenes"] },
-    { "title": "Planificación de eventos y entrenamientos", "description": "Planifica sesiones, partidos y eventos del club fácilmente. Envía invitaciones y sigue la disponibilidad para saber siempre quién viene.", "points": ["Crear sesiones y partidos", "Enviar invitaciones a miembros", "Seguir disponibilidad y respuestas"] },
-    { "title": "Control de asistencia", "description": "Obtén una visión clara de la asistencia en todas las sesiones de entrenamiento y eventos. Los registros históricos te permiten identificar tendencias.", "points": ["Visión clara de asistencia", "Registros históricos de asistencia", "Seguir tendencias de participación"] },
-    { "title": "Gestión de cuotas y pagos", "description": "Obtén una visión clara del estado de las cuotas. Ve exactamente quién ha pagado y quién no — con pagos online seguros para reducir el seguimiento manual.", "points": ["Ver quién ha pagado", "Ver pagos pendientes de un vistazo", "Pagos online seguros", "Carga administrativa reducida"], "note": "Los pagos se procesan a través de infraestructura de pago de terceros segura. Las funcionalidades de pago evolucionan continuamente." },
-    { "title": "Comunicación estructurada", "description": "Comunicación dirigida sin caos. Comparte anuncios y actualizaciones a nivel de club, grupo o subgrupo — llegando a las personas correctas con la información correcta.", "points": ["Anuncios a nivel de club", "Actualizaciones a nivel de grupo", "Coordinación de subgrupos", "Visibilidad basada en roles"] }
-  ] },
-  "founder": { "label": "Nuestra historia", "heading": "Construido desde la línea lateral", "paragraph1": "Clubnizer nació de la participación real en el deporte juvenil. A través del voluntariado como entrenador y la participación activa en la organización de equipos, quedó claro cuánto tiempo se dedicaba a la administración en lugar de al deporte.", "paragraph2": "Gestionar miembros, controlar asistencia y hacer seguimiento de cuotas a menudo parecía más complicado de lo necesario. Había hojas de cálculo, apps de mensajería separadas, listas manuales de pagos — y nada estaba conectado.", "paragraph3": "Clubnizer fue construido para simplificar lo esencial — crear estructura sin complejidad innecesaria. No porque fuera primero una idea de negocio, sino porque había una necesidad real.", "goalPrefix": "El objetivo es simple:", "goalHighlight": "Hacer que organizar el deporte sea más fácil, tranquilo y eficiente." },
-  "teams": { "label": "Para equipos y clubes", "heading": "Construido para equipos.", "headingHighlight": "Estructurado para clubes.", "description": "Ya sea que gestiones un solo equipo juvenil o supervises un club entero con múltiples equipos, Clubnizer te da la estructura para mantener el control sin ahogarte en administración.", "yourClub": "Tu club", "teamA": "Equipo A", "teamB": "Equipo B", "teamC": "Equipo C", "diagramCaption": "Una plataforma — múltiples equipos, una visión clara", "benefits": ["Funciona perfectamente para un solo equipo", "Escala a múltiples equipos dentro de un club", "Reduce la carga administrativa en todos los niveles", "Mantiene una visión clara de finanzas y miembros", "Acceso basado en roles para entrenadores, admins y miembros", "Diseñado para equipos pequeños y grandes organizaciones"] },
-  "pricing": { "label": "Precios", "heading": "Gratis para", "headingHighlight": "todos los clubes", "subheading": "Clubnizer es gratuito para todos los clubes deportivos, equipos y organizaciones. Sin cuotas de suscripción.", "freeBadge": "Gratis", "freePrice": "€0", "freeDescription": "Todo lo que necesitas para gestionar tu club.", "freeFeatures": ["Crear y gestionar clubes con múltiples grupos", "Planificar entrenamientos, partidos y reuniones", "Mantente en contacto con tu equipo", "Gestionar cuotas de socios fácilmente", "Controlar asistencia y ver estadísticas"] },
-  "improving": { "roadmapLabel": "Desarrollo", "roadmapHeading": "Mejora continua", "roadmapDescription": "Clubnizer evoluciona activamente y mejora continuamente basándose en el uso real y los comentarios de equipos deportivos. Estamos comprometidos en construir una plataforma que crece con las necesidades de las organizaciones deportivas modernas.", "roadmapDescription2": "Cada actualización está guiada por la experiencia práctica — no por tendencias. Las funcionalidades se agregan cuando realmente reducen la carga administrativa.", "feedbackTitle": "Desarrollo guiado por comentarios", "feedbackDescription": "Cada sugerencia cuenta. Si encuentras un error, tienes una idea de funcionalidad o quieres compartir comentarios, queremos escucharte.", "contactLabel": "Contáctanos", "contactHeading": "¿Preguntas o comentarios?", "contactDescription": "Para sugerencias, preguntas o reportes de errores, contáctanos directamente. Tu experiencia con Clubnizer determina lo que se construye a continuación.", "emailLabel": "Para soporte, comentarios y reportes de errores", "contactTopics": ["Reportes de errores y problemas técnicos", "Sugerencias de funcionalidades del uso real", "Preguntas generales sobre la plataforma", "Comentarios sobre tu experiencia de gestión de club"] },
-  "security": { "label": "Confianza y cumplimiento", "heading": "Seguridad y protección de datos", "subheading": "Gestionar un club deportivo implica manejar datos personales — incluyendo los de miembros jóvenes. Nos tomamos esa responsabilidad en serio y construimos Clubnizer con seguridad y protección de datos en el centro.", "items": [
-    { "title": "Estructura de responsable y encargado", "description": "Los clubes actúan como responsables del tratamiento, determinando qué datos personales se ingresan. Clubnizer opera como encargado del tratamiento para los datos de los miembros del club." },
-    { "title": "Infraestructura cloud moderna", "description": "Clubnizer está construido sobre infraestructura cloud moderna con cifrado en tránsito y en reposo. Controles de acceso y monitoreo protegen contra accesos no autorizados." },
-    { "title": "Diseñado con la protección de datos en mente", "description": "Los datos personales se tratan de acuerdo con las leyes de protección de datos aplicables, incluyendo el RGPD. Implementamos medidas técnicas y organizativas apropiadas." },
-    { "title": "Recopilación mínima de datos", "description": "Solo recopilamos y almacenamos los datos necesarios para proporcionar el servicio. Clubnizer no vende datos personales ni utiliza datos con fines publicitarios." },
-    { "title": "Cifrado y controles de acceso", "description": "Los datos están protegidos con cifrado estándar de la industria. El acceso a sistemas y datos está restringido según el rol y la necesidad." },
-    { "title": "Prácticas de eliminación responsables", "description": "Las cuentas eliminadas y las membresías retiradas están sujetas a un período de recuperación temporal antes de la eliminación definitiva. Los clubes pueden solicitar la eliminación en cualquier momento a través de support@clubnizer.com." }
-  ], "legalNote": "Para información detallada sobre cómo manejamos los datos, consulta nuestra", "privacyPolicy": "Política de privacidad", "and": "y", "termsOfService": "Términos de servicio" },
-  "cta": { "label": "Empieza hoy", "headingLine1": "Pasa más tiempo", "headingLine2": "en el campo.", "description": "Deja que Clubnizer organice la estructura — para que puedas concentrarte en el deporte.", "ctaPrimary": "Empezar — Es gratis", "ctaIos": "App Store", "ctaAndroid": "Google Play", "ctaSecondary": "Ver todas las opciones" },
-  "footer": { "brandDescription": "Una plataforma estructurada de gestión de clubes deportivos diseñada para reducir la carga administrativa para que los equipos puedan concentrarse en el deporte.", "navigation": "Navegación", "contactSupport": "Contacto y soporte", "openWebApp": "Abrir app web", "downloadOnAppStore": "App Store", "downloadOnGooglePlay": "Google Play", "copyright": "© {{year}} Clubnizer. Todos los derechos reservados.", "tagline": "Una plataforma estructurada para equipos y clubes deportivos modernos.", "privacyPolicy": "Política de privacidad", "termsOfService": "Términos de servicio" },
-  "notFound": { "title": "404", "message": "¡Ups! Página no encontrada", "returnHome": "Volver al inicio" },
+  "header": {
+    "features": "Funcionalidades",
+    "pricing": "Precios",
+    "ourStory": "Nuestra historia",
+    "security": "Seguridad",
+    "contact": "Contacto",
+    "tryWebApp": "Probar la app web",
+    "getApp": "Descargar la app",
+    "tagline": "Organizing Sports!"
+  },
+  "hero": {
+    "label": "Plataforma gratuita de gestión de clubes deportivos",
+    "freeBadge": "Gratis para todos los clubes",
+    "titleLine1": "Gestión de club deportivo",
+    "titleLine2": "— Simplificada.",
+    "description": "Una plataforma de gestión deportiva gratuita para equipos y clubes deportivos modernos. Gestiona miembros, eventos, asistencia y cuotas — gratis para todos los clubes.",
+    "ctaPrimary": "Probar la app web — Es gratis",
+    "ctaSecondary": "Contáctanos",
+    "stat1Value": "Gratis",
+    "stat1Label": "Para todos",
+    "stat2Value": "Simple",
+    "stat2Label": "Configuración",
+    "stat3Value": "Segura",
+    "stat3Label": "Por diseño",
+    "scroll": "Desplazar",
+    "downloadOn": "Descargar en",
+    "appStore": "App Store",
+    "getItOn": "Disponible en",
+    "googlePlay": "Google Play",
+    "orUseWeb": "O usar la app web"
+  },
+  "appDownload": {
+    "label": "Disponible en todas partes",
+    "heading": "Lleva Clubnizer",
+    "headingHighlight": "a donde vayas",
+    "description": "Descarga la app gratuita en tu móvil o usa la versión web en tu navegador.",
+    "iosQrLabel": "Escanea con la cámara del iPhone",
+    "androidQrLabel": "Escanea con la cámara del Android",
+    "iosAlt": "Descargar Clubnizer en App Store",
+    "androidAlt": "Obtener Clubnizer en Google Play",
+    "webAppPrefix": "¿Ya en el ordenador?",
+    "webAppLabel": "Usar la app web"
+  },
+  "problem": {
+    "label": "El desafío",
+    "heading": "Demasiada administración.",
+    "headingHighlight": "Poco deporte.",
+    "description": "Los administradores de clubes y entrenadores conocen la sensación: te ofreces como voluntario para ayudar a un equipo, y terminas pasando más tiempo en hojas de cálculo que en el campo. Administrar un club deportivo no debería ser un trabajo a tiempo completo.",
+    "descriptionSecondary": "Clubnizer está construido como una alternativa enfocada a los sistemas complejos de gestión de clubes — limpio, estructurado y diseñado alrededor de lo que realmente importa.",
+    "listTitle": "¿Te resulta familiar?",
+    "problems": [
+      "Listas de miembros dispersas en hojas de cálculo",
+      "Seguimiento manual de cuotas sin visión clara",
+      "Imagen confusa de quién ha pagado y quién no",
+      "Sistemas de club complicados que toman semanas aprender",
+      "Demasiadas herramientas desconectadas tirando en diferentes direcciones",
+      "Horas desperdiciadas en administración que deberían dedicarse al deporte"
+    ],
+    "tagline": "Clubnizer fue construido para resolver exactamente estos problemas — por alguien que los vivió."
+  },
+  "features": {
+    "label": "Funcionalidades",
+    "heading": "Todo lo que necesitas para",
+    "headingHighlight": "organizar tu club",
+    "subheading": "Cinco pilares enfocados de administración de clubes — diseñados para reemplazar herramientas dispersas con una plataforma clara y estructurada.",
+    "items": [
+      {
+        "title": "Gestión de miembros",
+        "description": "Mantén todos los registros de miembros organizados y accesibles. Gestiona roles, estructuras de padres y jugadores, y mantén una visión clara de todos en tu club.",
+        "points": [
+          "Registros de miembros organizados",
+          "Control de acceso basado en roles",
+          "Estructura para padres y tutores de miembros jóvenes"
+        ]
+      },
+      {
+        "title": "Planificación de eventos y entrenamientos",
+        "description": "Planifica sesiones, partidos y eventos del club fácilmente. Envía invitaciones y sigue la disponibilidad para saber siempre quién viene.",
+        "points": [
+          "Crear sesiones y partidos",
+          "Enviar invitaciones a miembros",
+          "Seguir disponibilidad y respuestas"
+        ]
+      },
+      {
+        "title": "Control de asistencia",
+        "description": "Obtén una visión clara de la asistencia en todas las sesiones de entrenamiento y eventos. Los registros históricos te permiten identificar tendencias.",
+        "points": [
+          "Visión clara de asistencia",
+          "Registros históricos de asistencia",
+          "Seguir tendencias de participación"
+        ]
+      },
+      {
+        "title": "Gestión de cuotas y pagos",
+        "description": "Obtén una visión clara del estado de las cuotas. Ve exactamente quién ha pagado y quién no — con pagos online seguros para reducir el seguimiento manual.",
+        "points": [
+          "Ver quién ha pagado",
+          "Ver pagos pendientes de un vistazo",
+          "Pagos online seguros",
+          "Carga administrativa reducida"
+        ],
+        "note": "Los pagos se procesan a través de infraestructura de pago de terceros segura. Las funcionalidades de pago evolucionan continuamente."
+      },
+      {
+        "title": "Comunicación estructurada",
+        "description": "Comunicación dirigida sin caos. Comparte anuncios y actualizaciones a nivel de club, grupo o subgrupo — llegando a las personas correctas con la información correcta.",
+        "points": [
+          "Anuncios a nivel de club",
+          "Actualizaciones a nivel de grupo",
+          "Coordinación de subgrupos",
+          "Visibilidad basada en roles"
+        ]
+      }
+    ]
+  },
+  "founder": {
+    "label": "Nuestra historia",
+    "heading": "Construido desde la línea lateral",
+    "paragraph1": "Clubnizer nació de la participación real en el deporte juvenil. A través del voluntariado como entrenador y la participación activa en la organización de equipos, quedó claro cuánto tiempo se dedicaba a la administración en lugar de al deporte.",
+    "paragraph2": "Gestionar miembros, controlar asistencia y hacer seguimiento de cuotas a menudo parecía más complicado de lo necesario. Había hojas de cálculo, apps de mensajería separadas, listas manuales de pagos — y nada estaba conectado.",
+    "paragraph3": "Clubnizer fue construido para simplificar lo esencial — crear estructura sin complejidad innecesaria. No porque fuera primero una idea de negocio, sino porque había una necesidad real.",
+    "goalPrefix": "El objetivo es simple:",
+    "goalHighlight": "Hacer que organizar el deporte sea más fácil, tranquilo y eficiente."
+  },
+  "teams": {
+    "label": "Para equipos y clubes",
+    "heading": "Construido para equipos.",
+    "headingHighlight": "Estructurado para clubes.",
+    "description": "Ya sea que gestiones un solo equipo juvenil o supervises un club entero con múltiples equipos, Clubnizer te da la estructura para mantener el control sin ahogarte en administración.",
+    "yourClub": "Tu club",
+    "teamA": "Equipo A",
+    "teamB": "Equipo B",
+    "teamC": "Equipo C",
+    "diagramCaption": "Una plataforma — múltiples equipos, una visión clara",
+    "benefits": [
+      "Funciona perfectamente para un solo equipo",
+      "Escala a múltiples equipos dentro de un club",
+      "Reduce la carga administrativa en todos los niveles",
+      "Mantiene una visión clara de finanzas y miembros",
+      "Acceso basado en roles para entrenadores, admins y miembros",
+      "Diseñado para equipos pequeños y grandes organizaciones"
+    ]
+  },
+  "pricing": {
+    "label": "Precios",
+    "heading": "Gratis para",
+    "headingHighlight": "todos los clubes",
+    "subheading": "Clubnizer es gratuito para todos los clubes deportivos, equipos y organizaciones. Sin cuotas de suscripción.",
+    "freeBadge": "Gratis",
+    "freePrice": "€0",
+    "freeDescription": "Todo lo que necesitas para gestionar tu club.",
+    "freeFeatures": [
+      "Crear y gestionar clubes con múltiples grupos",
+      "Planificar entrenamientos, partidos y reuniones",
+      "Mantente en contacto con tu equipo",
+      "Gestionar cuotas de socios fácilmente",
+      "Controlar asistencia y ver estadísticas"
+    ]
+  },
+  "improving": {
+    "roadmapLabel": "Desarrollo",
+    "roadmapHeading": "Mejora continua",
+    "roadmapDescription": "Clubnizer evoluciona activamente y mejora continuamente basándose en el uso real y los comentarios de equipos deportivos. Estamos comprometidos en construir una plataforma que crece con las necesidades de las organizaciones deportivas modernas.",
+    "roadmapDescription2": "Cada actualización está guiada por la experiencia práctica — no por tendencias. Las funcionalidades se agregan cuando realmente reducen la carga administrativa.",
+    "feedbackTitle": "Desarrollo guiado por comentarios",
+    "feedbackDescription": "Cada sugerencia cuenta. Si encuentras un error, tienes una idea de funcionalidad o quieres compartir comentarios, queremos escucharte.",
+    "contactLabel": "Contáctanos",
+    "contactHeading": "¿Preguntas o comentarios?",
+    "contactDescription": "Para sugerencias, preguntas o reportes de errores, contáctanos directamente. Tu experiencia con Clubnizer determina lo que se construye a continuación.",
+    "emailLabel": "Para soporte, comentarios y reportes de errores",
+    "contactTopics": [
+      "Reportes de errores y problemas técnicos",
+      "Sugerencias de funcionalidades del uso real",
+      "Preguntas generales sobre la plataforma",
+      "Comentarios sobre tu experiencia de gestión de club"
+    ]
+  },
+  "security": {
+    "label": "Confianza y cumplimiento",
+    "heading": "Seguridad y protección de datos",
+    "subheading": "Gestionar un club deportivo implica manejar datos personales — incluyendo los de miembros jóvenes. Nos tomamos esa responsabilidad en serio y construimos Clubnizer con seguridad y protección de datos en el centro.",
+    "items": [
+      {
+        "title": "Estructura de responsable y encargado",
+        "description": "Los clubes actúan como responsables del tratamiento, determinando qué datos personales se ingresan. Clubnizer opera como encargado del tratamiento para los datos de los miembros del club."
+      },
+      {
+        "title": "Infraestructura cloud moderna",
+        "description": "Clubnizer está construido sobre infraestructura cloud moderna con cifrado en tránsito y en reposo. Controles de acceso y monitoreo protegen contra accesos no autorizados."
+      },
+      {
+        "title": "Diseñado con la protección de datos en mente",
+        "description": "Los datos personales se tratan de acuerdo con las leyes de protección de datos aplicables, incluyendo el RGPD. Implementamos medidas técnicas y organizativas apropiadas."
+      },
+      {
+        "title": "Recopilación mínima de datos",
+        "description": "Solo recopilamos y almacenamos los datos necesarios para proporcionar el servicio. Clubnizer no vende datos personales ni utiliza datos con fines publicitarios."
+      },
+      {
+        "title": "Cifrado y controles de acceso",
+        "description": "Los datos están protegidos con cifrado estándar de la industria. El acceso a sistemas y datos está restringido según el rol y la necesidad."
+      },
+      {
+        "title": "Prácticas de eliminación responsables",
+        "description": "Las cuentas eliminadas y las membresías retiradas están sujetas a un período de recuperación temporal antes de la eliminación definitiva. Los clubes pueden solicitar la eliminación en cualquier momento a través de support@clubnizer.com."
+      }
+    ],
+    "legalNote": "Para información detallada sobre cómo manejamos los datos, consulta nuestra",
+    "privacyPolicy": "Política de privacidad",
+    "and": "y",
+    "termsOfService": "Términos de servicio"
+  },
+  "cta": {
+    "label": "Empieza hoy",
+    "headingLine1": "Pasa más tiempo",
+    "headingLine2": "en el campo.",
+    "description": "Deja que Clubnizer organice la estructura — para que puedas concentrarte en el deporte.",
+    "ctaPrimary": "Empezar — Es gratis",
+    "ctaIos": "App Store",
+    "ctaAndroid": "Google Play",
+    "ctaSecondary": "Ver todas las opciones"
+  },
+  "footer": {
+    "brandDescription": "Una plataforma estructurada de gestión de clubes deportivos diseñada para reducir la carga administrativa para que los equipos puedan concentrarse en el deporte.",
+    "navigation": "Navegación",
+    "contactSupport": "Contacto y soporte",
+    "openWebApp": "Abrir app web",
+    "downloadOnAppStore": "App Store",
+    "downloadOnGooglePlay": "Google Play",
+    "copyright": "© {{year}} Clubnizer. Todos los derechos reservados.",
+    "tagline": "Una plataforma estructurada para equipos y clubes deportivos modernos.",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "¡Ups! Página no encontrada",
+    "returnHome": "Volver al inicio"
+  },
   "languageSwitcher": { "label": "Idioma" }
 }

@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
-import { useTranslation } from "react-i18next";
-import { useLocalePath } from "@/hooks/use-locale-path";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useLocalePath } from "@/hooks/use-locale-path";
+import { Menu, X } from "lucide-react";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -62,11 +62,7 @@ export default function Header() {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="nav-link"
-            >
+            <a key={l.href} href={l.href} className="nav-link">
               {l.label}
             </a>
           ))}

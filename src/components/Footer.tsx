@@ -1,7 +1,11 @@
-import { Mail, ExternalLink, Smartphone } from "lucide-react";
-import { useTranslation } from "react-i18next";
 import { useLocalePath } from "@/hooks/use-locale-path";
-import { APP_STORE_URL_IOS, APP_STORE_URL_ANDROID, WEB_APP_URL } from "@/lib/app-links";
+import {
+    APP_STORE_URL_ANDROID,
+    APP_STORE_URL_IOS,
+    WEB_APP_URL,
+} from "@/lib/app-links";
+import { ExternalLink, Mail, Smartphone } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -35,22 +39,34 @@ export default function Footer() {
                 className="w-9 h-9 rounded-xl object-contain"
               />
               <div className="flex flex-col leading-none">
-                <span className="font-display font-bold text-lg tracking-tight" style={{ color: "hsl(var(--brand))" }}>
+                <span
+                  className="font-display font-bold text-lg tracking-tight"
+                  style={{ color: "hsl(var(--brand))" }}
+                >
                   Clubnizer
                 </span>
-                <span className="text-[10px] font-medium tracking-widest uppercase" style={{ color: "hsl(0 0% 100%)" }}>
+                <span
+                  className="text-[10px] font-medium tracking-widest uppercase"
+                  style={{ color: "hsl(0 0% 100%)" }}
+                >
                   {t("header.tagline")}
                 </span>
               </div>
             </div>
-            <p className="text-sm leading-relaxed" style={{ color: "hsl(0 0% 100% / 0.50)" }}>
+            <p
+              className="text-sm leading-relaxed"
+              style={{ color: "hsl(0 0% 100% / 0.50)" }}
+            >
               {t("footer.brandDescription")}
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.40)" }}>
+            <h4
+              className="font-display font-semibold text-sm mb-4 uppercase tracking-widest"
+              style={{ color: "hsl(0 0% 100% / 0.40)" }}
+            >
               {t("footer.navigation")}
             </h4>
             <ul className="space-y-2">
@@ -60,8 +76,12 @@ export default function Footer() {
                     href={l.href}
                     className="text-sm transition-colors duration-200"
                     style={{ color: "hsl(0 0% 100% / 0.55)" }}
-                    onMouseEnter={(e) => (e.currentTarget.style.color = "hsl(var(--brand))")}
-                    onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")}
+                    onMouseEnter={(e) =>
+                      (e.currentTarget.style.color = "hsl(var(--brand))")
+                    }
+                    onMouseLeave={(e) =>
+                      (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")
+                    }
                   >
                     {l.label}
                   </a>
@@ -72,7 +92,10 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-widest" style={{ color: "hsl(0 0% 100% / 0.40)" }}>
+            <h4
+              className="font-display font-semibold text-sm mb-4 uppercase tracking-widest"
+              style={{ color: "hsl(0 0% 100% / 0.40)" }}
+            >
               {t("footer.contactSupport")}
             </h4>
             <a
@@ -90,8 +113,12 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sm transition-colors duration-200"
                 style={{ color: "hsl(0 0% 100% / 0.55)" }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = "hsl(var(--brand))")}
-                onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")}
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.color = "hsl(var(--brand))")
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")
+                }
               >
                 <Smartphone size={13} />
                 {t("footer.downloadOnAppStore")}
@@ -102,8 +129,12 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sm transition-colors duration-200"
                 style={{ color: "hsl(0 0% 100% / 0.55)" }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = "hsl(var(--brand))")}
-                onMouseLeave={(e) => (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")}
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.color = "hsl(var(--brand))")
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.color = "hsl(0 0% 100% / 0.55)")
+                }
               >
                 <Smartphone size={13} />
                 {t("footer.downloadOnGooglePlay")}
@@ -123,7 +154,10 @@ export default function Footer() {
 
         <div
           className="border-t pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs"
-          style={{ borderColor: "hsl(0 0% 100% / 0.06)", color: "hsl(0 0% 100% / 0.30)" }}
+          style={{
+            borderColor: "hsl(0 0% 100% / 0.06)",
+            color: "hsl(0 0% 100% / 0.30)",
+          }}
         >
           <span>{t("footer.copyright", { year })}</span>
           <span>{t("footer.tagline")}</span>

@@ -73,28 +73,50 @@
       {
         "title": "Gestion des membres",
         "description": "Gardez tous vos registres de membres organisés et accessibles. Gérez les rôles, les structures parents-joueurs et maintenez une vue d'ensemble claire de tous les membres de votre club.",
-        "points": ["Registres de membres organisés", "Contrôle d'accès basé sur les rôles", "Structure parents et tuteurs pour les jeunes membres"]
+        "points": [
+          "Registres de membres organisés",
+          "Contrôle d'accès basé sur les rôles",
+          "Structure parents et tuteurs pour les jeunes membres"
+        ]
       },
       {
         "title": "Planification des événements et entraînements",
         "description": "Planifiez facilement les séances, matchs et événements de club. Envoyez des invitations et suivez les disponibilités pour toujours savoir qui vient.",
-        "points": ["Créer des séances et des matchs", "Envoyer des invitations aux membres", "Suivre les disponibilités et les réponses"]
+        "points": [
+          "Créer des séances et des matchs",
+          "Envoyer des invitations aux membres",
+          "Suivre les disponibilités et les réponses"
+        ]
       },
       {
         "title": "Suivi des présences",
         "description": "Obtenez une vue claire des présences à toutes les séances d'entraînement et événements. Les registres historiques vous permettent d'identifier les tendances.",
-        "points": ["Vue d'ensemble claire des présences", "Registres historiques des présences", "Suivre les tendances de participation"]
+        "points": [
+          "Vue d'ensemble claire des présences",
+          "Registres historiques des présences",
+          "Suivre les tendances de participation"
+        ]
       },
       {
         "title": "Gestion des cotisations et paiements",
         "description": "Obtenez une vue claire du statut des cotisations. Voyez exactement qui a payé et qui ne l'a pas fait — avec des paiements en ligne sécurisés pour réduire les relances manuelles.",
-        "points": ["Voir qui a payé", "Voir les paiements en attente en un coup d'œil", "Paiements en ligne sécurisés", "Charge administrative réduite"],
+        "points": [
+          "Voir qui a payé",
+          "Voir les paiements en attente en un coup d'œil",
+          "Paiements en ligne sécurisés",
+          "Charge administrative réduite"
+        ],
         "note": "Les paiements sont traités via une infrastructure de paiement tierce sécurisée. Les fonctionnalités de paiement évoluent continuellement."
       },
       {
         "title": "Communication structurée",
         "description": "Communication ciblée sans chaos. Partagez des annonces et des mises à jour au niveau du club, du groupe ou du sous-groupe — atteignez les bonnes personnes avec les bonnes informations.",
-        "points": ["Annonces à l'échelle du club", "Mises à jour au niveau du groupe", "Coordination des sous-groupes", "Visibilité basée sur les rôles"]
+        "points": [
+          "Annonces à l'échelle du club",
+          "Mises à jour au niveau du groupe",
+          "Coordination des sous-groupes",
+          "Visibilité basée sur les rôles"
+        ]
       }
     ]
   },
@@ -165,12 +187,30 @@
     "heading": "Sécurité et protection des données",
     "subheading": "Gérer un club sportif signifie traiter des données personnelles — y compris celles des jeunes membres. Nous prenons cette responsabilité au sérieux et construisons Clubnizer avec la sécurité et la protection des données au cœur.",
     "items": [
-      { "title": "Structure responsable de traitement", "description": "Les clubs agissent comme responsables du traitement, déterminant quelles données personnelles sont saisies. Clubnizer opère comme sous-traitant pour les données des membres de club, les traitant uniquement selon les instructions du club." },
-      { "title": "Infrastructure cloud moderne", "description": "Clubnizer est construit sur une infrastructure cloud moderne avec chiffrement en transit et au repos. Des contrôles d'accès et une surveillance sont en place pour protéger contre les accès non autorisés." },
-      { "title": "Conçu avec la protection des données en tête", "description": "Les données personnelles sont traitées conformément aux lois applicables sur la protection des données, y compris le RGPD. Nous mettons en œuvre des mesures techniques et organisationnelles appropriées." },
-      { "title": "Collecte minimale de données", "description": "Nous ne collectons et stockons que les données nécessaires à la fourniture du service. Clubnizer ne vend pas de données personnelles et n'utilise pas les données à des fins publicitaires." },
-      { "title": "Chiffrement & contrôles d'accès", "description": "Les données sont protégées par un chiffrement standard de l'industrie. L'accès aux systèmes et données est restreint selon le rôle et la nécessité, suivant le principe du moindre privilège." },
-      { "title": "Pratiques de suppression responsables", "description": "Les comptes supprimés et les adhésions retirées sont soumis à une période de récupération temporaire avant suppression définitive. Les clubs peuvent demander la suppression à tout moment via support@clubnizer.com." }
+      {
+        "title": "Structure responsable de traitement",
+        "description": "Les clubs agissent comme responsables du traitement, déterminant quelles données personnelles sont saisies. Clubnizer opère comme sous-traitant pour les données des membres de club, les traitant uniquement selon les instructions du club."
+      },
+      {
+        "title": "Infrastructure cloud moderne",
+        "description": "Clubnizer est construit sur une infrastructure cloud moderne avec chiffrement en transit et au repos. Des contrôles d'accès et une surveillance sont en place pour protéger contre les accès non autorisés."
+      },
+      {
+        "title": "Conçu avec la protection des données en tête",
+        "description": "Les données personnelles sont traitées conformément aux lois applicables sur la protection des données, y compris le RGPD. Nous mettons en œuvre des mesures techniques et organisationnelles appropriées."
+      },
+      {
+        "title": "Collecte minimale de données",
+        "description": "Nous ne collectons et stockons que les données nécessaires à la fourniture du service. Clubnizer ne vend pas de données personnelles et n'utilise pas les données à des fins publicitaires."
+      },
+      {
+        "title": "Chiffrement & contrôles d'accès",
+        "description": "Les données sont protégées par un chiffrement standard de l'industrie. L'accès aux systèmes et données est restreint selon le rôle et la nécessité, suivant le principe du moindre privilège."
+      },
+      {
+        "title": "Pratiques de suppression responsables",
+        "description": "Les comptes supprimés et les adhésions retirées sont soumis à une période de récupération temporaire avant suppression définitive. Les clubs peuvent demander la suppression à tout moment via support@clubnizer.com."
+      }
     ],
     "legalNote": "Pour des informations détaillées sur la façon dont nous traitons les données, consultez notre",
     "privacyPolicy": "Politique de confidentialité",

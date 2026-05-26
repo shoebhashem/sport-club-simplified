@@ -1,6 +1,6 @@
+import { APP_STORE_URL_ANDROID, APP_STORE_URL_IOS } from "@/lib/app-links";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { APP_STORE_URL_IOS, APP_STORE_URL_ANDROID } from "@/lib/app-links";
 
 export default function CTASection() {
   const { t } = useTranslation();
@@ -16,14 +16,13 @@ export default function CTASection() {
           <div
             className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-64 -translate-y-1/2 rounded-full pointer-events-none"
             style={{
-              background: "radial-gradient(ellipse, hsl(var(--brand) / 0.15) 0%, transparent 70%)",
+              background:
+                "radial-gradient(ellipse, hsl(var(--brand) / 0.15) 0%, transparent 70%)",
             }}
           />
 
           <div className="relative px-10 py-16 md:py-24 text-center">
-            <span className="section-label mb-6">
-              {t("cta.label")}
-            </span>
+            <span className="section-label mb-6">{t("cta.label")}</span>
 
             <h2
               className="font-display font-black text-4xl md:text-5xl lg:text-6xl leading-tight mb-5"

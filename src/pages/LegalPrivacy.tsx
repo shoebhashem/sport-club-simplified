@@ -12,10 +12,10 @@ export default function LegalPrivacy() {
             Privacy Policy
           </h1>
           <p className="section-sub mb-2">
-            <strong style={{ color: "hsl(0 0% 100% / 0.7)" }}>Version:</strong> PRIVACY_2026.1
+            <strong style={{ color: "hsl(0 0% 100% / 0.7)" }}>Version:</strong> PRIVACY_2026.2
           </p>
           <p className="section-sub mb-10">
-            <strong style={{ color: "hsl(0 0% 100% / 0.7)" }}>Effective Date:</strong> February 25, 2026
+            <strong style={{ color: "hsl(0 0% 100% / 0.7)" }}>Effective Date:</strong> February 25, 2026 &nbsp;&middot;&nbsp; <strong style={{ color: "hsl(0 0% 100% / 0.7)" }}>Last Updated:</strong> May 26, 2026
           </p>
 
           <div className="space-y-10 legal-content">
@@ -125,6 +125,36 @@ export default function LegalPrivacy() {
 
             <section>
               <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
+                3.9 Swedish Personal Identity Number (Personnummer)
+              </h2>
+              <div className="mb-4 p-4 rounded-lg border" style={{ borderColor: "hsl(var(--brand) / 0.35)", background: "hsl(var(--brand) / 0.07)" }}>
+                <p className="text-sm" style={{ color: "hsl(var(--foreground-muted))" }}>
+                  <strong style={{ color: "hsl(0 0% 100% / 0.85)" }}>Scope:</strong> This section applies only to members of clubs that have enabled the LOK Attendance Reporting feature. This feature is currently only available for sports clubs in Sweden registered with the Swedish Sports Confederation (Riksidrottsförbundet / RF).
+                </p>
+              </div>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Providing your personal identity number (<em>personnummer</em>) is <strong>entirely optional</strong>. It is only required if your club uses the LOK attendance reporting feature to submit activity data to RF in order to qualify for activity-based public funding (<em>aktivitetsstöd</em>).
+              </p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                If you choose to provide your personnummer, we collect:
+              </p>
+              <ul className="space-y-1.5 list-none mb-4">
+                {[
+                  "Your personal identity number (normalized to 12-digit format)",
+                  "Your date of birth (derived from the personnummer, stored as a separate non-sensitive field)",
+                  "The timestamp and version of the consent you gave when providing the number",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                The full personnummer is <strong>never stored in plaintext</strong>. See Section 12b for a full description of how it is protected.
+              </p>            </section>
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
                 4. How We Use Data
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
@@ -187,6 +217,12 @@ export default function LegalPrivacy() {
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
                 We process personal data based on: contract performance (to provide the Service), legitimate interests (security, fraud prevention, service improvement), controller-determined basis (for Club member data, the Club determines the applicable lawful basis), and legal obligations as required by applicable laws.
+              </p>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                5.5 Explicit Consent for Personnummer (Swedish Clubs)
+              </h3>
+              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                For the processing of Swedish personal identity numbers (<em>personnummer</em>), the legal basis is <strong>explicit consent</strong> (GDPR Art. 6(1)(a)). Consent is recorded in the app at the moment you choose to provide your personnummer, including the consent version and timestamp. You may withdraw consent at any time (see Section 9.6). The Club, as Data Controller, may additionally rely on a legal obligation toward RF when submitting LOK attendance reports.
               </p>
             </section>
 
@@ -388,8 +424,17 @@ export default function LegalPrivacy() {
               <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
                 9.5 Backup Retention
               </h3>
-              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
                 Backups may retain data for a limited period after deletion from the primary system.
+              </p>
+              <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>
+                9.6 Personnummer Retention (Swedish Clubs)
+              </h3>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Your personnummer is retained only for as long as you have given consent. You may withdraw consent and permanently delete your stored personnummer at any time via <strong>LOK Settings → Withdraw Consent</strong> in the app. Deletion is <strong>immediate and permanent</strong> — the encrypted value is removed from the database with no grace period.
+              </p>
+              <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                Your personnummer is also permanently deleted when you delete your account (Section 9.3). It is <strong>not</strong> subject to the soft-delete grace period that applies to membership records.
               </p>
             </section>
 
@@ -496,6 +541,9 @@ export default function LegalPrivacy() {
                   </li>
                 ))}
               </ul>
+              <p className="text-sm mb-4" style={{ color: "hsl(var(--foreground-muted))" }}>
+                For particularly sensitive identifiers such as Swedish personal identity numbers, we apply additional protection: <strong>AES-256-GCM authenticated encryption</strong> with keys managed exclusively via Google Cloud Secret Manager (see Section 12b).
+              </p>
               <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
                 <strong>However, no method of transmission over the Internet or electronic storage is completely secure.</strong> We cannot guarantee absolute security, and you use the Service at your own risk.
               </p>
@@ -539,6 +587,69 @@ export default function LegalPrivacy() {
               <p className="text-sm mt-3" style={{ color: "hsl(var(--foreground-muted))" }}>
                 All permissions are requested at the moment you choose to use the relevant feature, or (for notifications) when you first enable them in the app. You may decline any permission — this will prevent the specific feature from working but will not affect other app functionality. You can manage or revoke permissions at any time through your device settings.
               </p>
+            </section>
+
+            <section>
+              <h2 className="font-display font-bold text-2xl mb-3" style={{ color: "hsl(0 0% 100%)" }}>
+                12b. Special Handling of Swedish Personal Identity Numbers (Personnummer)
+              </h2>
+              <div className="mb-5 p-4 rounded-lg border" style={{ borderColor: "hsl(var(--brand) / 0.35)", background: "hsl(var(--brand) / 0.07)" }}>
+                <p className="text-sm" style={{ color: "hsl(var(--foreground-muted))" }}>
+                  <strong style={{ color: "hsl(0 0% 100% / 0.85)" }}>Scope:</strong> This section applies only to Swedish clubs using the LOK Attendance Reporting feature.
+                </p>
+              </div>
+              <p className="text-base leading-relaxed mb-5" style={{ color: "hsl(var(--foreground-muted))" }}>
+                We take particular care with Swedish personal identity numbers given their sensitivity under Swedish law (<em>dataskyddslagen 3 kap. 10 §</em>). The following security measures apply specifically to personnummer:
+              </p>
+              {[
+                {
+                  title: "Entry and Validation",
+                  body: "Your personnummer is entered directly in the app and transmitted over an encrypted connection (HTTPS/TLS) to our backend. Format and Luhn checksum validation are performed server-side before any storage occurs. The number is never processed or stored on the client device.",
+                },
+                {
+                  title: "Encryption",
+                  body: "Your personnummer is encrypted server-side using AES-256-GCM (Advanced Encryption Standard with a 256-bit key in Galois/Counter Mode — an authenticated encryption algorithm). Each encryption operation uses a unique, cryptographically random initialization vector (IV), ensuring that the same personnummer encrypted twice produces different ciphertext.",
+                },
+                {
+                  title: "Key Management",
+                  body: "The encryption key is stored exclusively in Google Cloud Secret Manager. It is never embedded in source code, in environment files accessible to client applications, or in the Firestore database. Access to the key is restricted to the specific backend functions that require it.",
+                },
+                {
+                  title: "Client Access",
+                  body: "The full personnummer is never returned to the client application. The app can only receive confirmation that a number is stored along with the birth date — not the personnummer digits themselves.",
+                },
+                {
+                  title: "Decryption Scope",
+                  body: "Decryption occurs exclusively on the backend, only during LOK report generation for automated submission to RF. Decryption is not available as a user-callable or client-callable operation.",
+                },
+              ].map(({ title, body }) => (
+                <div key={title} className="mb-4">
+                  <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>{title}</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>{body}</p>
+                </div>
+              ))}
+              <div className="mb-4">
+                <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>What Is Stored</h3>
+                <p className="text-base leading-relaxed mb-2" style={{ color: "hsl(var(--foreground-muted))" }}>Only the following is written to the database:</p>
+                <ul className="space-y-1.5 list-none">
+                  {[
+                    "The encrypted ciphertext (never the plaintext personnummer)",
+                    "The birth date portion (first 8 digits, e.g. 19900101) — used for age-eligibility checks without requiring decryption",
+                    "Consent metadata: timestamp of when consent was given and the policy version consented to",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2.5 text-base" style={{ color: "hsl(var(--foreground-muted))" }}>
+                      <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "hsl(var(--brand))" }} />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-display font-semibold text-lg mb-2" style={{ color: "hsl(0 0% 100%)" }}>Right to Withdraw</h3>
+                <p className="text-base leading-relaxed" style={{ color: "hsl(var(--foreground-muted))" }}>
+                  You can delete your personnummer at any time via <strong>LOK Settings → Withdraw Consent</strong> in the app. This immediately and permanently removes the encrypted value from the database. See Section 9.6.
+                </p>
+              </div>
             </section>
 
             <section>

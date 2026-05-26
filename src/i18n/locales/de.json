@@ -73,28 +73,50 @@
       {
         "title": "Mitgliederverwaltung",
         "description": "Halten Sie alle Mitgliederdaten organisiert und zugänglich. Verwalten Sie Rollen, Eltern- und Spielerstrukturen und behalten Sie den Überblick über alle in Ihrem Verein.",
-        "points": ["Organisierte Mitgliederregister", "Rollenbasierte Zugriffskontrolle", "Eltern- und Erziehungsberechtigtenstruktur für Jugendmitglieder"]
+        "points": [
+          "Organisierte Mitgliederregister",
+          "Rollenbasierte Zugriffskontrolle",
+          "Eltern- und Erziehungsberechtigtenstruktur für Jugendmitglieder"
+        ]
       },
       {
         "title": "Veranstaltungs- & Trainingsplanung",
         "description": "Planen Sie Trainings, Spiele und Vereinsveranstaltungen einfach. Senden Sie Einladungen und verfolgen Sie die Verfügbarkeit, damit Sie immer wissen, wer kommt.",
-        "points": ["Trainings und Spiele erstellen", "Einladungen an Mitglieder senden", "Verfügbarkeit und Antworten verfolgen"]
+        "points": [
+          "Trainings und Spiele erstellen",
+          "Einladungen an Mitglieder senden",
+          "Verfügbarkeit und Antworten verfolgen"
+        ]
       },
       {
         "title": "Anwesenheitsverfolgung",
         "description": "Erhalten Sie einen klaren Überblick über die Anwesenheit bei allen Trainings und Veranstaltungen. Historische Aufzeichnungen helfen, Muster zu erkennen und Verantwortlichkeit zu fördern.",
-        "points": ["Klarer Anwesenheitsüberblick", "Historische Anwesenheitsaufzeichnungen", "Teilnahmetrends verfolgen"]
+        "points": [
+          "Klarer Anwesenheitsüberblick",
+          "Historische Anwesenheitsaufzeichnungen",
+          "Teilnahmetrends verfolgen"
+        ]
       },
       {
         "title": "Mitgliedsbeiträge & Zahlungsverwaltung",
         "description": "Erhalten Sie einen übersichtlichen Status der Mitgliedsbeiträge. Sehen Sie genau, wer bezahlt hat und wer nicht — mit sicheren Online-Zahlungen zur Reduzierung manueller Nachfassaktionen.",
-        "points": ["Sehen, wer bezahlt hat", "Ausstehende Zahlungen auf einen Blick", "Sichere Online-Zahlungen", "Reduzierter Verwaltungsaufwand"],
+        "points": [
+          "Sehen, wer bezahlt hat",
+          "Ausstehende Zahlungen auf einen Blick",
+          "Sichere Online-Zahlungen",
+          "Reduzierter Verwaltungsaufwand"
+        ],
         "note": "Zahlungen werden über sichere Drittanbieter-Infrastruktur abgewickelt. Zahlungsfunktionen werden kontinuierlich weiterentwickelt."
       },
       {
         "title": "Strukturierte Kommunikation",
         "description": "Gezielte Kommunikation ohne Chaos. Teilen Sie Ankündigungen und Updates auf Vereins-, Gruppen- oder Untergruppenebene — erreichen Sie die richtigen Leute mit den richtigen Informationen.",
-        "points": ["Vereinsweite Ankündigungen", "Updates auf Gruppenebene", "Untergruppenkoordination", "Rollenbasierte Sichtbarkeit"]
+        "points": [
+          "Vereinsweite Ankündigungen",
+          "Updates auf Gruppenebene",
+          "Untergruppenkoordination",
+          "Rollenbasierte Sichtbarkeit"
+        ]
       }
     ]
   },
@@ -165,12 +187,30 @@
     "heading": "Sicherheit und Datenschutz",
     "subheading": "Einen Sportverein zu verwalten bedeutet, personenbezogene Daten zu verarbeiten — auch von Jugendmitgliedern. Wir nehmen diese Verantwortung ernst und bauen Clubnizer mit Sicherheit und Datenschutz im Kern.",
     "items": [
-      { "title": "Verantwortlicher & Auftragsverarbeiter", "description": "Vereine agieren als Verantwortliche und bestimmen, welche personenbezogenen Daten erhoben werden. Clubnizer fungiert als Auftragsverarbeiter für Vereinsmitgliedsdaten und verarbeitet diese ausschließlich nach Anweisungen des Vereins." },
-      { "title": "Moderne Cloud-Infrastruktur", "description": "Clubnizer basiert auf moderner Cloud-Infrastruktur mit Verschlüsselung bei Übertragung und Speicherung. Zugriffskontrollen und Monitoring schützen vor unbefugtem Zugriff." },
-      { "title": "Mit Datenschutz im Blick entwickelt", "description": "Personenbezogene Daten werden gemäß den geltenden Datenschutzgesetzen, einschließlich DSGVO, verarbeitet. Wir setzen angemessene technische und organisatorische Maßnahmen zum Schutz der uns anvertrauten Daten um." },
-      { "title": "Minimale Datenerhebung", "description": "Wir erheben und speichern nur die Daten, die zur Erbringung des Dienstes erforderlich sind. Clubnizer verkauft keine personenbezogenen Daten und verwendet Daten nicht für Werbezwecke." },
-      { "title": "Verschlüsselung & Zugriffskontrollen", "description": "Daten werden mit branchenüblicher Verschlüsselung geschützt. Der Zugang zu Systemen und Daten ist rollenbasiert und nach dem Prinzip der geringsten Berechtigung eingeschränkt." },
-      { "title": "Verantwortungsvolle Löschpraktiken", "description": "Gelöschte Konten und entfernte Mitgliedschaften unterliegen einer vorübergehenden Wiederherstellungsphase vor der endgültigen Löschung. Vereine können jederzeit eine Löschung über support@clubnizer.com beantragen." }
+      {
+        "title": "Verantwortlicher & Auftragsverarbeiter",
+        "description": "Vereine agieren als Verantwortliche und bestimmen, welche personenbezogenen Daten erhoben werden. Clubnizer fungiert als Auftragsverarbeiter für Vereinsmitgliedsdaten und verarbeitet diese ausschließlich nach Anweisungen des Vereins."
+      },
+      {
+        "title": "Moderne Cloud-Infrastruktur",
+        "description": "Clubnizer basiert auf moderner Cloud-Infrastruktur mit Verschlüsselung bei Übertragung und Speicherung. Zugriffskontrollen und Monitoring schützen vor unbefugtem Zugriff."
+      },
+      {
+        "title": "Mit Datenschutz im Blick entwickelt",
+        "description": "Personenbezogene Daten werden gemäß den geltenden Datenschutzgesetzen, einschließlich DSGVO, verarbeitet. Wir setzen angemessene technische und organisatorische Maßnahmen zum Schutz der uns anvertrauten Daten um."
+      },
+      {
+        "title": "Minimale Datenerhebung",
+        "description": "Wir erheben und speichern nur die Daten, die zur Erbringung des Dienstes erforderlich sind. Clubnizer verkauft keine personenbezogenen Daten und verwendet Daten nicht für Werbezwecke."
+      },
+      {
+        "title": "Verschlüsselung & Zugriffskontrollen",
+        "description": "Daten werden mit branchenüblicher Verschlüsselung geschützt. Der Zugang zu Systemen und Daten ist rollenbasiert und nach dem Prinzip der geringsten Berechtigung eingeschränkt."
+      },
+      {
+        "title": "Verantwortungsvolle Löschpraktiken",
+        "description": "Gelöschte Konten und entfernte Mitgliedschaften unterliegen einer vorübergehenden Wiederherstellungsphase vor der endgültigen Löschung. Vereine können jederzeit eine Löschung über support@clubnizer.com beantragen."
+      }
     ],
     "legalNote": "Detaillierte Informationen zum Umgang mit Daten finden Sie in unserer",
     "privacyPolicy": "Datenschutzerklärung",

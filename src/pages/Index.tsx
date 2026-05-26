@@ -1,15 +1,15 @@
+import AppDownloadSection from "@/components/AppDownloadSection";
+import CTASection from "@/components/CTASection";
+import FeaturesSection from "@/components/FeaturesSection";
+import Footer from "@/components/Footer";
+import FounderSection from "@/components/FounderSection";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import AppDownloadSection from "@/components/AppDownloadSection";
-import ProblemSection from "@/components/ProblemSection";
-import FeaturesSection from "@/components/FeaturesSection";
-import FounderSection from "@/components/FounderSection";
-import TeamsSection from "@/components/TeamsSection";
-import PricingSection from "@/components/PricingSection";
 import ImprovingSection from "@/components/ImprovingSection";
+import PricingSection from "@/components/PricingSection";
+import ProblemSection from "@/components/ProblemSection";
 import SecuritySection from "@/components/SecuritySection";
-import CTASection from "@/components/CTASection";
-import Footer from "@/components/Footer";
+import TeamsSection from "@/components/TeamsSection";
 
 const Index = () => {
   return (

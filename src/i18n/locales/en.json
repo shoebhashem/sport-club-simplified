@@ -73,28 +73,50 @@
       {
         "title": "Member Management",
         "description": "Keep all your member records organized and accessible. Manage roles, parent and player structures, and maintain a clear overview of everyone in your club.",
-        "points": ["Organized member records", "Role-based access control", "Parent and guardian structure for youth members"]
+        "points": [
+          "Organized member records",
+          "Role-based access control",
+          "Parent and guardian structure for youth members"
+        ]
       },
       {
         "title": "Event & Training Planning",
         "description": "Plan sessions, matches and club events with ease. Send invitations and track availability so you always know who's coming.",
-        "points": ["Create sessions and matches", "Send invitations to members", "Track availability and responses"]
+        "points": [
+          "Create sessions and matches",
+          "Send invitations to members",
+          "Track availability and responses"
+        ]
       },
       {
         "title": "Attendance Tracking",
         "description": "Get a clear overview of attendance across all training sessions and events. Historical records let you spot patterns and keep everyone accountable.",
-        "points": ["Clear attendance overview", "Historical attendance records", "Track participation trends"]
+        "points": [
+          "Clear attendance overview",
+          "Historical attendance records",
+          "Track participation trends"
+        ]
       },
       {
         "title": "Membership Fee & Payment Management",
         "description": "Get a clean overview of membership fee status. Know exactly who has paid and who hasn't — with secure online payments to reduce manual follow-ups.",
-        "points": ["Track who has paid", "See outstanding payments at a glance", "Secure online payments", "Reduced administrative workload"],
+        "points": [
+          "Track who has paid",
+          "See outstanding payments at a glance",
+          "Secure online payments",
+          "Reduced administrative workload"
+        ],
         "note": "Payments are processed through secure third-party payment infrastructure. Payment capabilities are continuously evolving."
       },
       {
         "title": "Structured Communication",
         "description": "Targeted communication without chaos. Share announcements and updates at club, group, or subgroup level — reaching the right people with the right information.",
-        "points": ["Club-wide announcements", "Group-level updates", "Subgroup coordination", "Role-based visibility"]
+        "points": [
+          "Club-wide announcements",
+          "Group-level updates",
+          "Subgroup coordination",
+          "Role-based visibility"
+        ]
       }
     ]
   },
@@ -165,12 +187,30 @@
     "heading": "Security and Data Protection",
     "subheading": "Managing a sports club means handling personal data for members — including youth members. We take that responsibility seriously and build Clubnizer with security and data protection at the core.",
     "items": [
-      { "title": "Controller & Processor Structure", "description": "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Clubnizer operates as a Data Processor for club member data, handling it only according to club instructions. For account-level data, Clubnizer acts as Data Controller." },
-      { "title": "Modern Cloud Infrastructure", "description": "Clubnizer is built on modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to help protect against unauthorized access." },
-      { "title": "Designed with Data Protection in Mind", "description": "Personal data is handled in accordance with applicable data protection laws, including GDPR. We implement appropriate technical and organizational measures to safeguard the data entrusted to us." },
-      { "title": "Minimal Data Collection", "description": "We collect and store only the data necessary to provide the service. Clubnizer does not sell personal data and does not use data for advertising purposes." },
-      { "title": "Encryption & Access Controls", "description": "Data is protected using industry-standard encryption. Access to systems and data is restricted based on role and necessity, following the principle of least privilege." },
-      { "title": "Responsible Deletion Practices", "description": "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion. Clubs may request deletion at any time via support@clubnizer.com." }
+      {
+        "title": "Controller & Processor Structure",
+        "description": "Clubs and organizations act as Data Controllers, determining what personal data is entered and maintaining lawful basis. Clubnizer operates as a Data Processor for club member data, handling it only according to club instructions. For account-level data, Clubnizer acts as Data Controller."
+      },
+      {
+        "title": "Modern Cloud Infrastructure",
+        "description": "Clubnizer is built on modern cloud infrastructure with encryption in transit and at rest. Access controls and monitoring are in place to help protect against unauthorized access."
+      },
+      {
+        "title": "Designed with Data Protection in Mind",
+        "description": "Personal data is handled in accordance with applicable data protection laws, including GDPR. We implement appropriate technical and organizational measures to safeguard the data entrusted to us."
+      },
+      {
+        "title": "Minimal Data Collection",
+        "description": "We collect and store only the data necessary to provide the service. Clubnizer does not sell personal data and does not use data for advertising purposes."
+      },
+      {
+        "title": "Encryption & Access Controls",
+        "description": "Data is protected using industry-standard encryption. Access to systems and data is restricted based on role and necessity, following the principle of least privilege."
+      },
+      {
+        "title": "Responsible Deletion Practices",
+        "description": "Deleted accounts and removed memberships are subject to a temporary recovery period before permanent deletion. Clubs may request deletion at any time via support@clubnizer.com."
+      }
     ],
     "legalNote": "For detailed information about how we handle data, see our",
     "privacyPolicy": "Privacy Policy",
