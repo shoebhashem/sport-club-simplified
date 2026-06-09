@@ -68,7 +68,7 @@
     "label": "Funktioner",
     "heading": "Alt du har brug for til at",
     "headingHighlight": "organisere din klub",
-    "subheading": "Fem fokuserede søjler af klubadministration — designet til at erstatte spredte værktøjer med én klar, struktureret platform.",
+    "subheading": "Syv fokuserede søjler af klubadministration — designet til at erstatte spredte værktøjer med én klar, struktureret platform.",
     "items": [
       {
         "title": "Medlemshåndtering",
@@ -77,6 +77,16 @@
           "Organiserede medlemsregistre",
           "Rollebaseret adgangskontrol",
           "Forældre- og værgestruktur for ungdomsmedlemmer"
+        ]
+      },
+      {
+        "title": "Struktureret kommunikation",
+        "description": "Målrettet kommunikation uden kaos. Del meddelelser og opdateringer på klub-, gruppe- eller undergruppeniveau — nå de rigtige personer med den rigtige information.",
+        "points": [
+          "Meddelelser på klubniveau",
+          "Opdateringer på gruppeniveau",
+          "Undergruppekoordinering",
+          "Rollebaseret synlighed"
         ]
       },
       {
@@ -109,14 +119,24 @@
         "note": "Betalinger håndteres gennem sikker tredjepartsinfrastruktur. Betalingsfunktioner udvikles løbende."
       },
       {
-        "title": "Struktureret kommunikation",
-        "description": "Målrettet kommunikation uden kaos. Del meddelelser og opdateringer på klub-, gruppe- eller undergruppeniveau — nå de rigtige personer med den rigtige information.",
+        "title": "Forenklet regnskab",
+        "description": "Reducer den administrative byrde ved bogføring. Når en afgift oprettes, knyttes betalingskategorier automatisk til de rigtige konti — med fuld fleksibilitet for klubber til at tilpasse kontoplanen.",
         "points": [
-          "Meddelelser på klubniveau",
-          "Opdateringer på gruppeniveau",
-          "Undergruppekoordinering",
-          "Rollebaseret synlighed"
+          "Automatisk kontotilknytning for betalinger",
+          "Tilpasselig kontoplan",
+          "Klart regnskabsoverblik per transaktion",
+          "Reducerer manuelt bogføringsarbejde"
         ]
+      },
+      {
+        "title": "Eksterne integrationer — Åben platform",
+        "description": "Clubnizer er bygget med åbenhed i tankerne. Platformen er designet til at forbinde med eksterne systemer, og vi søger aktivt klubber at samarbejde med for at gøre dette muligt.",
+        "points": [
+          "Designet til fremtidige integrationer",
+          "Åben for samarbejde med klubber",
+          "Forenkle rapportering til nationale forbund"
+        ],
+        "note": "Eksempel for svenske klubber: potentiale for automatiseret LOK-stöd-rapportering via RF (Riksidrottsförbundet). Har din klub integrationsbehov? Vi vil gerne høre fra dig."
       }
     ]
   },
@@ -244,5 +264,23 @@
     "message": "Ups! Siden blev ikke fundet",
     "returnHome": "Tilbage til forsiden"
   },
-  "languageSwitcher": { "label": "Sprog" }
+  "languageSwitcher": { "label": "Sprog" },
+  "tutorials": {
+    "navLabel": "Vejledninger",
+    "pageTitle": "Vejledninger",
+    "pageDescription": "Trin-for-trin-videoguider til at få mest muligt ud af Clubnizer.",
+    "teaserLabel": "Kom i gang",
+    "teaserHeading": "Se Clubnizer i aktion",
+    "teaserDescription": "Se vores kom-i-gang-video og vær klar på få minutter.",
+    "teaserCta": "Se alle vejledninger",
+    "playlistLabel": "Hele afspilningslisten",
+    "sections": [
+      { "role": "Klubadmin", "description": "Lær at konfigurere din klub, administrere medlemmer og håndtere den daglige administration." },
+      { "role": "Træner & gruppeadmin", "description": "Vejledninger til planlægning af begivenheder, fremmøderegistrering og kommunikation." },
+      { "role": "Medlem", "description": "Sådan bruger du Clubnizer som medlem — fra at acceptere invitationer til at følge din aktivitet." }
+    ],
+    "videos": [
+      { "title": "Kom i gang med Clubnizer", "description": "Tilmeld dig, bekræft din e-mail og tag dine første skridt i appen.", "role": "Klubadmin", "youtubeId": "lv84Tl69raY" }
+    ]
+  }
 }

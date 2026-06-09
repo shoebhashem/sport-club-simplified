@@ -68,7 +68,7 @@
     "label": "Funksjoner",
     "heading": "Alt du trenger for å",
     "headingHighlight": "organisere klubben din",
-    "subheading": "Fem fokuserte søyler for klubbadministrasjon — designet for å erstatte spredte verktøy med én klar, strukturert plattform.",
+    "subheading": "Sju fokuserte søyler for klubbadministrasjon — designet for å erstatte spredte verktøy med én klar, strukturert plattform.",
     "items": [
       {
         "title": "Medlemshåndtering",
@@ -77,6 +77,16 @@
           "Organiserte medlemsregistre",
           "Rollebasert tilgangskontroll",
           "Foreldre- og foresattstruktur for ungdomsmedlemmer"
+        ]
+      },
+      {
+        "title": "Strukturert kommunikasjon",
+        "description": "Målrettet kommunikasjon uten kaos. Del kunngjøringer og oppdateringer på klubb-, gruppe- eller undergruppenivå — nå de rette personene med riktig informasjon.",
+        "points": [
+          "Kunngjøringer på klubbnivå",
+          "Oppdateringer på gruppenivå",
+          "Undergruppekoordinering",
+          "Rollebasert synlighet"
         ]
       },
       {
@@ -109,14 +119,24 @@
         "note": "Betalinger håndteres gjennom sikker tredjepartsinfrastruktur. Betalingsfunksjoner utvikles kontinuerlig."
       },
       {
-        "title": "Strukturert kommunikasjon",
-        "description": "Målrettet kommunikasjon uten kaos. Del kunngjøringer og oppdateringer på klubb-, gruppe- eller undergruppenivå — nå de rette personene med riktig informasjon.",
+        "title": "Forenklet regnskap",
+        "description": "Reduser den administrative byrden ved regnskap. Når en avgift opprettes, knyttes betalingskategorier automatisk til riktige kontoer — med full fleksibilitet for klubber til å tilpasse kontoplanen.",
         "points": [
-          "Kunngjøringer på klubbnivå",
-          "Oppdateringer på gruppenivå",
-          "Undergruppekoordinering",
-          "Rollebasert synlighet"
+          "Automatisk kontotilknytning for avgiftsbetalinger",
+          "Tilpassbar kontoplan",
+          "Klar regnskapsoversikt per transaksjon",
+          "Reduserer manuelt regnskapsarbeid"
         ]
+      },
+      {
+        "title": "Eksterne integrasjoner — Åpen plattform",
+        "description": "Clubnizer er bygget med åpenhet i tankene. Plattformen er designet for å koble seg til eksterne systemer, og vi søker aktivt etter klubber å samarbeide med for å gjøre dette mulig.",
+        "points": [
+          "Designet for fremtidige integrasjoner",
+          "Åpen for samarbeid med klubber",
+          "Forenkle rapportering til nasjonale forbund"
+        ],
+        "note": "Eksempel for svenske klubber: potensial for automatisert LOK-stöd-rapportering via RF (Riksidrottsförbundet). Har klubben din integrasjonsbehov? Vi vil gjerne høre fra deg."
       }
     ]
   },
@@ -244,5 +264,23 @@
     "message": "Oops! Siden ble ikke funnet",
     "returnHome": "Tilbake til forsiden"
   },
-  "languageSwitcher": { "label": "Språk" }
+  "languageSwitcher": { "label": "Språk" },
+  "tutorials": {
+    "navLabel": "Veiledninger",
+    "pageTitle": "Veiledninger",
+    "pageDescription": "Steg-for-steg-videoer for å få mest mulig ut av Clubnizer.",
+    "teaserLabel": "Kom i gang",
+    "teaserHeading": "Se Clubnizer i aksjon",
+    "teaserDescription": "Se vår kom-i-gang-video og vær klar på noen minutter.",
+    "teaserCta": "Se alle veiledninger",
+    "playlistLabel": "Hele spillelisten",
+    "sections": [
+      { "role": "Klubbadmin", "description": "Lær hvordan du setter opp klubben, administrerer medlemmer og håndterer daglig drift." },
+      { "role": "Trener & gruppeadmin", "description": "Veiledninger for planlegging av arrangementer, oppmøteregistrering og kommunikasjon." },
+      { "role": "Medlem", "description": "Slik bruker du Clubnizer som medlem — fra å akseptere invitasjoner til å følge din aktivitet." }
+    ],
+    "videos": [
+      { "title": "Kom i gang med Clubnizer", "description": "Registrer deg, bekreft e-posten din og ta de første skrittene i appen.", "role": "Klubbadmin", "youtubeId": "lv84Tl69raY" }
+    ]
+  }
 }

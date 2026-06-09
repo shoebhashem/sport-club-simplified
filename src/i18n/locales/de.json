@@ -68,7 +68,7 @@
     "label": "Funktionen",
     "heading": "Alles, was Sie brauchen, um",
     "headingHighlight": "Ihren Verein zu organisieren",
-    "subheading": "Fünf fokussierte Säulen der Vereinsverwaltung — entwickelt, um verstreute Tools durch eine klare, strukturierte Plattform für Sportteams zu ersetzen.",
+    "subheading": "Sieben fokussierte Säulen der Vereinsverwaltung — entwickelt, um verstreute Tools durch eine klare, strukturierte Plattform für Sportteams zu ersetzen.",
     "items": [
       {
         "title": "Mitgliederverwaltung",
@@ -77,6 +77,16 @@
           "Organisierte Mitgliederregister",
           "Rollenbasierte Zugriffskontrolle",
           "Eltern- und Erziehungsberechtigtenstruktur für Jugendmitglieder"
+        ]
+      },
+      {
+        "title": "Strukturierte Kommunikation",
+        "description": "Gezielte Kommunikation ohne Chaos. Teilen Sie Ankündigungen und Updates auf Vereins-, Gruppen- oder Untergruppenebene — erreichen Sie die richtigen Leute mit den richtigen Informationen.",
+        "points": [
+          "Vereinsweite Ankündigungen",
+          "Updates auf Gruppenebene",
+          "Untergruppenkoordination",
+          "Rollenbasierte Sichtbarkeit"
         ]
       },
       {
@@ -109,14 +119,24 @@
         "note": "Zahlungen werden über sichere Drittanbieter-Infrastruktur abgewickelt. Zahlungsfunktionen werden kontinuierlich weiterentwickelt."
       },
       {
-        "title": "Strukturierte Kommunikation",
-        "description": "Gezielte Kommunikation ohne Chaos. Teilen Sie Ankündigungen und Updates auf Vereins-, Gruppen- oder Untergruppenebene — erreichen Sie die richtigen Leute mit den richtigen Informationen.",
+        "title": "Vereinfachte Buchhaltung",
+        "description": "Reduzieren Sie den administrativen Aufwand der Buchführung. Wenn ein Beitrag erstellt wird, werden Zahlungskategorien automatisch den richtigen Konten zugeordnet — mit voller Flexibilität für Vereine, ihren Kontenplan anzupassen.",
         "points": [
-          "Vereinsweite Ankündigungen",
-          "Updates auf Gruppenebene",
-          "Untergruppenkoordination",
-          "Rollenbasierte Sichtbarkeit"
+          "Automatische Kontenzuordnung für Beitragszahlungen",
+          "Anpassbarer Kontenplan",
+          "Klare Buchhaltungsübersicht pro Transaktion",
+          "Reduziert manuellen Buchführungsaufwand"
         ]
+      },
+      {
+        "title": "Externe Integrationen — Offene Plattform",
+        "description": "Clubnizer ist mit Offenheit im Sinn entwickelt. Die Plattform ist für die Anbindung an externe Systeme ausgelegt, und wir suchen aktiv nach Vereinen, mit denen wir zusammenarbeiten können.",
+        "points": [
+          "Für zukünftige Integrationen ausgelegt",
+          "Offen für die Zusammenarbeit mit Vereinen",
+          "Berichterstattung an nationale Verbände vereinfachen"
+        ],
+        "note": "Beispiel für schwedische Vereine: Potenzial für automatisiertes LOK-stöd-Reporting über RF (Riksidrottsförbundet). Hat Ihr Verein Integrationsbedarf? Wir hören gerne von Ihnen."
       }
     ]
   },
@@ -246,5 +266,23 @@
   },
   "languageSwitcher": {
     "label": "Sprache"
+  },
+  "tutorials": {
+    "navLabel": "Anleitungen",
+    "pageTitle": "Anleitungen",
+    "pageDescription": "Schritt-für-Schritt-Videoanleitungen für Clubnizer.",
+    "teaserLabel": "Erste Schritte",
+    "teaserHeading": "Clubnizer in Aktion sehen",
+    "teaserDescription": "Sehen Sie sich unser Einführungsvideo an und legen Sie in wenigen Minuten los.",
+    "teaserCta": "Alle Anleitungen ansehen",
+    "playlistLabel": "Komplette Playlist",
+    "sections": [
+      { "role": "Vereinsadmin", "description": "Lernen Sie, Ihren Verein einzurichten, Mitglieder zu verwalten und die tägliche Administration zu bewältigen." },
+      { "role": "Trainer & Gruppenleiter", "description": "Anleitungen zur Planung von Veranstaltungen, Anwesenheitsverfolgung und Teamkommunikation." },
+      { "role": "Mitglied", "description": "So nutzen Sie Clubnizer als Mitglied — von der Einladungsannahme bis zur Aktivitätsverfolgung." }
+    ],
+    "videos": [
+      { "title": "Erste Schritte mit Clubnizer", "description": "Registrieren, E-Mail bestätigen und die ersten Schritte in der App machen.", "role": "Vereinsadmin", "youtubeId": "lv84Tl69raY" }
+    ]
   }
 }

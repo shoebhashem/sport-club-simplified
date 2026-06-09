@@ -1,8 +1,8 @@
 {
   "seo": {
     "title": "Clubnizer – Free Sport Club Management Platform | Free for All Clubs",
-    "description": "Clubnizer is a free sport club management platform and sport management system. Manage members, track attendance, plan events and follow up on membership fees — all in one place. Free for all sports teams and clubs.",
-    "keywords": "free sports club management app, free team management software, free club organizer app, free membership management app, manage sports club online free, free sports team organizer, free event attendance tracker for sports, free team roster management app, free youth sports team management, free club member registration app, free sports club communication tool, free coaching app for sports teams, best free app to manage youth sports clubs, 100% free all-in-one sports club management platform, free alternative to Spond for sports clubs, free club management app for coaches and parents, sport management system, sports management system, sport management software, sports management platform, free sport management system, free sports management software, sport club management app, sports team management software, manage sports team members, youth sports management app, track attendance for sports teams, membership fee management for clubs, club payment tracking system, club administration software, alternative to SportAdmin, team event planning software, sports club organizer, club member database, team scheduling app, youth team management, sports organization tool, coaching administration app, Clubnizer"
+    "description": "Clubnizer is a free sport club management platform. Manage members, track attendance, plan events, handle membership fees, simplified accounting, and structured communication — all in one place. Free for all sports teams and clubs.",
+    "keywords": "free sports club management app, free team management software, free club organizer app, free membership management app, manage sports club online free, free sports team organizer, free event attendance tracker for sports, free team roster management app, free youth sports team management, free club member registration app, free sports club communication tool, free coaching app for sports teams, best free app to manage youth sports clubs, 100% free all-in-one sports club management platform, free alternative to Spond for sports clubs, free club management app for coaches and parents, sport management system, sports management system, sport management software, sports management platform, free sport management system, free sports management software, sport club management app, sports team management software, manage sports team members, youth sports management app, track attendance for sports teams, membership fee management for clubs, club payment tracking system, club administration software, club accounting software, sports club bookkeeping, LOK-stöd automation, RF integration sports club, alternative to SportAdmin, team event planning software, sports club organizer, club member database, team scheduling app, youth team management, sports organization tool, coaching administration app, sports club tutorial, getting started Clubnizer, Clubnizer"
   },
   "header": {
     "features": "Features",
@@ -68,7 +68,7 @@
     "label": "Features",
     "heading": "Everything You Need to",
     "headingHighlight": "Organize Your Club",
-    "subheading": "Five focused pillars of club administration — designed to replace scattered tools with one clear, structured platform for sports team management.",
+    "subheading": "Seven focused pillars of club administration — designed to replace scattered tools with one clear, structured platform for sports team management.",
     "items": [
       {
         "title": "Member Management",
@@ -77,6 +77,16 @@
           "Organized member records",
           "Role-based access control",
           "Parent and guardian structure for youth members"
+        ]
+      },
+      {
+        "title": "Structured Communication",
+        "description": "Targeted communication without chaos. Share announcements and updates at club, group, or subgroup level — reaching the right people with the right information.",
+        "points": [
+          "Club-wide announcements",
+          "Group-level updates",
+          "Subgroup coordination",
+          "Role-based visibility"
         ]
       },
       {
@@ -109,14 +119,24 @@
         "note": "Payments are processed through secure third-party payment infrastructure. Payment capabilities are continuously evolving."
       },
       {
-        "title": "Structured Communication",
-        "description": "Targeted communication without chaos. Share announcements and updates at club, group, or subgroup level — reaching the right people with the right information.",
+        "title": "Simplified Accounting",
+        "description": "Reduce the administrative burden of bookkeeping. When a fee is created, payment categories are mapped to the correct accounts automatically — with full flexibility for clubs to customize their chart of accounts.",
         "points": [
-          "Club-wide announcements",
-          "Group-level updates",
-          "Subgroup coordination",
-          "Role-based visibility"
+          "Automatic account mapping for fee payments",
+          "Customizable chart of accounts",
+          "Clear accounting overview per transaction",
+          "Reduces manual bookkeeping effort"
         ]
+      },
+      {
+        "title": "External Integrations — Open Platform",
+        "description": "Clubnizer is built with openness in mind. The platform is designed to connect with external systems, and we are actively seeking clubs to collaborate with to make this happen.",
+        "points": [
+          "Designed for future integrations",
+          "Open to collaboration with clubs",
+          "Streamline reporting to national bodies"
+        ],
+        "note": "Example for Swedish clubs: potential for automated LOK-stöd reporting via RF (Riksidrottsförbundet). Does your club have integration needs? We want to hear from you."
       }
     ]
   },
@@ -246,5 +266,37 @@
   },
   "languageSwitcher": {
     "label": "Language"
+  },
+  "tutorials": {
+    "navLabel": "Tutorials",
+    "pageTitle": "Tutorials",
+    "pageDescription": "Step-by-step video guides for getting the most out of Clubnizer.",
+    "teaserLabel": "Getting Started",
+    "teaserHeading": "See Clubnizer in action",
+    "teaserDescription": "Watch our getting started video and be up and running in minutes.",
+    "teaserCta": "See all tutorials",
+    "playlistLabel": "Full tutorial playlist",
+    "sections": [
+      {
+        "role": "Club Admin",
+        "description": "Learn how to set up your club, manage members, and run day-to-day administration."
+      },
+      {
+        "role": "Coach & Group Admin",
+        "description": "Guides for planning events, tracking attendance, and communicating with your team."
+      },
+      {
+        "role": "Member",
+        "description": "How to use Clubnizer as a member — from accepting invitations to tracking your own activity."
+      }
+    ],
+    "videos": [
+      {
+        "title": "Getting Started with Clubnizer",
+        "description": "Sign up, verify your email, and take your first steps inside the app.",
+        "role": "Club Admin",
+        "youtubeId": "lv84Tl69raY"
+      }
+    ]
   }
 }

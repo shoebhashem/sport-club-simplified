@@ -3,19 +3,27 @@ import { useLocalePath } from "@/hooks/use-locale-path";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 
 export default function Header() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const lp = useLocalePath();
+  const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // On sub-pages (e.g. /en/legal/privacy), anchor links must be prefixed
+  // with the home path so the browser navigates to the homepage first.
+  const isHomePage = location.pathname === `/${i18n.language}` || location.pathname === `/${i18n.language}/`;
+  const homeAnchor = (anchor: string) => isHomePage ? anchor : `/${i18n.language}/${anchor}`;
+
   const NAV_LINKS = [
-    { label: t("header.features"), href: "#features" },
-    { label: t("header.pricing"), href: "#pricing" },
-    { label: t("header.ourStory"), href: "#story" },
-    { label: t("header.security"), href: "#security" },
-    { label: t("header.contact"), href: "#contact" },
+    { label: t("header.features"), href: homeAnchor("#features") },
+    { label: t("header.pricing"), href: homeAnchor("#pricing") },
+    { label: t("header.ourStory"), href: homeAnchor("#story") },
+    { label: t("header.security"), href: homeAnchor("#security") },
+    { label: t("tutorials.navLabel"), href: lp("/tutorials") },
+    { label: t("header.contact"), href: homeAnchor("#contact") },
   ];
 
   useEffect(() => {
@@ -71,7 +79,7 @@ export default function Header() {
         {/* CTA + Language Switcher */}
         <div className="hidden md:flex items-center gap-3">
           <LanguageSwitcher />
-          <a href="#download" className="btn-primary text-sm px-5 py-2.5">
+          <a href={homeAnchor("#download")} className="btn-primary text-sm px-5 py-2.5">
             {t("header.getApp")}
           </a>
         </div>
@@ -107,7 +115,7 @@ export default function Header() {
           <div className="py-2">
             <LanguageSwitcher />
           </div>
-          <a href="#download" className="btn-primary text-sm text-center mt-2">
+          <a href={homeAnchor("#download")} className="btn-primary text-sm text-center mt-2">
             {t("header.getApp")}
           </a>
         </div>

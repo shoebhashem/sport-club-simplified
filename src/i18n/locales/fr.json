@@ -68,7 +68,7 @@
     "label": "Fonctionnalités",
     "heading": "Tout ce dont vous avez besoin pour",
     "headingHighlight": "organiser votre club",
-    "subheading": "Cinq piliers ciblés d'administration de club — conçus pour remplacer les outils dispersés par une plateforme claire et structurée pour la gestion d'équipes sportives.",
+    "subheading": "Sept piliers ciblés d'administration de club — conçus pour remplacer les outils dispersés par une plateforme claire et structurée pour la gestion d'équipes sportives.",
     "items": [
       {
         "title": "Gestion des membres",
@@ -77,6 +77,16 @@
           "Registres de membres organisés",
           "Contrôle d'accès basé sur les rôles",
           "Structure parents et tuteurs pour les jeunes membres"
+        ]
+      },
+      {
+        "title": "Communication structurée",
+        "description": "Communication ciblée sans chaos. Partagez des annonces et des mises à jour au niveau du club, du groupe ou du sous-groupe — atteignez les bonnes personnes avec les bonnes informations.",
+        "points": [
+          "Annonces à l'échelle du club",
+          "Mises à jour au niveau du groupe",
+          "Coordination des sous-groupes",
+          "Visibilité basée sur les rôles"
         ]
       },
       {
@@ -109,14 +119,24 @@
         "note": "Les paiements sont traités via une infrastructure de paiement tierce sécurisée. Les fonctionnalités de paiement évoluent continuellement."
       },
       {
-        "title": "Communication structurée",
-        "description": "Communication ciblée sans chaos. Partagez des annonces et des mises à jour au niveau du club, du groupe ou du sous-groupe — atteignez les bonnes personnes avec les bonnes informations.",
+        "title": "Comptabilité simplifiée",
+        "description": "Réduisez la charge administrative de la comptabilité. Lors de la création d'une cotisation, les catégories de paiement sont automatiquement mappées aux comptes appropriés — avec une flexibilité totale pour adapter le plan comptable.",
         "points": [
-          "Annonces à l'échelle du club",
-          "Mises à jour au niveau du groupe",
-          "Coordination des sous-groupes",
-          "Visibilité basée sur les rôles"
+          "Mapping automatique des comptes pour les paiements",
+          "Plan comptable personnalisable",
+          "Vue comptable claire par transaction",
+          "Réduit le travail de comptabilité manuelle"
         ]
+      },
+      {
+        "title": "Intégrations externes — Plateforme ouverte",
+        "description": "Clubnizer est conçu dans un esprit d'ouverture. La plateforme est pensée pour se connecter à des systèmes externes, et nous recherchons activement des clubs avec qui collaborer pour y parvenir.",
+        "points": [
+          "Conçu pour de futures intégrations",
+          "Ouvert à la collaboration avec les clubs",
+          "Simplifier les rapports aux fédérations nationales"
+        ],
+        "note": "Exemple pour les clubs suédois : potentiel pour le reporting LOK-stöd automatisé via RF (Riksidrottsförbundet). Votre club a des besoins d'intégration ? Nous voulons vous entendre."
       }
     ]
   },
@@ -246,5 +266,23 @@
   },
   "languageSwitcher": {
     "label": "Langue"
+  },
+  "tutorials": {
+    "navLabel": "Tutoriels",
+    "pageTitle": "Tutoriels",
+    "pageDescription": "Guides vidéo étape par étape pour tirer le meilleur parti de Clubnizer.",
+    "teaserLabel": "Débuter",
+    "teaserHeading": "Voir Clubnizer en action",
+    "teaserDescription": "Regardez notre vidéo de démarrage et soyez opérationnel en quelques minutes.",
+    "teaserCta": "Voir tous les tutoriels",
+    "playlistLabel": "Playlist complète",
+    "sections": [
+      { "role": "Admin du club", "description": "Apprenez à configurer votre club, gérer les membres et gérer l'administration quotidienne." },
+      { "role": "Entraîneur & admin de groupe", "description": "Guides pour planifier des événements, suivre les présences et communiquer avec votre équipe." },
+      { "role": "Membre", "description": "Comment utiliser Clubnizer en tant que membre — de l'acceptation des invitations au suivi de vos activités." }
+    ],
+    "videos": [
+      { "title": "Premiers pas avec Clubnizer", "description": "Inscrivez-vous, vérifiez votre e-mail et faites vos premiers pas dans l'application.", "role": "Admin du club", "youtubeId": "lv84Tl69raY" }
+    ]
   }
 }

@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import LegalPrivacy from "./pages/LegalPrivacy";
 import LegalTerms from "./pages/LegalTerms";
+import Tutorials from "./pages/Tutorials";
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
             <Route index element={<Index />} />
             <Route path="legal/privacy" element={<LegalPrivacy />} />
             <Route path="legal/terms" element={<LegalTerms />} />
+            <Route path="tutorials" element={<Tutorials />} />
             <Route path="*" element={<NotFound />} />
           </Route>
 

@@ -10,6 +10,7 @@ import PricingSection from "@/components/PricingSection";
 import ProblemSection from "@/components/ProblemSection";
 import SecuritySection from "@/components/SecuritySection";
 import TeamsSection from "@/components/TeamsSection";
+import TutorialsTeaser from "@/components/TutorialsTeaser";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <AppDownloadSection />
+        <TutorialsTeaser />
         <ProblemSection />
         <FeaturesSection />
         <FounderSection />

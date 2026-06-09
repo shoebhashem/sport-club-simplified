@@ -68,7 +68,7 @@
     "label": "Funktioner",
     "heading": "Allt du behöver för att",
     "headingHighlight": "organisera din klubb",
-    "subheading": "Fem fokuserade grundpelare för klubbadministration — designade för att ersätta utspridda verktyg med en tydlig, strukturerad plattform för idrottslag.",
+    "subheading": "Sju fokuserade grundpelare för klubbadministration — designade för att ersätta utspridda verktyg med en tydlig, strukturerad plattform för idrottslag.",
     "items": [
       {
         "title": "Medlemshantering",
@@ -77,6 +77,16 @@
           "Organiserade medlemsregister",
           "Rollbaserad åtkomstkontroll",
           "Föräldra- och vårdnadshavarstruktur för ungdomsmedlemmar"
+        ]
+      },
+      {
+        "title": "Strukturerad kommunikation",
+        "description": "Riktad kommunikation utan kaos. Dela nyheter och uppdateringar på klubb-, grupp- eller undergruppsnivå — nå rätt personer med rätt information.",
+        "points": [
+          "Klubbövergripande nyheter",
+          "Gruppnivåuppdateringar",
+          "Undergruppkoordinering",
+          "Rollbaserad synlighet"
         ]
       },
       {
@@ -109,14 +119,24 @@
         "note": "Betalningar hanteras via säker tredjepartsinrastruktur. Betalningsfunktioner utvecklas kontinuerligt."
       },
       {
-        "title": "Strukturerad kommunikation",
-        "description": "Riktad kommunikation utan kaos. Dela nyheter och uppdateringar på klubb-, grupp- eller undergruppsnivå — nå rätt personer med rätt information.",
+        "title": "Förenklad bokföring",
+        "description": "Minska den administrativa bördan av bokföring. När en avgift skapas mappas betalningskategorier automatiskt till rätt konton — med full flexibilitet för klubbar att anpassa kontoplanen efter egna behov.",
         "points": [
-          "Klubbövergripande nyheter",
-          "Gruppnivåuppdateringar",
-          "Undergruppkoordinering",
-          "Rollbaserad synlighet"
+          "Automatisk kontomappning för avgiftsbetalningar",
+          "Anpassningsbar kontoplan",
+          "Tydlig bokföringsöversikt per transaktion",
+          "Minskar manuellt bokföringsarbete"
         ]
+      },
+      {
+        "title": "Externa integrationer — Öppen plattform",
+        "description": "Clubnizer är byggt med öppenhet i åtanke. Plattformen är designad för att ansluta till externa system, och vi söker aktivt klubbar att samarbeta med för att förverkliga detta.",
+        "points": [
+          "Designad för framtida integrationer",
+          "Öppen för samarbete med klubbar",
+          "Effektivisera rapportering till nationella förbund"
+        ],
+        "note": "Exempel: möjlighet till automatiserad LOK-stödsrapportering via RF (Riksidrottsförbundet). Har din klubb integrationsbehov? Vi vill gärna höra av dig."
       }
     ]
   },
@@ -246,5 +266,37 @@
   },
   "languageSwitcher": {
     "label": "Språk"
+  },
+  "tutorials": {
+    "navLabel": "Guider",
+    "pageTitle": "Guider",
+    "pageDescription": "Steg-för-steg-videor för att få ut det mesta av Clubnizer.",
+    "teaserLabel": "Kom igång",
+    "teaserHeading": "Se Clubnizer i aktion",
+    "teaserDescription": "Se vår kom-igång-video och var igång på några minuter.",
+    "teaserCta": "Se alla guider",
+    "playlistLabel": "Hela spellistan",
+    "sections": [
+      {
+        "role": "Klubbadmin",
+        "description": "Lär dig konfigurera din klubb, hantera medlemmar och sköta den dagliga administrationen."
+      },
+      {
+        "role": "Tränare & gruppledare",
+        "description": "Guider för att planera evenemang, registrera närvaro och kommunicera med ditt lag."
+      },
+      {
+        "role": "Medlem",
+        "description": "Hur du använder Clubnizer som medlem — från att acceptera inbjudningar till att följa din aktivitet."
+      }
+    ],
+    "videos": [
+      {
+        "title": "Kom igång med Clubnizer",
+        "description": "Registrera dig, verifiera din e-post och ta dina första steg i appen.",
+        "role": "Klubbadmin",
+        "youtubeId": "lv84Tl69raY"
+      }
+    ]
   }
 }

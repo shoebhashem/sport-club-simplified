@@ -16,6 +16,7 @@ export default function Footer() {
     { label: t("header.features"), href: "#features" },
     { label: t("header.ourStory"), href: "#story" },
     { label: t("header.security"), href: "#security" },
+    { label: t("tutorials.navLabel"), href: lp("/tutorials") },
     { label: t("footer.privacyPolicy"), href: lp("/legal/privacy") },
     { label: t("footer.termsOfService"), href: lp("/legal/terms") },
   ];
